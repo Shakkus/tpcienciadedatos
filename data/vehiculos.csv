@@ -1,0 +1,81 @@
+vehicle_id,modelo,soh_bateria,estado
+V0000,Nexo Bike A,99.0,disponible
+V0001,Nexo Bike C,87.9,disponible
+V0002,Nexo Bike A,68.4,disponible
+V0003,Nexo S2,73.4,disponible
+V0004,Nexo S1,77.5,disponible
+V0005,Nexo S1,87.7,disponible
+V0006,Nexo S1,91.6,disponible
+V0007,Nexo Bike A,97.8,disponible
+V0008,Nexo Bike C,76.0,disponible
+V0009,Nexo S2,68.4,disponible
+V0010,Nexo S2,81.1,disponible
+V0011,Nexo S1,94.7,disponible
+V0012,Nexo S1,96.6,en_viaje
+V0013,Nexo Bike A,84.0,disponible
+V0014,Nexo Bike A,89.6,disponible
+V0015,Nexo S2,78.1,disponible
+V0016,Nexo Bike A,75.7,mantenimiento
+V0017,Nexo S2,90.2,en_viaje
+V0018,Nexo S1,98.0,mantenimiento
+V0019,Nexo S1,73.4,disponible
+V0020,Nexo Bike A,62.7,disponible
+V0021,Nexo S1,81.6,disponible
+V0022,Nexo Bike C,65.1,disponible
+V0023,Nexo S1,76.8,mantenimiento
+V0024,Nexo Bike C,88.5,disponible
+V0025,Nexo Bike C,64.6,disponible
+V0026,Nexo Bike A,82.2,en_viaje
+V0027,Nexo S1,77.5,disponible
+V0028,Nexo S2,80.1,disponible
+V0029,Nexo S2,95.7,en_viaje
+V0030,Nexo S2,89.7,mantenimiento
+V0031,Nexo Bike C,64.8,disponible
+V0032,Nexo Bike A,74.4,bateria_baja
+V0033,Nexo S2,65.2,disponible
+V0034,Nexo Bike A,63.5,bateria_baja
+V0035,Nexo S2,74.9,en_viaje
+V0036,Nexo S1,77.0,en_viaje
+V0037,Nexo Bike C,86.5,en_viaje
+V0038,Nexo S1,94.7,disponible
+V0039,Nexo S2,79.9,en_viaje
+V0040,Nexo S2,77.7,disponible
+V0041,Nexo Bike A,91.7,mantenimiento
+V0042,Nexo S1,81.0,disponible
+V0043,Nexo Bike C,86.6,en_viaje
+V0044,Nexo S2,87.0,disponible
+V0045,Nexo Bike C,88.2,disponible
+V0046,Nexo Bike C,68.8,disponible
+V0047,Nexo S2,64.1,bateria_baja
+V0048,Nexo S1,66.8,disponible
+V0049,Nexo S2,79.9,disponible
+V0050,Nexo S2,84.6,en_viaje
+V0051,Nexo Bike C,93.4,disponible
+V0052,Nexo Bike A,90.4,disponible
+V0053,Nexo Bike A,68.6,en_viaje
+V0054,Nexo Bike C,93.8,bateria_baja
+V0055,Nexo S1,91.6,mantenimiento
+V0056,Nexo S1,88.3,disponible
+V0057,Nexo S2,97.9,en_viaje
+V0058,Nexo Bike C,95.7,mantenimiento
+V0059,Nexo S1,85.2,en_viaje
+V0060,Nexo S2,86.1,disponible
+V0061,Nexo Bike C,85.8,en_viaje
+V0062,Nexo S1,90.8,disponible
+V0063,Nexo S2,88.6,mantenimiento
+V0064,Nexo S2,73.9,disponible
+V0065,Nexo Bike C,77.7,en_viaje
+V0066,Nexo S1,82.2,mantenimiento
+V0067,Nexo S2,91.7,disponible
+V0068,Nexo Bike C,79.7,en_viaje
+V0069,Nexo Bike A,66.1,disponible
+V0070,Nexo Bike A,75.1,disponible
+V0071,Nexo S2,77.3,disponible
+V0072,Nexo Bike A,96.5,bateria_baja
+V0073,Nexo S2,73.8,disponible
+V0074,Nexo Bike C,68.6,en_viaje
+V0075,Nexo Bike A,71.3,en_viaje
+V0076,Nexo S1,62.7,mantenimiento
+V0077,Nexo Bike A,96.2,disponible
+V0078,Nexo S1,71.3,bateria_baja
+V0079,Nexo S2,79.1,en_viaje

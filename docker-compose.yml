@@ -1,0 +1,82 @@
+# Entorno local NexoUrbano — recortar servicios si la RAM es justa.
+# Mínimo viable en 8 GB RAM: mysql + mongo + cassandra (uno a la vez) + neo4j.
+# Hadoop/Hive/HBase: usar el sandbox que indique la cátedra si este compose no levanta.
+#
+#   docker compose up -d mysql mongo
+#   docker compose up -d neo4j
+#
+# Los puertos son los de factory. Cambiar si chocan con algo local.
+
+services:
+  mysql:
+    image: mysql:8.4
+    container_name: nexo-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: nexo
+      MYSQL_DATABASE: crm
+    ports:
+      - "3306:3307"
+    volumes:
+      - ./data/mysql/crm_riders.sql:/docker-entrypoint-initdb.d/01_crm.sql:ro
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-pnexo"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  mongo:
+    image: mongo:8
+    container_name: nexo-mongo
+    restart: unless-stopped
+    ports:
+      - "27018:27018"
+    volumes:
+      - mongo_data:/data/db
+
+  cassandra:
+    image: cassandra:5
+    container_name: nexo-cassandra
+    restart: unless-stopped
+    ports:
+      - "9042:9042"
+    environment:
+      MAX_HEAP_SIZE: 512M
+      HEAP_NEWSIZE: 128M
+    volumes:
+      - cassandra_data:/var/lib/cassandra
+
+  neo4j:
+    image: neo4j:5-community
+    container_name: nexo-neo4j
+    restart: unless-stopped
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      NEO4J_AUTH: neo4j/nexo-urban-2026
+      NEO4J_PLUGINS: '["apoc"]'
+    volumes:
+      - neo4j_data:/data
+
+  minio:
+    image: minio/minio:latest
+    container_name: nexo-minio
+    restart: unless-stopped
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: nexo
+      MINIO_ROOT_PASSWORD: nexo-urban-2026
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - minio_data:/data
+
+volumes:
+  mysql_data:
+  mongo_data:
+  cassandra_data:
+  neo4j_data:
+  minio_data:

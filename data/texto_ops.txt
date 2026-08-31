@@ -1,0 +1,2400 @@
+GPS saltando en ST018 #gps
+Doble cobro en pase mensual rider R0064 #cobro
+payment_fail repetido rider R0049 #pago
+Doble cobro en pase mensual rider R0023 #cobro
+La app cierra al iniciar viaje V0006 #app
+Rueda pinchada scooter V0042 #rueda
+La bateria no carga en la estacion ST005 #bateria
+Freno irregular en vehiculo V0003 #freno
+La bateria no carga en la estacion ST010 #bateria
+Doble cobro en pase mensual rider R0058 #cobro
+GPS saltando en ST009 #gps
+Rueda pinchada scooter V0046 #rueda
+GPS saltando en ST004 #gps
+Doble cobro en pase mensual rider R0118 #cobro
+La app cierra al iniciar viaje V0071 #app
+La app cierra al iniciar viaje V0059 #app
+payment_fail repetido rider R0076 #pago
+GPS saltando en ST010 #gps
+La app cierra al iniciar viaje V0062 #app
+Candado no libera en estacion ST002 #candado
+Rueda pinchada scooter V0035 #rueda
+Candado no libera en estacion ST011 #candado
+Rueda pinchada scooter V0000 #rueda
+GPS saltando en ST000 #gps
+GPS saltando en ST000 #gps
+payment_fail repetido rider R0044 #pago
+payment_fail repetido rider R0003 #pago
+GPS saltando en ST017 #gps
+La bateria no carga en la estacion ST012 #bateria
+payment_fail repetido rider R0026 #pago
+GPS saltando en ST013 #gps
+Rueda pinchada scooter V0061 #rueda
+GPS saltando en ST008 #gps
+La app cierra al iniciar viaje V0064 #app
+La bateria no carga en la estacion ST015 #bateria
+La app cierra al iniciar viaje V0046 #app
+La bateria no carga en la estacion ST018 #bateria
+Freno irregular en vehiculo V0058 #freno
+La bateria no carga en la estacion ST021 #bateria
+Doble cobro en pase mensual rider R0082 #cobro
+Freno irregular en vehiculo V0067 #freno
+La bateria no carga en la estacion ST008 #bateria
+Rueda pinchada scooter V0042 #rueda
+Candado no libera en estacion ST007 #candado
+payment_fail repetido rider R0020 #pago
+La app cierra al iniciar viaje V0061 #app
+Freno irregular en vehiculo V0029 #freno
+payment_fail repetido rider R0006 #pago
+Rueda pinchada scooter V0052 #rueda
+payment_fail repetido rider R0098 #pago
+La app cierra al iniciar viaje V0017 #app
+La app cierra al iniciar viaje V0028 #app
+Rueda pinchada scooter V0075 #rueda
+La app cierra al iniciar viaje V0027 #app
+La bateria no carga en la estacion ST016 #bateria
+Doble cobro en pase mensual rider R0055 #cobro
+La app cierra al iniciar viaje V0041 #app
+Freno irregular en vehiculo V0066 #freno
+GPS saltando en ST003 #gps
+GPS saltando en ST018 #gps
+GPS saltando en ST005 #gps
+La bateria no carga en la estacion ST008 #bateria
+Freno irregular en vehiculo V0076 #freno
+La bateria no carga en la estacion ST005 #bateria
+Candado no libera en estacion ST014 #candado
+Candado no libera en estacion ST016 #candado
+payment_fail repetido rider R0057 #pago
+La app cierra al iniciar viaje V0031 #app
+payment_fail repetido rider R0036 #pago
+GPS saltando en ST001 #gps
+La bateria no carga en la estacion ST021 #bateria
+Candado no libera en estacion ST012 #candado
+La app cierra al iniciar viaje V0016 #app
+La app cierra al iniciar viaje V0065 #app
+Candado no libera en estacion ST022 #candado
+Candado no libera en estacion ST007 #candado
+GPS saltando en ST013 #gps
+Freno irregular en vehiculo V0023 #freno
+Freno irregular en vehiculo V0016 #freno
+Doble cobro en pase mensual rider R0044 #cobro
+GPS saltando en ST006 #gps
+Rueda pinchada scooter V0071 #rueda
+La app cierra al iniciar viaje V0074 #app
+La bateria no carga en la estacion ST001 #bateria
+payment_fail repetido rider R0102 #pago
+La app cierra al iniciar viaje V0015 #app
+Doble cobro en pase mensual rider R0066 #cobro
+La app cierra al iniciar viaje V0053 #app
+La bateria no carga en la estacion ST012 #bateria
+Candado no libera en estacion ST009 #candado
+payment_fail repetido rider R0077 #pago
+Candado no libera en estacion ST015 #candado
+GPS saltando en ST008 #gps
+La bateria no carga en la estacion ST017 #bateria
+La app cierra al iniciar viaje V0060 #app
+La app cierra al iniciar viaje V0073 #app
+GPS saltando en ST007 #gps
+Candado no libera en estacion ST014 #candado
+Freno irregular en vehiculo V0059 #freno
+La app cierra al iniciar viaje V0076 #app
+GPS saltando en ST002 #gps
+La app cierra al iniciar viaje V0034 #app
+Doble cobro en pase mensual rider R0032 #cobro
+Rueda pinchada scooter V0054 #rueda
+La app cierra al iniciar viaje V0052 #app
+payment_fail repetido rider R0011 #pago
+Rueda pinchada scooter V0041 #rueda
+Candado no libera en estacion ST006 #candado
+Freno irregular en vehiculo V0046 #freno
+La app cierra al iniciar viaje V0006 #app
+Candado no libera en estacion ST013 #candado
+Candado no libera en estacion ST008 #candado
+La app cierra al iniciar viaje V0007 #app
+La bateria no carga en la estacion ST008 #bateria
+GPS saltando en ST008 #gps
+Rueda pinchada scooter V0047 #rueda
+La app cierra al iniciar viaje V0063 #app
+payment_fail repetido rider R0077 #pago
+Doble cobro en pase mensual rider R0111 #cobro
+La bateria no carga en la estacion ST015 #bateria
+Freno irregular en vehiculo V0034 #freno
+payment_fail repetido rider R0092 #pago
+payment_fail repetido rider R0104 #pago
+La bateria no carga en la estacion ST018 #bateria
+Freno irregular en vehiculo V0066 #freno
+La bateria no carga en la estacion ST011 #bateria
+La bateria no carga en la estacion ST006 #bateria
+La app cierra al iniciar viaje V0032 #app
+Freno irregular en vehiculo V0035 #freno
+La app cierra al iniciar viaje V0035 #app
+Candado no libera en estacion ST003 #candado
+Freno irregular en vehiculo V0003 #freno
+GPS saltando en ST001 #gps
+Candado no libera en estacion ST006 #candado
+Rueda pinchada scooter V0020 #rueda
+La bateria no carga en la estacion ST022 #bateria
+Rueda pinchada scooter V0003 #rueda
+La app cierra al iniciar viaje V0036 #app
+La app cierra al iniciar viaje V0018 #app
+Doble cobro en pase mensual rider R0044 #cobro
+La bateria no carga en la estacion ST005 #bateria
+La app cierra al iniciar viaje V0047 #app
+Candado no libera en estacion ST019 #candado
+La app cierra al iniciar viaje V0058 #app
+Doble cobro en pase mensual rider R0060 #cobro
+Rueda pinchada scooter V0077 #rueda
+La bateria no carga en la estacion ST014 #bateria
+Rueda pinchada scooter V0052 #rueda
+Candado no libera en estacion ST016 #candado
+Doble cobro en pase mensual rider R0117 #cobro
+Candado no libera en estacion ST016 #candado
+La bateria no carga en la estacion ST015 #bateria
+GPS saltando en ST022 #gps
+Rueda pinchada scooter V0036 #rueda
+La app cierra al iniciar viaje V0017 #app
+Rueda pinchada scooter V0047 #rueda
+La app cierra al iniciar viaje V0072 #app
+Freno irregular en vehiculo V0053 #freno
+La app cierra al iniciar viaje V0049 #app
+GPS saltando en ST013 #gps
+Candado no libera en estacion ST015 #candado
+Rueda pinchada scooter V0059 #rueda
+La bateria no carga en la estacion ST010 #bateria
+Candado no libera en estacion ST005 #candado
+La app cierra al iniciar viaje V0046 #app
+La app cierra al iniciar viaje V0065 #app
+La bateria no carga en la estacion ST016 #bateria
+Doble cobro en pase mensual rider R0117 #cobro
+Rueda pinchada scooter V0013 #rueda
+GPS saltando en ST003 #gps
+payment_fail repetido rider R0086 #pago
+Rueda pinchada scooter V0076 #rueda
+Candado no libera en estacion ST019 #candado
+La bateria no carga en la estacion ST020 #bateria
+La bateria no carga en la estacion ST015 #bateria
+Doble cobro en pase mensual rider R0057 #cobro
+Freno irregular en vehiculo V0061 #freno
+GPS saltando en ST010 #gps
+Rueda pinchada scooter V0024 #rueda
+La bateria no carga en la estacion ST008 #bateria
+Candado no libera en estacion ST006 #candado
+payment_fail repetido rider R0037 #pago
+payment_fail repetido rider R0039 #pago
+Candado no libera en estacion ST012 #candado
+La app cierra al iniciar viaje V0047 #app
+La bateria no carga en la estacion ST022 #bateria
+La bateria no carga en la estacion ST019 #bateria
+Freno irregular en vehiculo V0066 #freno
+La app cierra al iniciar viaje V0001 #app
+La bateria no carga en la estacion ST011 #bateria
+La bateria no carga en la estacion ST013 #bateria
+La bateria no carga en la estacion ST006 #bateria
+Candado no libera en estacion ST011 #candado
+payment_fail repetido rider R0005 #pago
+Doble cobro en pase mensual rider R0047 #cobro
+Freno irregular en vehiculo V0000 #freno
+Rueda pinchada scooter V0052 #rueda
+GPS saltando en ST017 #gps
+GPS saltando en ST018 #gps
+GPS saltando en ST015 #gps
+Freno irregular en vehiculo V0058 #freno
+GPS saltando en ST023 #gps
+payment_fail repetido rider R0062 #pago
+Doble cobro en pase mensual rider R0040 #cobro
+La bateria no carga en la estacion ST016 #bateria
+Freno irregular en vehiculo V0005 #freno
+GPS saltando en ST017 #gps
+Freno irregular en vehiculo V0078 #freno
+Doble cobro en pase mensual rider R0015 #cobro
+Freno irregular en vehiculo V0003 #freno
+La bateria no carga en la estacion ST014 #bateria
+Doble cobro en pase mensual rider R0106 #cobro
+Freno irregular en vehiculo V0065 #freno
+La bateria no carga en la estacion ST014 #bateria
+La app cierra al iniciar viaje V0068 #app
+La app cierra al iniciar viaje V0014 #app
+payment_fail repetido rider R0043 #pago
+La app cierra al iniciar viaje V0079 #app
+payment_fail repetido rider R0114 #pago
+Doble cobro en pase mensual rider R0010 #cobro
+Rueda pinchada scooter V0021 #rueda
+Doble cobro en pase mensual rider R0082 #cobro
+GPS saltando en ST009 #gps
+La app cierra al iniciar viaje V0069 #app
+Freno irregular en vehiculo V0052 #freno
+Candado no libera en estacion ST022 #candado
+payment_fail repetido rider R0000 #pago
+Candado no libera en estacion ST012 #candado
+La app cierra al iniciar viaje V0041 #app
+Freno irregular en vehiculo V0079 #freno
+GPS saltando en ST023 #gps
+La bateria no carga en la estacion ST013 #bateria
+La app cierra al iniciar viaje V0043 #app
+Candado no libera en estacion ST019 #candado
+Doble cobro en pase mensual rider R0007 #cobro
+payment_fail repetido rider R0072 #pago
+Candado no libera en estacion ST020 #candado
+Candado no libera en estacion ST015 #candado
+Freno irregular en vehiculo V0030 #freno
+Candado no libera en estacion ST000 #candado
+Candado no libera en estacion ST004 #candado
+GPS saltando en ST011 #gps
+La app cierra al iniciar viaje V0002 #app
+Candado no libera en estacion ST018 #candado
+La app cierra al iniciar viaje V0060 #app
+Freno irregular en vehiculo V0053 #freno
+La app cierra al iniciar viaje V0072 #app
+payment_fail repetido rider R0075 #pago
+payment_fail repetido rider R0098 #pago
+Doble cobro en pase mensual rider R0063 #cobro
+payment_fail repetido rider R0006 #pago
+La app cierra al iniciar viaje V0027 #app
+Candado no libera en estacion ST016 #candado
+La bateria no carga en la estacion ST014 #bateria
+Freno irregular en vehiculo V0059 #freno
+Rueda pinchada scooter V0009 #rueda
+Freno irregular en vehiculo V0055 #freno
+GPS saltando en ST013 #gps
+Freno irregular en vehiculo V0031 #freno
+Rueda pinchada scooter V0050 #rueda
+payment_fail repetido rider R0058 #pago
+Rueda pinchada scooter V0045 #rueda
+La bateria no carga en la estacion ST001 #bateria
+La bateria no carga en la estacion ST006 #bateria
+Doble cobro en pase mensual rider R0071 #cobro
+La app cierra al iniciar viaje V0066 #app
+Doble cobro en pase mensual rider R0019 #cobro
+payment_fail repetido rider R0002 #pago
+Doble cobro en pase mensual rider R0109 #cobro
+GPS saltando en ST017 #gps
+Candado no libera en estacion ST023 #candado
+Rueda pinchada scooter V0062 #rueda
+GPS saltando en ST009 #gps
+Doble cobro en pase mensual rider R0094 #cobro
+payment_fail repetido rider R0112 #pago
+payment_fail repetido rider R0004 #pago
+Rueda pinchada scooter V0054 #rueda
+GPS saltando en ST012 #gps
+Doble cobro en pase mensual rider R0064 #cobro
+La bateria no carga en la estacion ST004 #bateria
+La bateria no carga en la estacion ST010 #bateria
+payment_fail repetido rider R0087 #pago
+Rueda pinchada scooter V0048 #rueda
+La bateria no carga en la estacion ST010 #bateria
+GPS saltando en ST015 #gps
+La app cierra al iniciar viaje V0043 #app
+Doble cobro en pase mensual rider R0079 #cobro
+payment_fail repetido rider R0037 #pago
+La bateria no carga en la estacion ST008 #bateria
+La app cierra al iniciar viaje V0046 #app
+La bateria no carga en la estacion ST003 #bateria
+GPS saltando en ST012 #gps
+La bateria no carga en la estacion ST010 #bateria
+Candado no libera en estacion ST004 #candado
+Rueda pinchada scooter V0074 #rueda
+GPS saltando en ST019 #gps
+Rueda pinchada scooter V0044 #rueda
+payment_fail repetido rider R0110 #pago
+La app cierra al iniciar viaje V0045 #app
+Candado no libera en estacion ST007 #candado
+Doble cobro en pase mensual rider R0060 #cobro
+Rueda pinchada scooter V0010 #rueda
+Candado no libera en estacion ST008 #candado
+Candado no libera en estacion ST016 #candado
+Freno irregular en vehiculo V0063 #freno
+Candado no libera en estacion ST010 #candado
+Freno irregular en vehiculo V0042 #freno
+Freno irregular en vehiculo V0042 #freno
+payment_fail repetido rider R0107 #pago
+GPS saltando en ST004 #gps
+Freno irregular en vehiculo V0035 #freno
+Freno irregular en vehiculo V0018 #freno
+GPS saltando en ST003 #gps
+Candado no libera en estacion ST023 #candado
+Rueda pinchada scooter V0021 #rueda
+GPS saltando en ST015 #gps
+Doble cobro en pase mensual rider R0054 #cobro
+Freno irregular en vehiculo V0013 #freno
+Candado no libera en estacion ST023 #candado
+Candado no libera en estacion ST007 #candado
+La bateria no carga en la estacion ST005 #bateria
+payment_fail repetido rider R0046 #pago
+payment_fail repetido rider R0034 #pago
+Freno irregular en vehiculo V0079 #freno
+Candado no libera en estacion ST018 #candado
+Rueda pinchada scooter V0023 #rueda
+GPS saltando en ST000 #gps
+Rueda pinchada scooter V0044 #rueda
+Candado no libera en estacion ST021 #candado
+La app cierra al iniciar viaje V0027 #app
+Candado no libera en estacion ST015 #candado
+GPS saltando en ST023 #gps
+La app cierra al iniciar viaje V0064 #app
+Rueda pinchada scooter V0041 #rueda
+La app cierra al iniciar viaje V0068 #app
+Doble cobro en pase mensual rider R0002 #cobro
+Rueda pinchada scooter V0024 #rueda
+Doble cobro en pase mensual rider R0108 #cobro
+payment_fail repetido rider R0083 #pago
+Rueda pinchada scooter V0009 #rueda
+Candado no libera en estacion ST002 #candado
+Doble cobro en pase mensual rider R0097 #cobro
+Candado no libera en estacion ST011 #candado
+La app cierra al iniciar viaje V0029 #app
+Rueda pinchada scooter V0073 #rueda
+La bateria no carga en la estacion ST003 #bateria
+payment_fail repetido rider R0062 #pago
+GPS saltando en ST007 #gps
+La app cierra al iniciar viaje V0052 #app
+La bateria no carga en la estacion ST021 #bateria
+Rueda pinchada scooter V0060 #rueda
+Candado no libera en estacion ST001 #candado
+La app cierra al iniciar viaje V0058 #app
+La bateria no carga en la estacion ST022 #bateria
+Rueda pinchada scooter V0077 #rueda
+payment_fail repetido rider R0009 #pago
+payment_fail repetido rider R0036 #pago
+La bateria no carga en la estacion ST019 #bateria
+La bateria no carga en la estacion ST015 #bateria
+Doble cobro en pase mensual rider R0045 #cobro
+GPS saltando en ST012 #gps
+Candado no libera en estacion ST013 #candado
+Doble cobro en pase mensual rider R0109 #cobro
+Rueda pinchada scooter V0034 #rueda
+Freno irregular en vehiculo V0003 #freno
+Doble cobro en pase mensual rider R0107 #cobro
+Freno irregular en vehiculo V0047 #freno
+La bateria no carga en la estacion ST018 #bateria
+Rueda pinchada scooter V0014 #rueda
+La app cierra al iniciar viaje V0013 #app
+La bateria no carga en la estacion ST000 #bateria
+La app cierra al iniciar viaje V0037 #app
+payment_fail repetido rider R0012 #pago
+Freno irregular en vehiculo V0065 #freno
+Rueda pinchada scooter V0060 #rueda
+Candado no libera en estacion ST022 #candado
+La app cierra al iniciar viaje V0023 #app
+Rueda pinchada scooter V0049 #rueda
+La app cierra al iniciar viaje V0076 #app
+payment_fail repetido rider R0047 #pago
+Rueda pinchada scooter V0008 #rueda
+Freno irregular en vehiculo V0075 #freno
+La app cierra al iniciar viaje V0063 #app
+Rueda pinchada scooter V0047 #rueda
+Freno irregular en vehiculo V0022 #freno
+La bateria no carga en la estacion ST016 #bateria
+Freno irregular en vehiculo V0032 #freno
+Candado no libera en estacion ST021 #candado
+GPS saltando en ST015 #gps
+payment_fail repetido rider R0114 #pago
+Freno irregular en vehiculo V0009 #freno
+Doble cobro en pase mensual rider R0000 #cobro
+Doble cobro en pase mensual rider R0041 #cobro
+Candado no libera en estacion ST013 #candado
+GPS saltando en ST010 #gps
+La bateria no carga en la estacion ST005 #bateria
+Candado no libera en estacion ST022 #candado
+Doble cobro en pase mensual rider R0001 #cobro
+La bateria no carga en la estacion ST008 #bateria
+La bateria no carga en la estacion ST023 #bateria
+Freno irregular en vehiculo V0013 #freno
+GPS saltando en ST015 #gps
+GPS saltando en ST001 #gps
+La app cierra al iniciar viaje V0036 #app
+La bateria no carga en la estacion ST009 #bateria
+payment_fail repetido rider R0048 #pago
+Doble cobro en pase mensual rider R0064 #cobro
+GPS saltando en ST016 #gps
+La bateria no carga en la estacion ST003 #bateria
+Freno irregular en vehiculo V0068 #freno
+Doble cobro en pase mensual rider R0110 #cobro
+La app cierra al iniciar viaje V0009 #app
+payment_fail repetido rider R0012 #pago
+La app cierra al iniciar viaje V0029 #app
+GPS saltando en ST006 #gps
+payment_fail repetido rider R0008 #pago
+payment_fail repetido rider R0092 #pago
+Doble cobro en pase mensual rider R0101 #cobro
+Freno irregular en vehiculo V0061 #freno
+payment_fail repetido rider R0117 #pago
+Freno irregular en vehiculo V0009 #freno
+Candado no libera en estacion ST020 #candado
+Freno irregular en vehiculo V0057 #freno
+Rueda pinchada scooter V0023 #rueda
+Rueda pinchada scooter V0003 #rueda
+Doble cobro en pase mensual rider R0045 #cobro
+La bateria no carga en la estacion ST012 #bateria
+payment_fail repetido rider R0113 #pago
+Freno irregular en vehiculo V0026 #freno
+Rueda pinchada scooter V0064 #rueda
+GPS saltando en ST015 #gps
+Candado no libera en estacion ST008 #candado
+GPS saltando en ST010 #gps
+Candado no libera en estacion ST002 #candado
+Freno irregular en vehiculo V0017 #freno
+GPS saltando en ST009 #gps
+payment_fail repetido rider R0005 #pago
+Candado no libera en estacion ST012 #candado
+GPS saltando en ST001 #gps
+Doble cobro en pase mensual rider R0090 #cobro
+Rueda pinchada scooter V0006 #rueda
+Rueda pinchada scooter V0068 #rueda
+Rueda pinchada scooter V0064 #rueda
+La bateria no carga en la estacion ST017 #bateria
+Freno irregular en vehiculo V0074 #freno
+La app cierra al iniciar viaje V0003 #app
+Candado no libera en estacion ST001 #candado
+La app cierra al iniciar viaje V0058 #app
+Candado no libera en estacion ST011 #candado
+Freno irregular en vehiculo V0003 #freno
+Freno irregular en vehiculo V0043 #freno
+Candado no libera en estacion ST009 #candado
+Candado no libera en estacion ST010 #candado
+Doble cobro en pase mensual rider R0005 #cobro
+Candado no libera en estacion ST010 #candado
+payment_fail repetido rider R0085 #pago
+Doble cobro en pase mensual rider R0048 #cobro
+La app cierra al iniciar viaje V0026 #app
+Candado no libera en estacion ST013 #candado
+Freno irregular en vehiculo V0068 #freno
+payment_fail repetido rider R0090 #pago
+Doble cobro en pase mensual rider R0048 #cobro
+GPS saltando en ST018 #gps
+payment_fail repetido rider R0010 #pago
+La bateria no carga en la estacion ST014 #bateria
+payment_fail repetido rider R0094 #pago
+La bateria no carga en la estacion ST012 #bateria
+Doble cobro en pase mensual rider R0041 #cobro
+Freno irregular en vehiculo V0004 #freno
+GPS saltando en ST010 #gps
+La app cierra al iniciar viaje V0066 #app
+Doble cobro en pase mensual rider R0101 #cobro
+Doble cobro en pase mensual rider R0114 #cobro
+Rueda pinchada scooter V0012 #rueda
+payment_fail repetido rider R0063 #pago
+payment_fail repetido rider R0083 #pago
+payment_fail repetido rider R0038 #pago
+Rueda pinchada scooter V0031 #rueda
+La bateria no carga en la estacion ST008 #bateria
+Doble cobro en pase mensual rider R0043 #cobro
+La app cierra al iniciar viaje V0026 #app
+payment_fail repetido rider R0107 #pago
+Rueda pinchada scooter V0043 #rueda
+Rueda pinchada scooter V0046 #rueda
+Candado no libera en estacion ST017 #candado
+payment_fail repetido rider R0085 #pago
+Rueda pinchada scooter V0076 #rueda
+Candado no libera en estacion ST010 #candado
+Doble cobro en pase mensual rider R0064 #cobro
+payment_fail repetido rider R0094 #pago
+Candado no libera en estacion ST017 #candado
+Candado no libera en estacion ST003 #candado
+GPS saltando en ST005 #gps
+Candado no libera en estacion ST006 #candado
+GPS saltando en ST008 #gps
+Candado no libera en estacion ST001 #candado
+La bateria no carga en la estacion ST012 #bateria
+Doble cobro en pase mensual rider R0094 #cobro
+Rueda pinchada scooter V0030 #rueda
+La bateria no carga en la estacion ST014 #bateria
+payment_fail repetido rider R0037 #pago
+La bateria no carga en la estacion ST011 #bateria
+Freno irregular en vehiculo V0021 #freno
+GPS saltando en ST020 #gps
+La app cierra al iniciar viaje V0044 #app
+Doble cobro en pase mensual rider R0029 #cobro
+GPS saltando en ST021 #gps
+La app cierra al iniciar viaje V0001 #app
+payment_fail repetido rider R0027 #pago
+Rueda pinchada scooter V0062 #rueda
+La app cierra al iniciar viaje V0020 #app
+Rueda pinchada scooter V0041 #rueda
+Rueda pinchada scooter V0018 #rueda
+GPS saltando en ST020 #gps
+Candado no libera en estacion ST013 #candado
+GPS saltando en ST020 #gps
+Doble cobro en pase mensual rider R0098 #cobro
+Candado no libera en estacion ST022 #candado
+payment_fail repetido rider R0111 #pago
+Freno irregular en vehiculo V0007 #freno
+payment_fail repetido rider R0056 #pago
+GPS saltando en ST021 #gps
+Candado no libera en estacion ST021 #candado
+Rueda pinchada scooter V0033 #rueda
+Rueda pinchada scooter V0015 #rueda
+La bateria no carga en la estacion ST011 #bateria
+La bateria no carga en la estacion ST008 #bateria
+Candado no libera en estacion ST007 #candado
+GPS saltando en ST010 #gps
+La bateria no carga en la estacion ST019 #bateria
+GPS saltando en ST002 #gps
+La bateria no carga en la estacion ST011 #bateria
+payment_fail repetido rider R0009 #pago
+Doble cobro en pase mensual rider R0112 #cobro
+La bateria no carga en la estacion ST011 #bateria
+GPS saltando en ST018 #gps
+Doble cobro en pase mensual rider R0016 #cobro
+Freno irregular en vehiculo V0056 #freno
+Rueda pinchada scooter V0067 #rueda
+La bateria no carga en la estacion ST004 #bateria
+La app cierra al iniciar viaje V0030 #app
+La app cierra al iniciar viaje V0046 #app
+Doble cobro en pase mensual rider R0065 #cobro
+La bateria no carga en la estacion ST003 #bateria
+Freno irregular en vehiculo V0052 #freno
+GPS saltando en ST022 #gps
+Freno irregular en vehiculo V0051 #freno
+Doble cobro en pase mensual rider R0019 #cobro
+GPS saltando en ST010 #gps
+Candado no libera en estacion ST021 #candado
+La bateria no carga en la estacion ST020 #bateria
+payment_fail repetido rider R0063 #pago
+Rueda pinchada scooter V0033 #rueda
+payment_fail repetido rider R0001 #pago
+Candado no libera en estacion ST005 #candado
+La app cierra al iniciar viaje V0015 #app
+La app cierra al iniciar viaje V0033 #app
+La bateria no carga en la estacion ST019 #bateria
+Doble cobro en pase mensual rider R0025 #cobro
+Freno irregular en vehiculo V0078 #freno
+Doble cobro en pase mensual rider R0074 #cobro
+La app cierra al iniciar viaje V0060 #app
+La app cierra al iniciar viaje V0066 #app
+Freno irregular en vehiculo V0041 #freno
+La bateria no carga en la estacion ST016 #bateria
+Rueda pinchada scooter V0049 #rueda
+Rueda pinchada scooter V0054 #rueda
+payment_fail repetido rider R0101 #pago
+GPS saltando en ST006 #gps
+La app cierra al iniciar viaje V0005 #app
+La bateria no carga en la estacion ST003 #bateria
+Candado no libera en estacion ST006 #candado
+GPS saltando en ST004 #gps
+Candado no libera en estacion ST006 #candado
+Doble cobro en pase mensual rider R0011 #cobro
+La bateria no carga en la estacion ST015 #bateria
+Candado no libera en estacion ST012 #candado
+GPS saltando en ST005 #gps
+payment_fail repetido rider R0054 #pago
+La app cierra al iniciar viaje V0052 #app
+Doble cobro en pase mensual rider R0076 #cobro
+Rueda pinchada scooter V0053 #rueda
+payment_fail repetido rider R0004 #pago
+Candado no libera en estacion ST018 #candado
+Candado no libera en estacion ST015 #candado
+La app cierra al iniciar viaje V0057 #app
+GPS saltando en ST023 #gps
+La app cierra al iniciar viaje V0049 #app
+La bateria no carga en la estacion ST016 #bateria
+payment_fail repetido rider R0089 #pago
+La bateria no carga en la estacion ST011 #bateria
+La bateria no carga en la estacion ST023 #bateria
+Candado no libera en estacion ST019 #candado
+La bateria no carga en la estacion ST016 #bateria
+Doble cobro en pase mensual rider R0048 #cobro
+payment_fail repetido rider R0066 #pago
+Doble cobro en pase mensual rider R0105 #cobro
+Candado no libera en estacion ST008 #candado
+Rueda pinchada scooter V0053 #rueda
+Candado no libera en estacion ST007 #candado
+Candado no libera en estacion ST022 #candado
+La app cierra al iniciar viaje V0035 #app
+Doble cobro en pase mensual rider R0040 #cobro
+Candado no libera en estacion ST009 #candado
+Freno irregular en vehiculo V0021 #freno
+Rueda pinchada scooter V0042 #rueda
+Freno irregular en vehiculo V0032 #freno
+Freno irregular en vehiculo V0033 #freno
+La bateria no carga en la estacion ST009 #bateria
+Freno irregular en vehiculo V0049 #freno
+Rueda pinchada scooter V0070 #rueda
+Rueda pinchada scooter V0022 #rueda
+payment_fail repetido rider R0071 #pago
+GPS saltando en ST016 #gps
+payment_fail repetido rider R0074 #pago
+Freno irregular en vehiculo V0000 #freno
+Freno irregular en vehiculo V0060 #freno
+La bateria no carga en la estacion ST000 #bateria
+Rueda pinchada scooter V0066 #rueda
+Doble cobro en pase mensual rider R0099 #cobro
+La bateria no carga en la estacion ST008 #bateria
+Rueda pinchada scooter V0045 #rueda
+payment_fail repetido rider R0049 #pago
+Freno irregular en vehiculo V0003 #freno
+Freno irregular en vehiculo V0050 #freno
+payment_fail repetido rider R0045 #pago
+Rueda pinchada scooter V0036 #rueda
+GPS saltando en ST018 #gps
+Freno irregular en vehiculo V0019 #freno
+GPS saltando en ST019 #gps
+GPS saltando en ST022 #gps
+GPS saltando en ST022 #gps
+Doble cobro en pase mensual rider R0106 #cobro
+Freno irregular en vehiculo V0024 #freno
+payment_fail repetido rider R0066 #pago
+Doble cobro en pase mensual rider R0026 #cobro
+GPS saltando en ST009 #gps
+Doble cobro en pase mensual rider R0031 #cobro
+La bateria no carga en la estacion ST015 #bateria
+payment_fail repetido rider R0064 #pago
+Doble cobro en pase mensual rider R0051 #cobro
+Candado no libera en estacion ST010 #candado
+La app cierra al iniciar viaje V0017 #app
+La app cierra al iniciar viaje V0077 #app
+Doble cobro en pase mensual rider R0061 #cobro
+payment_fail repetido rider R0010 #pago
+Doble cobro en pase mensual rider R0061 #cobro
+La bateria no carga en la estacion ST015 #bateria
+GPS saltando en ST015 #gps
+La app cierra al iniciar viaje V0027 #app
+GPS saltando en ST018 #gps
+payment_fail repetido rider R0005 #pago
+La bateria no carga en la estacion ST009 #bateria
+La bateria no carga en la estacion ST018 #bateria
+Candado no libera en estacion ST008 #candado
+payment_fail repetido rider R0046 #pago
+La bateria no carga en la estacion ST007 #bateria
+La bateria no carga en la estacion ST014 #bateria
+Candado no libera en estacion ST002 #candado
+La bateria no carga en la estacion ST005 #bateria
+Freno irregular en vehiculo V0000 #freno
+La bateria no carga en la estacion ST018 #bateria
+La bateria no carga en la estacion ST002 #bateria
+Candado no libera en estacion ST017 #candado
+GPS saltando en ST009 #gps
+Doble cobro en pase mensual rider R0059 #cobro
+Rueda pinchada scooter V0019 #rueda
+Freno irregular en vehiculo V0063 #freno
+payment_fail repetido rider R0059 #pago
+La bateria no carga en la estacion ST005 #bateria
+La app cierra al iniciar viaje V0073 #app
+Rueda pinchada scooter V0040 #rueda
+La app cierra al iniciar viaje V0021 #app
+La bateria no carga en la estacion ST011 #bateria
+Candado no libera en estacion ST004 #candado
+payment_fail repetido rider R0015 #pago
+GPS saltando en ST003 #gps
+payment_fail repetido rider R0028 #pago
+GPS saltando en ST012 #gps
+La app cierra al iniciar viaje V0049 #app
+Doble cobro en pase mensual rider R0095 #cobro
+Rueda pinchada scooter V0072 #rueda
+La app cierra al iniciar viaje V0059 #app
+payment_fail repetido rider R0006 #pago
+Freno irregular en vehiculo V0068 #freno
+payment_fail repetido rider R0074 #pago
+La bateria no carga en la estacion ST002 #bateria
+La app cierra al iniciar viaje V0024 #app
+Doble cobro en pase mensual rider R0003 #cobro
+Freno irregular en vehiculo V0029 #freno
+Freno irregular en vehiculo V0052 #freno
+La bateria no carga en la estacion ST013 #bateria
+Candado no libera en estacion ST010 #candado
+Freno irregular en vehiculo V0046 #freno
+Doble cobro en pase mensual rider R0094 #cobro
+GPS saltando en ST013 #gps
+payment_fail repetido rider R0007 #pago
+La bateria no carga en la estacion ST004 #bateria
+La app cierra al iniciar viaje V0049 #app
+GPS saltando en ST005 #gps
+GPS saltando en ST001 #gps
+Candado no libera en estacion ST021 #candado
+GPS saltando en ST014 #gps
+payment_fail repetido rider R0020 #pago
+Candado no libera en estacion ST007 #candado
+La bateria no carga en la estacion ST023 #bateria
+La bateria no carga en la estacion ST005 #bateria
+Doble cobro en pase mensual rider R0079 #cobro
+La bateria no carga en la estacion ST012 #bateria
+Rueda pinchada scooter V0074 #rueda
+La app cierra al iniciar viaje V0016 #app
+GPS saltando en ST009 #gps
+La bateria no carga en la estacion ST007 #bateria
+GPS saltando en ST004 #gps
+payment_fail repetido rider R0078 #pago
+payment_fail repetido rider R0008 #pago
+GPS saltando en ST021 #gps
+GPS saltando en ST021 #gps
+GPS saltando en ST003 #gps
+Candado no libera en estacion ST018 #candado
+Freno irregular en vehiculo V0036 #freno
+Candado no libera en estacion ST004 #candado
+payment_fail repetido rider R0076 #pago
+GPS saltando en ST000 #gps
+payment_fail repetido rider R0074 #pago
+GPS saltando en ST002 #gps
+Candado no libera en estacion ST005 #candado
+La app cierra al iniciar viaje V0077 #app
+La app cierra al iniciar viaje V0047 #app
+GPS saltando en ST009 #gps
+GPS saltando en ST021 #gps
+La app cierra al iniciar viaje V0010 #app
+Candado no libera en estacion ST012 #candado
+GPS saltando en ST023 #gps
+La bateria no carga en la estacion ST000 #bateria
+Doble cobro en pase mensual rider R0062 #cobro
+GPS saltando en ST017 #gps
+Candado no libera en estacion ST013 #candado
+La app cierra al iniciar viaje V0025 #app
+Candado no libera en estacion ST019 #candado
+Rueda pinchada scooter V0010 #rueda
+Doble cobro en pase mensual rider R0093 #cobro
+La app cierra al iniciar viaje V0043 #app
+La bateria no carga en la estacion ST000 #bateria
+Rueda pinchada scooter V0031 #rueda
+La bateria no carga en la estacion ST001 #bateria
+Rueda pinchada scooter V0079 #rueda
+Doble cobro en pase mensual rider R0097 #cobro
+Freno irregular en vehiculo V0071 #freno
+Freno irregular en vehiculo V0054 #freno
+Candado no libera en estacion ST019 #candado
+Doble cobro en pase mensual rider R0058 #cobro
+Freno irregular en vehiculo V0065 #freno
+Doble cobro en pase mensual rider R0042 #cobro
+Rueda pinchada scooter V0064 #rueda
+La bateria no carga en la estacion ST019 #bateria
+payment_fail repetido rider R0057 #pago
+La app cierra al iniciar viaje V0005 #app
+La app cierra al iniciar viaje V0075 #app
+Rueda pinchada scooter V0039 #rueda
+Candado no libera en estacion ST022 #candado
+Rueda pinchada scooter V0009 #rueda
+GPS saltando en ST021 #gps
+payment_fail repetido rider R0013 #pago
+GPS saltando en ST022 #gps
+Candado no libera en estacion ST019 #candado
+Candado no libera en estacion ST017 #candado
+La app cierra al iniciar viaje V0041 #app
+La bateria no carga en la estacion ST017 #bateria
+payment_fail repetido rider R0113 #pago
+payment_fail repetido rider R0038 #pago
+La app cierra al iniciar viaje V0009 #app
+La bateria no carga en la estacion ST012 #bateria
+Candado no libera en estacion ST012 #candado
+La bateria no carga en la estacion ST000 #bateria
+Rueda pinchada scooter V0026 #rueda
+Doble cobro en pase mensual rider R0111 #cobro
+La bateria no carga en la estacion ST011 #bateria
+Doble cobro en pase mensual rider R0013 #cobro
+La app cierra al iniciar viaje V0055 #app
+La app cierra al iniciar viaje V0036 #app
+La app cierra al iniciar viaje V0068 #app
+La app cierra al iniciar viaje V0070 #app
+Freno irregular en vehiculo V0028 #freno
+La app cierra al iniciar viaje V0034 #app
+Rueda pinchada scooter V0042 #rueda
+Doble cobro en pase mensual rider R0105 #cobro
+Candado no libera en estacion ST001 #candado
+GPS saltando en ST014 #gps
+Doble cobro en pase mensual rider R0030 #cobro
+Candado no libera en estacion ST015 #candado
+Candado no libera en estacion ST018 #candado
+Freno irregular en vehiculo V0004 #freno
+GPS saltando en ST010 #gps
+Doble cobro en pase mensual rider R0005 #cobro
+Doble cobro en pase mensual rider R0106 #cobro
+Freno irregular en vehiculo V0041 #freno
+Candado no libera en estacion ST017 #candado
+Freno irregular en vehiculo V0068 #freno
+Rueda pinchada scooter V0067 #rueda
+Freno irregular en vehiculo V0048 #freno
+GPS saltando en ST008 #gps
+La app cierra al iniciar viaje V0035 #app
+Candado no libera en estacion ST009 #candado
+Doble cobro en pase mensual rider R0076 #cobro
+GPS saltando en ST020 #gps
+La app cierra al iniciar viaje V0020 #app
+La bateria no carga en la estacion ST023 #bateria
+payment_fail repetido rider R0032 #pago
+Candado no libera en estacion ST001 #candado
+payment_fail repetido rider R0005 #pago
+La app cierra al iniciar viaje V0051 #app
+payment_fail repetido rider R0039 #pago
+payment_fail repetido rider R0092 #pago
+Freno irregular en vehiculo V0035 #freno
+Freno irregular en vehiculo V0070 #freno
+Candado no libera en estacion ST008 #candado
+La app cierra al iniciar viaje V0020 #app
+GPS saltando en ST010 #gps
+Doble cobro en pase mensual rider R0011 #cobro
+Doble cobro en pase mensual rider R0066 #cobro
+Freno irregular en vehiculo V0023 #freno
+Freno irregular en vehiculo V0044 #freno
+payment_fail repetido rider R0023 #pago
+Freno irregular en vehiculo V0007 #freno
+Freno irregular en vehiculo V0017 #freno
+Freno irregular en vehiculo V0014 #freno
+La bateria no carga en la estacion ST010 #bateria
+Candado no libera en estacion ST001 #candado
+payment_fail repetido rider R0005 #pago
+La bateria no carga en la estacion ST005 #bateria
+La app cierra al iniciar viaje V0032 #app
+payment_fail repetido rider R0071 #pago
+Candado no libera en estacion ST014 #candado
+GPS saltando en ST006 #gps
+Doble cobro en pase mensual rider R0024 #cobro
+Candado no libera en estacion ST007 #candado
+La bateria no carga en la estacion ST005 #bateria
+Freno irregular en vehiculo V0054 #freno
+Doble cobro en pase mensual rider R0036 #cobro
+payment_fail repetido rider R0027 #pago
+Rueda pinchada scooter V0064 #rueda
+Freno irregular en vehiculo V0071 #freno
+La app cierra al iniciar viaje V0022 #app
+La app cierra al iniciar viaje V0001 #app
+GPS saltando en ST005 #gps
+Rueda pinchada scooter V0010 #rueda
+payment_fail repetido rider R0099 #pago
+Candado no libera en estacion ST023 #candado
+La app cierra al iniciar viaje V0020 #app
+Freno irregular en vehiculo V0069 #freno
+Rueda pinchada scooter V0056 #rueda
+La app cierra al iniciar viaje V0027 #app
+Doble cobro en pase mensual rider R0067 #cobro
+Doble cobro en pase mensual rider R0061 #cobro
+Freno irregular en vehiculo V0007 #freno
+Candado no libera en estacion ST005 #candado
+La bateria no carga en la estacion ST000 #bateria
+La app cierra al iniciar viaje V0033 #app
+Rueda pinchada scooter V0048 #rueda
+Doble cobro en pase mensual rider R0044 #cobro
+Freno irregular en vehiculo V0061 #freno
+Rueda pinchada scooter V0034 #rueda
+Doble cobro en pase mensual rider R0087 #cobro
+La app cierra al iniciar viaje V0067 #app
+La app cierra al iniciar viaje V0026 #app
+La app cierra al iniciar viaje V0049 #app
+payment_fail repetido rider R0016 #pago
+Doble cobro en pase mensual rider R0068 #cobro
+La app cierra al iniciar viaje V0070 #app
+Freno irregular en vehiculo V0042 #freno
+Doble cobro en pase mensual rider R0015 #cobro
+payment_fail repetido rider R0037 #pago
+GPS saltando en ST015 #gps
+GPS saltando en ST002 #gps
+payment_fail repetido rider R0106 #pago
+payment_fail repetido rider R0028 #pago
+payment_fail repetido rider R0056 #pago
+Doble cobro en pase mensual rider R0118 #cobro
+GPS saltando en ST009 #gps
+Doble cobro en pase mensual rider R0089 #cobro
+payment_fail repetido rider R0091 #pago
+payment_fail repetido rider R0089 #pago
+La bateria no carga en la estacion ST001 #bateria
+La bateria no carga en la estacion ST019 #bateria
+Freno irregular en vehiculo V0036 #freno
+Doble cobro en pase mensual rider R0059 #cobro
+GPS saltando en ST017 #gps
+Freno irregular en vehiculo V0030 #freno
+Doble cobro en pase mensual rider R0115 #cobro
+La app cierra al iniciar viaje V0072 #app
+Doble cobro en pase mensual rider R0114 #cobro
+Doble cobro en pase mensual rider R0021 #cobro
+La app cierra al iniciar viaje V0042 #app
+Freno irregular en vehiculo V0042 #freno
+Rueda pinchada scooter V0042 #rueda
+Doble cobro en pase mensual rider R0058 #cobro
+GPS saltando en ST017 #gps
+Freno irregular en vehiculo V0036 #freno
+Rueda pinchada scooter V0039 #rueda
+La bateria no carga en la estacion ST018 #bateria
+payment_fail repetido rider R0069 #pago
+payment_fail repetido rider R0091 #pago
+Rueda pinchada scooter V0033 #rueda
+La app cierra al iniciar viaje V0052 #app
+La bateria no carga en la estacion ST007 #bateria
+La bateria no carga en la estacion ST013 #bateria
+GPS saltando en ST018 #gps
+Freno irregular en vehiculo V0078 #freno
+Rueda pinchada scooter V0048 #rueda
+Candado no libera en estacion ST007 #candado
+La bateria no carga en la estacion ST005 #bateria
+La app cierra al iniciar viaje V0028 #app
+La app cierra al iniciar viaje V0057 #app
+La bateria no carga en la estacion ST014 #bateria
+La app cierra al iniciar viaje V0052 #app
+Rueda pinchada scooter V0052 #rueda
+Rueda pinchada scooter V0062 #rueda
+Rueda pinchada scooter V0035 #rueda
+Freno irregular en vehiculo V0076 #freno
+Candado no libera en estacion ST017 #candado
+Rueda pinchada scooter V0079 #rueda
+payment_fail repetido rider R0000 #pago
+GPS saltando en ST011 #gps
+Rueda pinchada scooter V0063 #rueda
+Candado no libera en estacion ST014 #candado
+La bateria no carga en la estacion ST003 #bateria
+La bateria no carga en la estacion ST015 #bateria
+Doble cobro en pase mensual rider R0028 #cobro
+payment_fail repetido rider R0045 #pago
+Rueda pinchada scooter V0018 #rueda
+Rueda pinchada scooter V0039 #rueda
+Candado no libera en estacion ST013 #candado
+La bateria no carga en la estacion ST011 #bateria
+Doble cobro en pase mensual rider R0106 #cobro
+Doble cobro en pase mensual rider R0062 #cobro
+GPS saltando en ST001 #gps
+Candado no libera en estacion ST018 #candado
+Freno irregular en vehiculo V0010 #freno
+Rueda pinchada scooter V0012 #rueda
+Candado no libera en estacion ST005 #candado
+Doble cobro en pase mensual rider R0096 #cobro
+GPS saltando en ST006 #gps
+Doble cobro en pase mensual rider R0013 #cobro
+Rueda pinchada scooter V0024 #rueda
+La app cierra al iniciar viaje V0029 #app
+La app cierra al iniciar viaje V0017 #app
+Rueda pinchada scooter V0014 #rueda
+GPS saltando en ST019 #gps
+Candado no libera en estacion ST019 #candado
+GPS saltando en ST020 #gps
+GPS saltando en ST017 #gps
+payment_fail repetido rider R0009 #pago
+Rueda pinchada scooter V0018 #rueda
+La bateria no carga en la estacion ST001 #bateria
+Candado no libera en estacion ST010 #candado
+Candado no libera en estacion ST006 #candado
+La app cierra al iniciar viaje V0042 #app
+Rueda pinchada scooter V0052 #rueda
+Candado no libera en estacion ST012 #candado
+La bateria no carga en la estacion ST016 #bateria
+Candado no libera en estacion ST021 #candado
+Doble cobro en pase mensual rider R0091 #cobro
+La app cierra al iniciar viaje V0066 #app
+Rueda pinchada scooter V0003 #rueda
+La app cierra al iniciar viaje V0072 #app
+GPS saltando en ST006 #gps
+Candado no libera en estacion ST014 #candado
+Freno irregular en vehiculo V0025 #freno
+Freno irregular en vehiculo V0010 #freno
+Doble cobro en pase mensual rider R0113 #cobro
+GPS saltando en ST023 #gps
+La bateria no carga en la estacion ST010 #bateria
+Doble cobro en pase mensual rider R0090 #cobro
+La app cierra al iniciar viaje V0059 #app
+Freno irregular en vehiculo V0001 #freno
+Freno irregular en vehiculo V0036 #freno
+La bateria no carga en la estacion ST021 #bateria
+GPS saltando en ST017 #gps
+Doble cobro en pase mensual rider R0012 #cobro
+Freno irregular en vehiculo V0009 #freno
+Freno irregular en vehiculo V0036 #freno
+Rueda pinchada scooter V0034 #rueda
+GPS saltando en ST020 #gps
+La bateria no carga en la estacion ST007 #bateria
+payment_fail repetido rider R0100 #pago
+Candado no libera en estacion ST004 #candado
+Candado no libera en estacion ST001 #candado
+Doble cobro en pase mensual rider R0044 #cobro
+La bateria no carga en la estacion ST010 #bateria
+Rueda pinchada scooter V0009 #rueda
+GPS saltando en ST008 #gps
+payment_fail repetido rider R0014 #pago
+Freno irregular en vehiculo V0047 #freno
+GPS saltando en ST005 #gps
+GPS saltando en ST020 #gps
+Doble cobro en pase mensual rider R0062 #cobro
+Doble cobro en pase mensual rider R0012 #cobro
+Doble cobro en pase mensual rider R0017 #cobro
+Rueda pinchada scooter V0024 #rueda
+La app cierra al iniciar viaje V0018 #app
+Freno irregular en vehiculo V0056 #freno
+La bateria no carga en la estacion ST005 #bateria
+La bateria no carga en la estacion ST007 #bateria
+Rueda pinchada scooter V0072 #rueda
+La bateria no carga en la estacion ST021 #bateria
+payment_fail repetido rider R0095 #pago
+Freno irregular en vehiculo V0062 #freno
+payment_fail repetido rider R0115 #pago
+Freno irregular en vehiculo V0005 #freno
+Candado no libera en estacion ST004 #candado
+La app cierra al iniciar viaje V0003 #app
+La bateria no carga en la estacion ST007 #bateria
+Freno irregular en vehiculo V0035 #freno
+Freno irregular en vehiculo V0042 #freno
+Candado no libera en estacion ST018 #candado
+La app cierra al iniciar viaje V0038 #app
+La bateria no carga en la estacion ST020 #bateria
+payment_fail repetido rider R0102 #pago
+payment_fail repetido rider R0090 #pago
+GPS saltando en ST021 #gps
+payment_fail repetido rider R0027 #pago
+Freno irregular en vehiculo V0046 #freno
+payment_fail repetido rider R0104 #pago
+Freno irregular en vehiculo V0009 #freno
+La bateria no carga en la estacion ST013 #bateria
+La app cierra al iniciar viaje V0064 #app
+La app cierra al iniciar viaje V0049 #app
+Rueda pinchada scooter V0037 #rueda
+La bateria no carga en la estacion ST023 #bateria
+GPS saltando en ST015 #gps
+Doble cobro en pase mensual rider R0023 #cobro
+GPS saltando en ST016 #gps
+payment_fail repetido rider R0104 #pago
+La bateria no carga en la estacion ST010 #bateria
+Rueda pinchada scooter V0000 #rueda
+payment_fail repetido rider R0012 #pago
+Candado no libera en estacion ST008 #candado
+Doble cobro en pase mensual rider R0011 #cobro
+payment_fail repetido rider R0075 #pago
+Freno irregular en vehiculo V0039 #freno
+Doble cobro en pase mensual rider R0076 #cobro
+Rueda pinchada scooter V0019 #rueda
+Freno irregular en vehiculo V0032 #freno
+La bateria no carga en la estacion ST023 #bateria
+Doble cobro en pase mensual rider R0077 #cobro
+La app cierra al iniciar viaje V0004 #app
+Candado no libera en estacion ST019 #candado
+La app cierra al iniciar viaje V0067 #app
+payment_fail repetido rider R0077 #pago
+Candado no libera en estacion ST006 #candado
+payment_fail repetido rider R0087 #pago
+Doble cobro en pase mensual rider R0000 #cobro
+La bateria no carga en la estacion ST014 #bateria
+payment_fail repetido rider R0064 #pago
+Rueda pinchada scooter V0059 #rueda
+La app cierra al iniciar viaje V0056 #app
+Freno irregular en vehiculo V0044 #freno
+GPS saltando en ST004 #gps
+GPS saltando en ST012 #gps
+GPS saltando en ST007 #gps
+Freno irregular en vehiculo V0074 #freno
+La app cierra al iniciar viaje V0032 #app
+Freno irregular en vehiculo V0056 #freno
+GPS saltando en ST013 #gps
+GPS saltando en ST023 #gps
+Doble cobro en pase mensual rider R0014 #cobro
+Candado no libera en estacion ST022 #candado
+La app cierra al iniciar viaje V0045 #app
+La app cierra al iniciar viaje V0042 #app
+Doble cobro en pase mensual rider R0041 #cobro
+La bateria no carga en la estacion ST012 #bateria
+payment_fail repetido rider R0113 #pago
+Doble cobro en pase mensual rider R0008 #cobro
+La app cierra al iniciar viaje V0020 #app
+Candado no libera en estacion ST010 #candado
+Freno irregular en vehiculo V0050 #freno
+La bateria no carga en la estacion ST005 #bateria
+La bateria no carga en la estacion ST000 #bateria
+GPS saltando en ST020 #gps
+GPS saltando en ST015 #gps
+Freno irregular en vehiculo V0014 #freno
+payment_fail repetido rider R0098 #pago
+payment_fail repetido rider R0008 #pago
+Doble cobro en pase mensual rider R0033 #cobro
+La app cierra al iniciar viaje V0062 #app
+Candado no libera en estacion ST023 #candado
+Candado no libera en estacion ST021 #candado
+La bateria no carga en la estacion ST009 #bateria
+GPS saltando en ST015 #gps
+La bateria no carga en la estacion ST019 #bateria
+GPS saltando en ST001 #gps
+payment_fail repetido rider R0115 #pago
+Candado no libera en estacion ST001 #candado
+La app cierra al iniciar viaje V0048 #app
+Candado no libera en estacion ST012 #candado
+Freno irregular en vehiculo V0055 #freno
+payment_fail repetido rider R0020 #pago
+Candado no libera en estacion ST018 #candado
+Doble cobro en pase mensual rider R0021 #cobro
+Doble cobro en pase mensual rider R0071 #cobro
+Freno irregular en vehiculo V0067 #freno
+payment_fail repetido rider R0079 #pago
+GPS saltando en ST023 #gps
+Candado no libera en estacion ST013 #candado
+payment_fail repetido rider R0069 #pago
+Freno irregular en vehiculo V0042 #freno
+La app cierra al iniciar viaje V0027 #app
+payment_fail repetido rider R0089 #pago
+GPS saltando en ST009 #gps
+Candado no libera en estacion ST000 #candado
+Freno irregular en vehiculo V0039 #freno
+Candado no libera en estacion ST010 #candado
+payment_fail repetido rider R0114 #pago
+Freno irregular en vehiculo V0077 #freno
+Doble cobro en pase mensual rider R0019 #cobro
+Rueda pinchada scooter V0072 #rueda
+Doble cobro en pase mensual rider R0040 #cobro
+payment_fail repetido rider R0070 #pago
+Rueda pinchada scooter V0036 #rueda
+Doble cobro en pase mensual rider R0065 #cobro
+La app cierra al iniciar viaje V0015 #app
+La app cierra al iniciar viaje V0072 #app
+Doble cobro en pase mensual rider R0013 #cobro
+La app cierra al iniciar viaje V0027 #app
+La bateria no carga en la estacion ST005 #bateria
+La bateria no carga en la estacion ST001 #bateria
+Candado no libera en estacion ST018 #candado
+Freno irregular en vehiculo V0007 #freno
+Candado no libera en estacion ST012 #candado
+La app cierra al iniciar viaje V0062 #app
+Doble cobro en pase mensual rider R0084 #cobro
+La bateria no carga en la estacion ST009 #bateria
+Doble cobro en pase mensual rider R0032 #cobro
+GPS saltando en ST015 #gps
+payment_fail repetido rider R0006 #pago
+GPS saltando en ST010 #gps
+Candado no libera en estacion ST023 #candado
+Doble cobro en pase mensual rider R0038 #cobro
+payment_fail repetido rider R0088 #pago
+Candado no libera en estacion ST002 #candado
+Freno irregular en vehiculo V0028 #freno
+Freno irregular en vehiculo V0017 #freno
+Candado no libera en estacion ST012 #candado
+Rueda pinchada scooter V0015 #rueda
+Doble cobro en pase mensual rider R0020 #cobro
+payment_fail repetido rider R0085 #pago
+Candado no libera en estacion ST019 #candado
+Rueda pinchada scooter V0049 #rueda
+GPS saltando en ST004 #gps
+Freno irregular en vehiculo V0063 #freno
+Candado no libera en estacion ST015 #candado
+Doble cobro en pase mensual rider R0111 #cobro
+Candado no libera en estacion ST016 #candado
+Freno irregular en vehiculo V0018 #freno
+payment_fail repetido rider R0025 #pago
+La app cierra al iniciar viaje V0002 #app
+payment_fail repetido rider R0060 #pago
+payment_fail repetido rider R0118 #pago
+Rueda pinchada scooter V0065 #rueda
+Rueda pinchada scooter V0072 #rueda
+La app cierra al iniciar viaje V0060 #app
+Doble cobro en pase mensual rider R0029 #cobro
+La bateria no carga en la estacion ST013 #bateria
+GPS saltando en ST011 #gps
+La app cierra al iniciar viaje V0047 #app
+Candado no libera en estacion ST012 #candado
+Doble cobro en pase mensual rider R0062 #cobro
+Freno irregular en vehiculo V0026 #freno
+Freno irregular en vehiculo V0061 #freno
+Rueda pinchada scooter V0041 #rueda
+Freno irregular en vehiculo V0003 #freno
+Rueda pinchada scooter V0001 #rueda
+GPS saltando en ST016 #gps
+Candado no libera en estacion ST001 #candado
+La app cierra al iniciar viaje V0038 #app
+La app cierra al iniciar viaje V0044 #app
+La bateria no carga en la estacion ST007 #bateria
+La bateria no carga en la estacion ST003 #bateria
+Candado no libera en estacion ST003 #candado
+Candado no libera en estacion ST020 #candado
+La bateria no carga en la estacion ST002 #bateria
+Candado no libera en estacion ST000 #candado
+Freno irregular en vehiculo V0059 #freno
+Candado no libera en estacion ST004 #candado
+Rueda pinchada scooter V0076 #rueda
+Doble cobro en pase mensual rider R0104 #cobro
+Rueda pinchada scooter V0012 #rueda
+payment_fail repetido rider R0035 #pago
+GPS saltando en ST006 #gps
+GPS saltando en ST010 #gps
+Candado no libera en estacion ST022 #candado
+La app cierra al iniciar viaje V0025 #app
+Rueda pinchada scooter V0071 #rueda
+GPS saltando en ST014 #gps
+Freno irregular en vehiculo V0051 #freno
+La app cierra al iniciar viaje V0000 #app
+Freno irregular en vehiculo V0036 #freno
+Rueda pinchada scooter V0061 #rueda
+GPS saltando en ST018 #gps
+La app cierra al iniciar viaje V0005 #app
+Candado no libera en estacion ST011 #candado
+Rueda pinchada scooter V0039 #rueda
+La bateria no carga en la estacion ST019 #bateria
+payment_fail repetido rider R0034 #pago
+La app cierra al iniciar viaje V0054 #app
+Freno irregular en vehiculo V0020 #freno
+Freno irregular en vehiculo V0004 #freno
+Candado no libera en estacion ST017 #candado
+Freno irregular en vehiculo V0036 #freno
+La app cierra al iniciar viaje V0044 #app
+La app cierra al iniciar viaje V0066 #app
+La app cierra al iniciar viaje V0010 #app
+Candado no libera en estacion ST008 #candado
+GPS saltando en ST019 #gps
+La app cierra al iniciar viaje V0002 #app
+Freno irregular en vehiculo V0002 #freno
+La bateria no carga en la estacion ST001 #bateria
+Doble cobro en pase mensual rider R0004 #cobro
+payment_fail repetido rider R0007 #pago
+payment_fail repetido rider R0002 #pago
+Rueda pinchada scooter V0072 #rueda
+La app cierra al iniciar viaje V0002 #app
+payment_fail repetido rider R0004 #pago
+Doble cobro en pase mensual rider R0113 #cobro
+Doble cobro en pase mensual rider R0024 #cobro
+Candado no libera en estacion ST003 #candado
+Rueda pinchada scooter V0074 #rueda
+La app cierra al iniciar viaje V0048 #app
+Freno irregular en vehiculo V0014 #freno
+payment_fail repetido rider R0001 #pago
+payment_fail repetido rider R0117 #pago
+Freno irregular en vehiculo V0071 #freno
+La app cierra al iniciar viaje V0065 #app
+Candado no libera en estacion ST006 #candado
+Candado no libera en estacion ST007 #candado
+La bateria no carga en la estacion ST006 #bateria
+payment_fail repetido rider R0006 #pago
+Doble cobro en pase mensual rider R0055 #cobro
+payment_fail repetido rider R0072 #pago
+Candado no libera en estacion ST018 #candado
+La bateria no carga en la estacion ST015 #bateria
+GPS saltando en ST010 #gps
+Freno irregular en vehiculo V0064 #freno
+GPS saltando en ST014 #gps
+GPS saltando en ST016 #gps
+GPS saltando en ST020 #gps
+Freno irregular en vehiculo V0053 #freno
+payment_fail repetido rider R0017 #pago
+Freno irregular en vehiculo V0000 #freno
+Doble cobro en pase mensual rider R0046 #cobro
+Rueda pinchada scooter V0079 #rueda
+Candado no libera en estacion ST019 #candado
+Doble cobro en pase mensual rider R0107 #cobro
+La app cierra al iniciar viaje V0035 #app
+Doble cobro en pase mensual rider R0037 #cobro
+La app cierra al iniciar viaje V0029 #app
+GPS saltando en ST004 #gps
+payment_fail repetido rider R0030 #pago
+Doble cobro en pase mensual rider R0014 #cobro
+GPS saltando en ST010 #gps
+Freno irregular en vehiculo V0008 #freno
+La bateria no carga en la estacion ST009 #bateria
+Candado no libera en estacion ST005 #candado
+GPS saltando en ST001 #gps
+payment_fail repetido rider R0067 #pago
+payment_fail repetido rider R0098 #pago
+Freno irregular en vehiculo V0070 #freno
+Candado no libera en estacion ST006 #candado
+payment_fail repetido rider R0087 #pago
+Rueda pinchada scooter V0019 #rueda
+Freno irregular en vehiculo V0000 #freno
+La bateria no carga en la estacion ST004 #bateria
+La app cierra al iniciar viaje V0014 #app
+Rueda pinchada scooter V0062 #rueda
+Freno irregular en vehiculo V0076 #freno
+Doble cobro en pase mensual rider R0073 #cobro
+Rueda pinchada scooter V0035 #rueda
+Candado no libera en estacion ST016 #candado
+Candado no libera en estacion ST005 #candado
+GPS saltando en ST018 #gps
+La app cierra al iniciar viaje V0057 #app
+Freno irregular en vehiculo V0075 #freno
+payment_fail repetido rider R0024 #pago
+Candado no libera en estacion ST000 #candado
+Candado no libera en estacion ST008 #candado
+La bateria no carga en la estacion ST020 #bateria
+GPS saltando en ST003 #gps
+La app cierra al iniciar viaje V0044 #app
+GPS saltando en ST009 #gps
+GPS saltando en ST014 #gps
+GPS saltando en ST007 #gps
+Freno irregular en vehiculo V0046 #freno
+Rueda pinchada scooter V0044 #rueda
+GPS saltando en ST005 #gps
+La app cierra al iniciar viaje V0055 #app
+GPS saltando en ST001 #gps
+La app cierra al iniciar viaje V0042 #app
+GPS saltando en ST017 #gps
+Candado no libera en estacion ST000 #candado
+GPS saltando en ST012 #gps
+Doble cobro en pase mensual rider R0101 #cobro
+La bateria no carga en la estacion ST017 #bateria
+Doble cobro en pase mensual rider R0019 #cobro
+payment_fail repetido rider R0076 #pago
+La app cierra al iniciar viaje V0004 #app
+La app cierra al iniciar viaje V0049 #app
+Candado no libera en estacion ST000 #candado
+La bateria no carga en la estacion ST009 #bateria
+Freno irregular en vehiculo V0006 #freno
+Rueda pinchada scooter V0050 #rueda
+Rueda pinchada scooter V0063 #rueda
+payment_fail repetido rider R0075 #pago
+Freno irregular en vehiculo V0019 #freno
+Freno irregular en vehiculo V0002 #freno
+Doble cobro en pase mensual rider R0076 #cobro
+La app cierra al iniciar viaje V0016 #app
+GPS saltando en ST005 #gps
+Freno irregular en vehiculo V0075 #freno
+Freno irregular en vehiculo V0015 #freno
+Candado no libera en estacion ST000 #candado
+La bateria no carga en la estacion ST015 #bateria
+Candado no libera en estacion ST020 #candado
+Candado no libera en estacion ST000 #candado
+La bateria no carga en la estacion ST015 #bateria
+Doble cobro en pase mensual rider R0087 #cobro
+payment_fail repetido rider R0045 #pago
+La app cierra al iniciar viaje V0062 #app
+Rueda pinchada scooter V0064 #rueda
+Candado no libera en estacion ST003 #candado
+Doble cobro en pase mensual rider R0046 #cobro
+La app cierra al iniciar viaje V0015 #app
+La app cierra al iniciar viaje V0014 #app
+Doble cobro en pase mensual rider R0105 #cobro
+La app cierra al iniciar viaje V0013 #app
+payment_fail repetido rider R0074 #pago
+Freno irregular en vehiculo V0049 #freno
+payment_fail repetido rider R0013 #pago
+La app cierra al iniciar viaje V0065 #app
+GPS saltando en ST003 #gps
+La bateria no carga en la estacion ST002 #bateria
+payment_fail repetido rider R0002 #pago
+La bateria no carga en la estacion ST012 #bateria
+Candado no libera en estacion ST016 #candado
+Candado no libera en estacion ST007 #candado
+Freno irregular en vehiculo V0036 #freno
+Doble cobro en pase mensual rider R0048 #cobro
+La app cierra al iniciar viaje V0058 #app
+Doble cobro en pase mensual rider R0119 #cobro
+La app cierra al iniciar viaje V0040 #app
+payment_fail repetido rider R0097 #pago
+La app cierra al iniciar viaje V0056 #app
+GPS saltando en ST018 #gps
+Candado no libera en estacion ST019 #candado
+Rueda pinchada scooter V0031 #rueda
+La bateria no carga en la estacion ST012 #bateria
+Freno irregular en vehiculo V0059 #freno
+La app cierra al iniciar viaje V0063 #app
+Candado no libera en estacion ST021 #candado
+La app cierra al iniciar viaje V0022 #app
+La app cierra al iniciar viaje V0066 #app
+La bateria no carga en la estacion ST020 #bateria
+Rueda pinchada scooter V0038 #rueda
+Freno irregular en vehiculo V0040 #freno
+Candado no libera en estacion ST004 #candado
+La bateria no carga en la estacion ST005 #bateria
+Doble cobro en pase mensual rider R0009 #cobro
+La app cierra al iniciar viaje V0063 #app
+Candado no libera en estacion ST016 #candado
+GPS saltando en ST000 #gps
+Candado no libera en estacion ST006 #candado
+GPS saltando en ST015 #gps
+Freno irregular en vehiculo V0045 #freno
+Doble cobro en pase mensual rider R0044 #cobro
+Freno irregular en vehiculo V0001 #freno
+Doble cobro en pase mensual rider R0102 #cobro
+Doble cobro en pase mensual rider R0111 #cobro
+Rueda pinchada scooter V0009 #rueda
+Freno irregular en vehiculo V0009 #freno
+La bateria no carga en la estacion ST021 #bateria
+Doble cobro en pase mensual rider R0070 #cobro
+Doble cobro en pase mensual rider R0104 #cobro
+Candado no libera en estacion ST022 #candado
+payment_fail repetido rider R0070 #pago
+Rueda pinchada scooter V0068 #rueda
+GPS saltando en ST022 #gps
+Doble cobro en pase mensual rider R0053 #cobro
+payment_fail repetido rider R0067 #pago
+La bateria no carga en la estacion ST011 #bateria
+La app cierra al iniciar viaje V0061 #app
+payment_fail repetido rider R0015 #pago
+Freno irregular en vehiculo V0001 #freno
+payment_fail repetido rider R0008 #pago
+payment_fail repetido rider R0084 #pago
+Doble cobro en pase mensual rider R0074 #cobro
+GPS saltando en ST006 #gps
+Doble cobro en pase mensual rider R0092 #cobro
+Candado no libera en estacion ST003 #candado
+payment_fail repetido rider R0068 #pago
+La app cierra al iniciar viaje V0009 #app
+Rueda pinchada scooter V0057 #rueda
+GPS saltando en ST020 #gps
+La bateria no carga en la estacion ST022 #bateria
+La app cierra al iniciar viaje V0024 #app
+Candado no libera en estacion ST010 #candado
+Freno irregular en vehiculo V0038 #freno
+GPS saltando en ST020 #gps
+Rueda pinchada scooter V0023 #rueda
+La app cierra al iniciar viaje V0010 #app
+Rueda pinchada scooter V0057 #rueda
+La app cierra al iniciar viaje V0039 #app
+GPS saltando en ST018 #gps
+payment_fail repetido rider R0089 #pago
+payment_fail repetido rider R0066 #pago
+payment_fail repetido rider R0019 #pago
+Freno irregular en vehiculo V0077 #freno
+La app cierra al iniciar viaje V0034 #app
+Doble cobro en pase mensual rider R0086 #cobro
+Freno irregular en vehiculo V0037 #freno
+La bateria no carga en la estacion ST000 #bateria
+La app cierra al iniciar viaje V0005 #app
+La bateria no carga en la estacion ST021 #bateria
+Doble cobro en pase mensual rider R0013 #cobro
+Rueda pinchada scooter V0035 #rueda
+La bateria no carga en la estacion ST013 #bateria
+payment_fail repetido rider R0061 #pago
+La bateria no carga en la estacion ST013 #bateria
+payment_fail repetido rider R0055 #pago
+Doble cobro en pase mensual rider R0062 #cobro
+GPS saltando en ST010 #gps
+Freno irregular en vehiculo V0073 #freno
+La bateria no carga en la estacion ST006 #bateria
+Doble cobro en pase mensual rider R0009 #cobro
+La bateria no carga en la estacion ST003 #bateria
+La app cierra al iniciar viaje V0045 #app
+GPS saltando en ST021 #gps
+La bateria no carga en la estacion ST006 #bateria
+La app cierra al iniciar viaje V0075 #app
+Candado no libera en estacion ST021 #candado
+GPS saltando en ST010 #gps
+Rueda pinchada scooter V0022 #rueda
+payment_fail repetido rider R0020 #pago
+payment_fail repetido rider R0035 #pago
+Freno irregular en vehiculo V0054 #freno
+GPS saltando en ST008 #gps
+Freno irregular en vehiculo V0026 #freno
+La app cierra al iniciar viaje V0003 #app
+Doble cobro en pase mensual rider R0064 #cobro
+La bateria no carga en la estacion ST022 #bateria
+Freno irregular en vehiculo V0052 #freno
+Candado no libera en estacion ST021 #candado
+Freno irregular en vehiculo V0023 #freno
+GPS saltando en ST020 #gps
+La bateria no carga en la estacion ST023 #bateria
+Freno irregular en vehiculo V0073 #freno
+La app cierra al iniciar viaje V0071 #app
+La app cierra al iniciar viaje V0006 #app
+La app cierra al iniciar viaje V0049 #app
+Freno irregular en vehiculo V0065 #freno
+Doble cobro en pase mensual rider R0063 #cobro
+Rueda pinchada scooter V0039 #rueda
+Rueda pinchada scooter V0072 #rueda
+payment_fail repetido rider R0066 #pago
+GPS saltando en ST003 #gps
+Candado no libera en estacion ST005 #candado
+Candado no libera en estacion ST011 #candado
+La bateria no carga en la estacion ST001 #bateria
+La bateria no carga en la estacion ST001 #bateria
+Rueda pinchada scooter V0033 #rueda
+Doble cobro en pase mensual rider R0029 #cobro
+Rueda pinchada scooter V0008 #rueda
+Rueda pinchada scooter V0022 #rueda
+Doble cobro en pase mensual rider R0055 #cobro
+payment_fail repetido rider R0030 #pago
+Freno irregular en vehiculo V0029 #freno
+La app cierra al iniciar viaje V0025 #app
+GPS saltando en ST007 #gps
+La app cierra al iniciar viaje V0015 #app
+payment_fail repetido rider R0095 #pago
+La app cierra al iniciar viaje V0005 #app
+La bateria no carga en la estacion ST004 #bateria
+La app cierra al iniciar viaje V0046 #app
+Rueda pinchada scooter V0001 #rueda
+La bateria no carga en la estacion ST016 #bateria
+Rueda pinchada scooter V0021 #rueda
+La app cierra al iniciar viaje V0033 #app
+Candado no libera en estacion ST019 #candado
+GPS saltando en ST007 #gps
+Candado no libera en estacion ST000 #candado
+GPS saltando en ST012 #gps
+payment_fail repetido rider R0065 #pago
+GPS saltando en ST008 #gps
+La app cierra al iniciar viaje V0021 #app
+GPS saltando en ST007 #gps
+Freno irregular en vehiculo V0006 #freno
+Doble cobro en pase mensual rider R0102 #cobro
+Rueda pinchada scooter V0053 #rueda
+Rueda pinchada scooter V0077 #rueda
+La app cierra al iniciar viaje V0056 #app
+Freno irregular en vehiculo V0046 #freno
+Candado no libera en estacion ST002 #candado
+Freno irregular en vehiculo V0003 #freno
+Doble cobro en pase mensual rider R0015 #cobro
+Freno irregular en vehiculo V0071 #freno
+Doble cobro en pase mensual rider R0022 #cobro
+payment_fail repetido rider R0012 #pago
+La bateria no carga en la estacion ST012 #bateria
+La app cierra al iniciar viaje V0032 #app
+La bateria no carga en la estacion ST020 #bateria
+Rueda pinchada scooter V0028 #rueda
+Candado no libera en estacion ST000 #candado
+La app cierra al iniciar viaje V0004 #app
+Rueda pinchada scooter V0006 #rueda
+GPS saltando en ST021 #gps
+Freno irregular en vehiculo V0021 #freno
+GPS saltando en ST018 #gps
+Doble cobro en pase mensual rider R0057 #cobro
+La bateria no carga en la estacion ST021 #bateria
+Candado no libera en estacion ST021 #candado
+payment_fail repetido rider R0065 #pago
+La bateria no carga en la estacion ST012 #bateria
+payment_fail repetido rider R0034 #pago
+La bateria no carga en la estacion ST018 #bateria
+Rueda pinchada scooter V0024 #rueda
+Doble cobro en pase mensual rider R0010 #cobro
+La bateria no carga en la estacion ST014 #bateria
+La bateria no carga en la estacion ST019 #bateria
+La bateria no carga en la estacion ST011 #bateria
+La app cierra al iniciar viaje V0055 #app
+GPS saltando en ST015 #gps
+La bateria no carga en la estacion ST013 #bateria
+La bateria no carga en la estacion ST021 #bateria
+Rueda pinchada scooter V0005 #rueda
+Doble cobro en pase mensual rider R0032 #cobro
+GPS saltando en ST023 #gps
+La app cierra al iniciar viaje V0038 #app
+Freno irregular en vehiculo V0012 #freno
+La bateria no carga en la estacion ST011 #bateria
+Freno irregular en vehiculo V0029 #freno
+GPS saltando en ST009 #gps
+payment_fail repetido rider R0048 #pago
+payment_fail repetido rider R0100 #pago
+Candado no libera en estacion ST003 #candado
+La app cierra al iniciar viaje V0030 #app
+La app cierra al iniciar viaje V0007 #app
+Freno irregular en vehiculo V0020 #freno
+La bateria no carga en la estacion ST000 #bateria
+Freno irregular en vehiculo V0056 #freno
+Freno irregular en vehiculo V0042 #freno
+Freno irregular en vehiculo V0074 #freno
+La bateria no carga en la estacion ST003 #bateria
+GPS saltando en ST011 #gps
+La app cierra al iniciar viaje V0026 #app
+Freno irregular en vehiculo V0013 #freno
+La bateria no carga en la estacion ST017 #bateria
+La bateria no carga en la estacion ST016 #bateria
+La bateria no carga en la estacion ST007 #bateria
+La app cierra al iniciar viaje V0041 #app
+Doble cobro en pase mensual rider R0005 #cobro
+Rueda pinchada scooter V0064 #rueda
+Candado no libera en estacion ST011 #candado
+Freno irregular en vehiculo V0016 #freno
+La app cierra al iniciar viaje V0021 #app
+Candado no libera en estacion ST010 #candado
+payment_fail repetido rider R0098 #pago
+Freno irregular en vehiculo V0045 #freno
+Doble cobro en pase mensual rider R0023 #cobro
+La bateria no carga en la estacion ST019 #bateria
+payment_fail repetido rider R0044 #pago
+Candado no libera en estacion ST000 #candado
+La bateria no carga en la estacion ST019 #bateria
+GPS saltando en ST012 #gps
+La bateria no carga en la estacion ST018 #bateria
+Rueda pinchada scooter V0055 #rueda
+Doble cobro en pase mensual rider R0008 #cobro
+Freno irregular en vehiculo V0000 #freno
+Rueda pinchada scooter V0076 #rueda
+Candado no libera en estacion ST005 #candado
+GPS saltando en ST006 #gps
+La bateria no carga en la estacion ST022 #bateria
+La bateria no carga en la estacion ST003 #bateria
+payment_fail repetido rider R0034 #pago
+Doble cobro en pase mensual rider R0061 #cobro
+payment_fail repetido rider R0014 #pago
+La app cierra al iniciar viaje V0020 #app
+GPS saltando en ST003 #gps
+Freno irregular en vehiculo V0052 #freno
+GPS saltando en ST023 #gps
+Candado no libera en estacion ST020 #candado
+Rueda pinchada scooter V0073 #rueda
+La app cierra al iniciar viaje V0049 #app
+Rueda pinchada scooter V0039 #rueda
+Freno irregular en vehiculo V0012 #freno
+La app cierra al iniciar viaje V0056 #app
+Doble cobro en pase mensual rider R0110 #cobro
+Doble cobro en pase mensual rider R0116 #cobro
+Rueda pinchada scooter V0016 #rueda
+GPS saltando en ST002 #gps
+GPS saltando en ST011 #gps
+payment_fail repetido rider R0065 #pago
+La app cierra al iniciar viaje V0022 #app
+La app cierra al iniciar viaje V0002 #app
+Doble cobro en pase mensual rider R0086 #cobro
+Candado no libera en estacion ST000 #candado
+Candado no libera en estacion ST015 #candado
+GPS saltando en ST022 #gps
+Candado no libera en estacion ST009 #candado
+Freno irregular en vehiculo V0033 #freno
+La bateria no carga en la estacion ST020 #bateria
+payment_fail repetido rider R0005 #pago
+GPS saltando en ST021 #gps
+payment_fail repetido rider R0078 #pago
+La bateria no carga en la estacion ST005 #bateria
+La bateria no carga en la estacion ST020 #bateria
+La app cierra al iniciar viaje V0076 #app
+La bateria no carga en la estacion ST001 #bateria
+Doble cobro en pase mensual rider R0039 #cobro
+Doble cobro en pase mensual rider R0047 #cobro
+Freno irregular en vehiculo V0073 #freno
+Candado no libera en estacion ST016 #candado
+Freno irregular en vehiculo V0039 #freno
+Candado no libera en estacion ST021 #candado
+La bateria no carga en la estacion ST005 #bateria
+Rueda pinchada scooter V0025 #rueda
+La app cierra al iniciar viaje V0011 #app
+La app cierra al iniciar viaje V0068 #app
+La bateria no carga en la estacion ST008 #bateria
+Freno irregular en vehiculo V0039 #freno
+La app cierra al iniciar viaje V0018 #app
+Freno irregular en vehiculo V0062 #freno
+La app cierra al iniciar viaje V0055 #app
+Candado no libera en estacion ST018 #candado
+Candado no libera en estacion ST010 #candado
+Freno irregular en vehiculo V0067 #freno
+Rueda pinchada scooter V0035 #rueda
+GPS saltando en ST008 #gps
+Doble cobro en pase mensual rider R0054 #cobro
+Freno irregular en vehiculo V0021 #freno
+Doble cobro en pase mensual rider R0116 #cobro
+GPS saltando en ST006 #gps
+La bateria no carga en la estacion ST020 #bateria
+payment_fail repetido rider R0068 #pago
+GPS saltando en ST021 #gps
+La app cierra al iniciar viaje V0005 #app
+Doble cobro en pase mensual rider R0097 #cobro
+La app cierra al iniciar viaje V0075 #app
+Freno irregular en vehiculo V0039 #freno
+La app cierra al iniciar viaje V0049 #app
+GPS saltando en ST003 #gps
+La app cierra al iniciar viaje V0032 #app
+La bateria no carga en la estacion ST006 #bateria
+La bateria no carga en la estacion ST006 #bateria
+Freno irregular en vehiculo V0035 #freno
+Rueda pinchada scooter V0058 #rueda
+payment_fail repetido rider R0019 #pago
+La app cierra al iniciar viaje V0066 #app
+Rueda pinchada scooter V0076 #rueda
+La app cierra al iniciar viaje V0013 #app
+Freno irregular en vehiculo V0066 #freno
+GPS saltando en ST002 #gps
+GPS saltando en ST016 #gps
+payment_fail repetido rider R0106 #pago
+payment_fail repetido rider R0050 #pago
+Doble cobro en pase mensual rider R0101 #cobro
+Candado no libera en estacion ST023 #candado
+La bateria no carga en la estacion ST016 #bateria
+Candado no libera en estacion ST021 #candado
+GPS saltando en ST002 #gps
+La app cierra al iniciar viaje V0023 #app
+La bateria no carga en la estacion ST013 #bateria
+GPS saltando en ST013 #gps
+payment_fail repetido rider R0023 #pago
+Rueda pinchada scooter V0071 #rueda
+La bateria no carga en la estacion ST009 #bateria
+GPS saltando en ST001 #gps
+payment_fail repetido rider R0105 #pago
+La app cierra al iniciar viaje V0001 #app
+GPS saltando en ST002 #gps
+Doble cobro en pase mensual rider R0027 #cobro
+Freno irregular en vehiculo V0002 #freno
+Rueda pinchada scooter V0030 #rueda
+La app cierra al iniciar viaje V0022 #app
+Freno irregular en vehiculo V0017 #freno
+La app cierra al iniciar viaje V0007 #app
+GPS saltando en ST003 #gps
+GPS saltando en ST020 #gps
+Rueda pinchada scooter V0046 #rueda
+Doble cobro en pase mensual rider R0065 #cobro
+GPS saltando en ST018 #gps
+GPS saltando en ST020 #gps
+payment_fail repetido rider R0101 #pago
+Doble cobro en pase mensual rider R0078 #cobro
+La bateria no carga en la estacion ST011 #bateria
+La app cierra al iniciar viaje V0011 #app
+payment_fail repetido rider R0101 #pago
+Doble cobro en pase mensual rider R0114 #cobro
+payment_fail repetido rider R0100 #pago
+Candado no libera en estacion ST014 #candado
+GPS saltando en ST017 #gps
+Candado no libera en estacion ST004 #candado
+Rueda pinchada scooter V0008 #rueda
+payment_fail repetido rider R0000 #pago
+GPS saltando en ST005 #gps
+payment_fail repetido rider R0051 #pago
+Freno irregular en vehiculo V0055 #freno
+Candado no libera en estacion ST010 #candado
+Candado no libera en estacion ST007 #candado
+Rueda pinchada scooter V0019 #rueda
+Rueda pinchada scooter V0055 #rueda
+La bateria no carga en la estacion ST015 #bateria
+payment_fail repetido rider R0016 #pago
+Rueda pinchada scooter V0046 #rueda
+Doble cobro en pase mensual rider R0101 #cobro
+Rueda pinchada scooter V0014 #rueda
+La app cierra al iniciar viaje V0048 #app
+Rueda pinchada scooter V0023 #rueda
+Candado no libera en estacion ST009 #candado
+payment_fail repetido rider R0005 #pago
+Candado no libera en estacion ST003 #candado
+Freno irregular en vehiculo V0015 #freno
+Doble cobro en pase mensual rider R0040 #cobro
+payment_fail repetido rider R0089 #pago
+La bateria no carga en la estacion ST022 #bateria
+La app cierra al iniciar viaje V0065 #app
+Candado no libera en estacion ST021 #candado
+Rueda pinchada scooter V0072 #rueda
+payment_fail repetido rider R0065 #pago
+payment_fail repetido rider R0116 #pago
+Freno irregular en vehiculo V0026 #freno
+Freno irregular en vehiculo V0008 #freno
+Doble cobro en pase mensual rider R0011 #cobro
+Rueda pinchada scooter V0004 #rueda
+Doble cobro en pase mensual rider R0000 #cobro
+Freno irregular en vehiculo V0069 #freno
+La app cierra al iniciar viaje V0028 #app
+La app cierra al iniciar viaje V0001 #app
+Candado no libera en estacion ST013 #candado
+GPS saltando en ST003 #gps
+Candado no libera en estacion ST005 #candado
+Rueda pinchada scooter V0021 #rueda
+La bateria no carga en la estacion ST022 #bateria
+Candado no libera en estacion ST014 #candado
+Candado no libera en estacion ST015 #candado
+Candado no libera en estacion ST014 #candado
+payment_fail repetido rider R0073 #pago
+La bateria no carga en la estacion ST005 #bateria
+La app cierra al iniciar viaje V0038 #app
+Rueda pinchada scooter V0036 #rueda
+Doble cobro en pase mensual rider R0109 #cobro
+Candado no libera en estacion ST015 #candado
+Candado no libera en estacion ST001 #candado
+GPS saltando en ST023 #gps
+La bateria no carga en la estacion ST010 #bateria
+Rueda pinchada scooter V0063 #rueda
+Rueda pinchada scooter V0056 #rueda
+Rueda pinchada scooter V0002 #rueda
+Doble cobro en pase mensual rider R0069 #cobro
+Candado no libera en estacion ST000 #candado
+Doble cobro en pase mensual rider R0104 #cobro
+La bateria no carga en la estacion ST002 #bateria
+payment_fail repetido rider R0114 #pago
+Candado no libera en estacion ST004 #candado
+La app cierra al iniciar viaje V0051 #app
+Doble cobro en pase mensual rider R0105 #cobro
+Doble cobro en pase mensual rider R0107 #cobro
+Candado no libera en estacion ST020 #candado
+Freno irregular en vehiculo V0031 #freno
+La app cierra al iniciar viaje V0021 #app
+Rueda pinchada scooter V0012 #rueda
+Doble cobro en pase mensual rider R0026 #cobro
+La bateria no carga en la estacion ST016 #bateria
+GPS saltando en ST023 #gps
+La bateria no carga en la estacion ST007 #bateria
+Doble cobro en pase mensual rider R0013 #cobro
+Freno irregular en vehiculo V0011 #freno
+Doble cobro en pase mensual rider R0054 #cobro
+La bateria no carga en la estacion ST012 #bateria
+Freno irregular en vehiculo V0057 #freno
+payment_fail repetido rider R0063 #pago
+La app cierra al iniciar viaje V0005 #app
+Candado no libera en estacion ST023 #candado
+Freno irregular en vehiculo V0011 #freno
+GPS saltando en ST022 #gps
+Doble cobro en pase mensual rider R0065 #cobro
+Doble cobro en pase mensual rider R0014 #cobro
+Freno irregular en vehiculo V0064 #freno
+GPS saltando en ST004 #gps
+La app cierra al iniciar viaje V0000 #app
+Rueda pinchada scooter V0040 #rueda
+Doble cobro en pase mensual rider R0032 #cobro
+La app cierra al iniciar viaje V0015 #app
+GPS saltando en ST006 #gps
+payment_fail repetido rider R0005 #pago
+payment_fail repetido rider R0091 #pago
+La bateria no carga en la estacion ST018 #bateria
+Freno irregular en vehiculo V0062 #freno
+La bateria no carga en la estacion ST013 #bateria
+Rueda pinchada scooter V0014 #rueda
+Rueda pinchada scooter V0003 #rueda
+GPS saltando en ST003 #gps
+Rueda pinchada scooter V0046 #rueda
+payment_fail repetido rider R0073 #pago
+Candado no libera en estacion ST019 #candado
+Candado no libera en estacion ST019 #candado
+Freno irregular en vehiculo V0033 #freno
+La bateria no carga en la estacion ST002 #bateria
+La bateria no carga en la estacion ST002 #bateria
+La app cierra al iniciar viaje V0059 #app
+payment_fail repetido rider R0069 #pago
+Rueda pinchada scooter V0020 #rueda
+Candado no libera en estacion ST021 #candado
+payment_fail repetido rider R0009 #pago
+La app cierra al iniciar viaje V0040 #app
+La bateria no carga en la estacion ST002 #bateria
+GPS saltando en ST000 #gps
+Candado no libera en estacion ST018 #candado
+Candado no libera en estacion ST007 #candado
+Freno irregular en vehiculo V0065 #freno
+La bateria no carga en la estacion ST019 #bateria
+Freno irregular en vehiculo V0000 #freno
+payment_fail repetido rider R0044 #pago
+GPS saltando en ST007 #gps
+GPS saltando en ST023 #gps
+payment_fail repetido rider R0108 #pago
+Rueda pinchada scooter V0021 #rueda
+Candado no libera en estacion ST006 #candado
+Doble cobro en pase mensual rider R0011 #cobro
+La app cierra al iniciar viaje V0045 #app
+Candado no libera en estacion ST000 #candado
+La bateria no carga en la estacion ST013 #bateria
+Candado no libera en estacion ST007 #candado
+Rueda pinchada scooter V0067 #rueda
+La bateria no carga en la estacion ST010 #bateria
+Candado no libera en estacion ST022 #candado
+Doble cobro en pase mensual rider R0112 #cobro
+Freno irregular en vehiculo V0041 #freno
+Rueda pinchada scooter V0069 #rueda
+La bateria no carga en la estacion ST016 #bateria
+GPS saltando en ST004 #gps
+La bateria no carga en la estacion ST023 #bateria
+Doble cobro en pase mensual rider R0085 #cobro
+La bateria no carga en la estacion ST019 #bateria
+Freno irregular en vehiculo V0005 #freno
+Freno irregular en vehiculo V0057 #freno
+GPS saltando en ST018 #gps
+Freno irregular en vehiculo V0027 #freno
+payment_fail repetido rider R0018 #pago
+payment_fail repetido rider R0112 #pago
+Candado no libera en estacion ST019 #candado
+payment_fail repetido rider R0083 #pago
+La bateria no carga en la estacion ST014 #bateria
+Freno irregular en vehiculo V0046 #freno
+Doble cobro en pase mensual rider R0059 #cobro
+GPS saltando en ST016 #gps
+GPS saltando en ST022 #gps
+Rueda pinchada scooter V0002 #rueda
+payment_fail repetido rider R0087 #pago
+Freno irregular en vehiculo V0039 #freno
+Candado no libera en estacion ST000 #candado
+La bateria no carga en la estacion ST004 #bateria
+GPS saltando en ST000 #gps
+Candado no libera en estacion ST007 #candado
+Rueda pinchada scooter V0003 #rueda
+La bateria no carga en la estacion ST012 #bateria
+payment_fail repetido rider R0069 #pago
+GPS saltando en ST006 #gps
+La bateria no carga en la estacion ST013 #bateria
+payment_fail repetido rider R0060 #pago
+Rueda pinchada scooter V0031 #rueda
+Doble cobro en pase mensual rider R0093 #cobro
+GPS saltando en ST008 #gps
+Rueda pinchada scooter V0070 #rueda
+Doble cobro en pase mensual rider R0015 #cobro
+GPS saltando en ST016 #gps
+payment_fail repetido rider R0086 #pago
+Rueda pinchada scooter V0006 #rueda
+Candado no libera en estacion ST003 #candado
+GPS saltando en ST015 #gps
+La app cierra al iniciar viaje V0039 #app
+Doble cobro en pase mensual rider R0104 #cobro
+La app cierra al iniciar viaje V0037 #app
+Candado no libera en estacion ST008 #candado
+GPS saltando en ST010 #gps
+Rueda pinchada scooter V0072 #rueda
+GPS saltando en ST005 #gps
+GPS saltando en ST009 #gps
+La bateria no carga en la estacion ST017 #bateria
+Doble cobro en pase mensual rider R0089 #cobro
+Doble cobro en pase mensual rider R0058 #cobro
+Candado no libera en estacion ST021 #candado
+La bateria no carga en la estacion ST019 #bateria
+Rueda pinchada scooter V0011 #rueda
+GPS saltando en ST021 #gps
+Candado no libera en estacion ST016 #candado
+Freno irregular en vehiculo V0007 #freno
+Candado no libera en estacion ST005 #candado
+Rueda pinchada scooter V0050 #rueda
+Candado no libera en estacion ST016 #candado
+Rueda pinchada scooter V0068 #rueda
+Doble cobro en pase mensual rider R0101 #cobro
+Freno irregular en vehiculo V0019 #freno
+Rueda pinchada scooter V0056 #rueda
+Rueda pinchada scooter V0000 #rueda
+payment_fail repetido rider R0063 #pago
+La app cierra al iniciar viaje V0035 #app
+Doble cobro en pase mensual rider R0000 #cobro
+Freno irregular en vehiculo V0003 #freno
+La bateria no carga en la estacion ST018 #bateria
+La app cierra al iniciar viaje V0010 #app
+Freno irregular en vehiculo V0004 #freno
+payment_fail repetido rider R0062 #pago
+Doble cobro en pase mensual rider R0113 #cobro
+Candado no libera en estacion ST003 #candado
+Doble cobro en pase mensual rider R0118 #cobro
+payment_fail repetido rider R0015 #pago
+GPS saltando en ST021 #gps
+payment_fail repetido rider R0019 #pago
+Doble cobro en pase mensual rider R0075 #cobro
+Candado no libera en estacion ST000 #candado
+La bateria no carga en la estacion ST015 #bateria
+Doble cobro en pase mensual rider R0050 #cobro
+La bateria no carga en la estacion ST023 #bateria
+La bateria no carga en la estacion ST021 #bateria
+payment_fail repetido rider R0097 #pago
+Candado no libera en estacion ST000 #candado
+payment_fail repetido rider R0065 #pago
+La app cierra al iniciar viaje V0065 #app
+GPS saltando en ST010 #gps
+La app cierra al iniciar viaje V0039 #app
+Doble cobro en pase mensual rider R0053 #cobro
+La app cierra al iniciar viaje V0034 #app
+payment_fail repetido rider R0066 #pago
+Candado no libera en estacion ST006 #candado
+Doble cobro en pase mensual rider R0100 #cobro
+La app cierra al iniciar viaje V0007 #app
+Rueda pinchada scooter V0027 #rueda
+La app cierra al iniciar viaje V0037 #app
+Candado no libera en estacion ST023 #candado
+Candado no libera en estacion ST004 #candado
+Doble cobro en pase mensual rider R0079 #cobro
+Rueda pinchada scooter V0070 #rueda
+GPS saltando en ST021 #gps
+Rueda pinchada scooter V0056 #rueda
+Rueda pinchada scooter V0066 #rueda
+Candado no libera en estacion ST014 #candado
+Rueda pinchada scooter V0024 #rueda
+La app cierra al iniciar viaje V0049 #app
+payment_fail repetido rider R0079 #pago
+Freno irregular en vehiculo V0015 #freno
+payment_fail repetido rider R0057 #pago
+payment_fail repetido rider R0119 #pago
+Candado no libera en estacion ST011 #candado
+payment_fail repetido rider R0034 #pago
+Doble cobro en pase mensual rider R0051 #cobro
+payment_fail repetido rider R0010 #pago
+payment_fail repetido rider R0072 #pago
+La app cierra al iniciar viaje V0030 #app
+La bateria no carga en la estacion ST012 #bateria
+La bateria no carga en la estacion ST001 #bateria
+Freno irregular en vehiculo V0062 #freno
+La app cierra al iniciar viaje V0028 #app
+La bateria no carga en la estacion ST013 #bateria
+Freno irregular en vehiculo V0072 #freno
+Candado no libera en estacion ST010 #candado
+GPS saltando en ST006 #gps
+Rueda pinchada scooter V0057 #rueda
+payment_fail repetido rider R0053 #pago
+payment_fail repetido rider R0014 #pago
+Rueda pinchada scooter V0029 #rueda
+La app cierra al iniciar viaje V0079 #app
+Rueda pinchada scooter V0047 #rueda
+La app cierra al iniciar viaje V0028 #app
+Candado no libera en estacion ST016 #candado
+Freno irregular en vehiculo V0075 #freno
+payment_fail repetido rider R0045 #pago
+Doble cobro en pase mensual rider R0046 #cobro
+La bateria no carga en la estacion ST004 #bateria
+Rueda pinchada scooter V0076 #rueda
+Rueda pinchada scooter V0046 #rueda
+La app cierra al iniciar viaje V0033 #app
+Doble cobro en pase mensual rider R0022 #cobro
+La app cierra al iniciar viaje V0034 #app
+payment_fail repetido rider R0080 #pago
+Candado no libera en estacion ST005 #candado
+Doble cobro en pase mensual rider R0099 #cobro
+payment_fail repetido rider R0086 #pago
+Candado no libera en estacion ST001 #candado
+Freno irregular en vehiculo V0077 #freno
+GPS saltando en ST005 #gps
+GPS saltando en ST018 #gps
+payment_fail repetido rider R0007 #pago
+La app cierra al iniciar viaje V0052 #app
+La app cierra al iniciar viaje V0075 #app
+La bateria no carga en la estacion ST013 #bateria
+Freno irregular en vehiculo V0017 #freno
+Doble cobro en pase mensual rider R0036 #cobro
+La bateria no carga en la estacion ST004 #bateria
+Rueda pinchada scooter V0037 #rueda
+La app cierra al iniciar viaje V0045 #app
+Doble cobro en pase mensual rider R0004 #cobro
+Freno irregular en vehiculo V0037 #freno
+Candado no libera en estacion ST004 #candado
+Rueda pinchada scooter V0063 #rueda
+La bateria no carga en la estacion ST013 #bateria
+Freno irregular en vehiculo V0074 #freno
+GPS saltando en ST002 #gps
+La app cierra al iniciar viaje V0078 #app
+Freno irregular en vehiculo V0004 #freno
+La bateria no carga en la estacion ST023 #bateria
+Candado no libera en estacion ST017 #candado
+payment_fail repetido rider R0093 #pago
+Freno irregular en vehiculo V0065 #freno
+GPS saltando en ST001 #gps
+La bateria no carga en la estacion ST015 #bateria
+La app cierra al iniciar viaje V0002 #app
+Freno irregular en vehiculo V0015 #freno
+Doble cobro en pase mensual rider R0010 #cobro
+La app cierra al iniciar viaje V0000 #app
+Rueda pinchada scooter V0027 #rueda
+payment_fail repetido rider R0057 #pago
+Freno irregular en vehiculo V0034 #freno
+GPS saltando en ST004 #gps
+Doble cobro en pase mensual rider R0016 #cobro
+Candado no libera en estacion ST019 #candado
+La bateria no carga en la estacion ST007 #bateria
+La app cierra al iniciar viaje V0020 #app
+Rueda pinchada scooter V0001 #rueda
+Freno irregular en vehiculo V0077 #freno
+payment_fail repetido rider R0119 #pago
+Doble cobro en pase mensual rider R0101 #cobro
+Freno irregular en vehiculo V0016 #freno
+Candado no libera en estacion ST011 #candado
+Rueda pinchada scooter V0055 #rueda
+La bateria no carga en la estacion ST015 #bateria
+La app cierra al iniciar viaje V0038 #app
+La app cierra al iniciar viaje V0052 #app
+GPS saltando en ST009 #gps
+La app cierra al iniciar viaje V0029 #app
+payment_fail repetido rider R0052 #pago
+payment_fail repetido rider R0039 #pago
+Rueda pinchada scooter V0010 #rueda
+Freno irregular en vehiculo V0064 #freno
+La bateria no carga en la estacion ST013 #bateria
+La app cierra al iniciar viaje V0007 #app
+Rueda pinchada scooter V0041 #rueda
+GPS saltando en ST011 #gps
+Rueda pinchada scooter V0075 #rueda
+GPS saltando en ST010 #gps
+La app cierra al iniciar viaje V0074 #app
+payment_fail repetido rider R0018 #pago
+payment_fail repetido rider R0099 #pago
+La app cierra al iniciar viaje V0031 #app
+Freno irregular en vehiculo V0022 #freno
+La bateria no carga en la estacion ST018 #bateria
+La app cierra al iniciar viaje V0022 #app
+La app cierra al iniciar viaje V0019 #app
+La bateria no carga en la estacion ST010 #bateria
+Candado no libera en estacion ST020 #candado
+Rueda pinchada scooter V0067 #rueda
+La bateria no carga en la estacion ST008 #bateria
+payment_fail repetido rider R0019 #pago
+La bateria no carga en la estacion ST021 #bateria
+La app cierra al iniciar viaje V0078 #app
+GPS saltando en ST005 #gps
+payment_fail repetido rider R0105 #pago
+La app cierra al iniciar viaje V0024 #app
+Freno irregular en vehiculo V0066 #freno
+Doble cobro en pase mensual rider R0044 #cobro
+GPS saltando en ST021 #gps
+La app cierra al iniciar viaje V0004 #app
+La bateria no carga en la estacion ST023 #bateria
+La bateria no carga en la estacion ST011 #bateria
+La app cierra al iniciar viaje V0057 #app
+La app cierra al iniciar viaje V0026 #app
+La app cierra al iniciar viaje V0066 #app
+Candado no libera en estacion ST010 #candado
+La app cierra al iniciar viaje V0040 #app
+Freno irregular en vehiculo V0002 #freno
+La app cierra al iniciar viaje V0079 #app
+La app cierra al iniciar viaje V0067 #app
+La bateria no carga en la estacion ST017 #bateria
+La bateria no carga en la estacion ST004 #bateria
+Rueda pinchada scooter V0021 #rueda
+Doble cobro en pase mensual rider R0036 #cobro
+payment_fail repetido rider R0112 #pago
+Freno irregular en vehiculo V0064 #freno
+GPS saltando en ST012 #gps
+Rueda pinchada scooter V0058 #rueda
+GPS saltando en ST000 #gps
+Freno irregular en vehiculo V0024 #freno
+La bateria no carga en la estacion ST007 #bateria
+Rueda pinchada scooter V0000 #rueda
+La app cierra al iniciar viaje V0061 #app
+La app cierra al iniciar viaje V0018 #app
+Candado no libera en estacion ST008 #candado
+La app cierra al iniciar viaje V0064 #app
+Doble cobro en pase mensual rider R0029 #cobro
+Doble cobro en pase mensual rider R0088 #cobro
+GPS saltando en ST013 #gps
+GPS saltando en ST005 #gps
+payment_fail repetido rider R0001 #pago
+La app cierra al iniciar viaje V0046 #app
+La app cierra al iniciar viaje V0031 #app
+Candado no libera en estacion ST013 #candado
+Candado no libera en estacion ST014 #candado
+Doble cobro en pase mensual rider R0050 #cobro
+Rueda pinchada scooter V0066 #rueda
+GPS saltando en ST017 #gps
+payment_fail repetido rider R0110 #pago
+Candado no libera en estacion ST017 #candado
+La app cierra al iniciar viaje V0047 #app
+Doble cobro en pase mensual rider R0056 #cobro
+La bateria no carga en la estacion ST018 #bateria
+Freno irregular en vehiculo V0067 #freno
+La bateria no carga en la estacion ST000 #bateria
+GPS saltando en ST005 #gps
+Freno irregular en vehiculo V0025 #freno
+Doble cobro en pase mensual rider R0117 #cobro
+payment_fail repetido rider R0039 #pago
+Rueda pinchada scooter V0022 #rueda
+payment_fail repetido rider R0073 #pago
+GPS saltando en ST013 #gps
+Candado no libera en estacion ST014 #candado
+Doble cobro en pase mensual rider R0032 #cobro
+GPS saltando en ST005 #gps
+Rueda pinchada scooter V0068 #rueda
+payment_fail repetido rider R0049 #pago
+Doble cobro en pase mensual rider R0047 #cobro
+Candado no libera en estacion ST022 #candado
+Rueda pinchada scooter V0061 #rueda
+La app cierra al iniciar viaje V0061 #app
+La bateria no carga en la estacion ST007 #bateria
+La app cierra al iniciar viaje V0034 #app
+Rueda pinchada scooter V0078 #rueda
+La app cierra al iniciar viaje V0079 #app
+Freno irregular en vehiculo V0018 #freno
+Rueda pinchada scooter V0041 #rueda
+Doble cobro en pase mensual rider R0118 #cobro
+La app cierra al iniciar viaje V0023 #app
+Doble cobro en pase mensual rider R0051 #cobro
+Freno irregular en vehiculo V0072 #freno
+La app cierra al iniciar viaje V0062 #app
+GPS saltando en ST000 #gps
+payment_fail repetido rider R0098 #pago
+Rueda pinchada scooter V0034 #rueda
+Rueda pinchada scooter V0017 #rueda
+Doble cobro en pase mensual rider R0061 #cobro
+Freno irregular en vehiculo V0009 #freno
+La app cierra al iniciar viaje V0047 #app
+payment_fail repetido rider R0057 #pago
+payment_fail repetido rider R0037 #pago
+payment_fail repetido rider R0058 #pago
+La app cierra al iniciar viaje V0042 #app
+Doble cobro en pase mensual rider R0076 #cobro
+La bateria no carga en la estacion ST000 #bateria
+Freno irregular en vehiculo V0069 #freno
+payment_fail repetido rider R0098 #pago
+Doble cobro en pase mensual rider R0030 #cobro
+Doble cobro en pase mensual rider R0054 #cobro
+Doble cobro en pase mensual rider R0033 #cobro
+GPS saltando en ST022 #gps
+Rueda pinchada scooter V0069 #rueda
+payment_fail repetido rider R0062 #pago
+Candado no libera en estacion ST003 #candado
+La app cierra al iniciar viaje V0008 #app
+Candado no libera en estacion ST000 #candado
+Doble cobro en pase mensual rider R0003 #cobro
+Freno irregular en vehiculo V0013 #freno
+Freno irregular en vehiculo V0043 #freno
+La bateria no carga en la estacion ST016 #bateria
+Freno irregular en vehiculo V0063 #freno
+La app cierra al iniciar viaje V0048 #app
+payment_fail repetido rider R0101 #pago
+payment_fail repetido rider R0101 #pago
+GPS saltando en ST007 #gps
+Freno irregular en vehiculo V0015 #freno
+Doble cobro en pase mensual rider R0055 #cobro
+La bateria no carga en la estacion ST018 #bateria
+Freno irregular en vehiculo V0074 #freno
+Rueda pinchada scooter V0028 #rueda
+Candado no libera en estacion ST003 #candado
+Rueda pinchada scooter V0027 #rueda
+Doble cobro en pase mensual rider R0018 #cobro
+GPS saltando en ST000 #gps
+Doble cobro en pase mensual rider R0089 #cobro
+Doble cobro en pase mensual rider R0039 #cobro
+La bateria no carga en la estacion ST000 #bateria
+La bateria no carga en la estacion ST004 #bateria
+payment_fail repetido rider R0118 #pago
+GPS saltando en ST007 #gps
+payment_fail repetido rider R0029 #pago
+Rueda pinchada scooter V0068 #rueda
+payment_fail repetido rider R0084 #pago
+GPS saltando en ST016 #gps
+GPS saltando en ST008 #gps
+GPS saltando en ST006 #gps
+payment_fail repetido rider R0107 #pago
+Freno irregular en vehiculo V0077 #freno
+Rueda pinchada scooter V0060 #rueda
+Candado no libera en estacion ST016 #candado
+Doble cobro en pase mensual rider R0115 #cobro
+Freno irregular en vehiculo V0029 #freno
+Freno irregular en vehiculo V0041 #freno
+Freno irregular en vehiculo V0068 #freno
+GPS saltando en ST013 #gps
+Candado no libera en estacion ST016 #candado
+Candado no libera en estacion ST021 #candado
+La app cierra al iniciar viaje V0056 #app
+GPS saltando en ST021 #gps
+La bateria no carga en la estacion ST016 #bateria
+La app cierra al iniciar viaje V0021 #app
+payment_fail repetido rider R0078 #pago
+Freno irregular en vehiculo V0075 #freno
+La bateria no carga en la estacion ST001 #bateria
+La bateria no carga en la estacion ST017 #bateria
+La bateria no carga en la estacion ST015 #bateria
+Rueda pinchada scooter V0049 #rueda
+La app cierra al iniciar viaje V0038 #app
+Freno irregular en vehiculo V0046 #freno
+Rueda pinchada scooter V0023 #rueda
+La app cierra al iniciar viaje V0076 #app
+payment_fail repetido rider R0044 #pago
+La bateria no carga en la estacion ST019 #bateria
+La bateria no carga en la estacion ST016 #bateria
+Rueda pinchada scooter V0079 #rueda
+Rueda pinchada scooter V0028 #rueda
+Doble cobro en pase mensual rider R0055 #cobro
+GPS saltando en ST005 #gps
+La bateria no carga en la estacion ST003 #bateria
+La bateria no carga en la estacion ST012 #bateria
+Candado no libera en estacion ST009 #candado
+La app cierra al iniciar viaje V0060 #app
+payment_fail repetido rider R0021 #pago
+GPS saltando en ST003 #gps
+payment_fail repetido rider R0056 #pago
+Candado no libera en estacion ST000 #candado
+GPS saltando en ST023 #gps
+La bateria no carga en la estacion ST005 #bateria
+La app cierra al iniciar viaje V0070 #app
+GPS saltando en ST012 #gps
+Candado no libera en estacion ST020 #candado
+Freno irregular en vehiculo V0033 #freno
+Freno irregular en vehiculo V0010 #freno
+Freno irregular en vehiculo V0065 #freno
+Freno irregular en vehiculo V0079 #freno
+La app cierra al iniciar viaje V0063 #app
+La app cierra al iniciar viaje V0079 #app
+Rueda pinchada scooter V0019 #rueda
+La app cierra al iniciar viaje V0070 #app
+Doble cobro en pase mensual rider R0073 #cobro
+Rueda pinchada scooter V0043 #rueda
+Doble cobro en pase mensual rider R0105 #cobro
+GPS saltando en ST014 #gps
+GPS saltando en ST009 #gps
+Rueda pinchada scooter V0015 #rueda
+Candado no libera en estacion ST023 #candado
+payment_fail repetido rider R0113 #pago
+La bateria no carga en la estacion ST018 #bateria
+La app cierra al iniciar viaje V0024 #app
+Rueda pinchada scooter V0060 #rueda
+payment_fail repetido rider R0119 #pago
+Rueda pinchada scooter V0071 #rueda
+Freno irregular en vehiculo V0052 #freno
+payment_fail repetido rider R0028 #pago
+Freno irregular en vehiculo V0003 #freno
+payment_fail repetido rider R0077 #pago
+Candado no libera en estacion ST001 #candado
+Rueda pinchada scooter V0009 #rueda
+payment_fail repetido rider R0097 #pago
+La bateria no carga en la estacion ST015 #bateria
+La bateria no carga en la estacion ST017 #bateria
+Rueda pinchada scooter V0019 #rueda
+Rueda pinchada scooter V0060 #rueda
+payment_fail repetido rider R0117 #pago
+GPS saltando en ST020 #gps
+payment_fail repetido rider R0094 #pago
+GPS saltando en ST006 #gps
+Doble cobro en pase mensual rider R0047 #cobro
+payment_fail repetido rider R0102 #pago
+GPS saltando en ST014 #gps
+La app cierra al iniciar viaje V0008 #app
+La app cierra al iniciar viaje V0059 #app
+Freno irregular en vehiculo V0041 #freno
+GPS saltando en ST019 #gps
+Candado no libera en estacion ST010 #candado
+GPS saltando en ST019 #gps
+GPS saltando en ST008 #gps
+payment_fail repetido rider R0111 #pago
+payment_fail repetido rider R0043 #pago
+Candado no libera en estacion ST017 #candado
+Rueda pinchada scooter V0006 #rueda
+payment_fail repetido rider R0065 #pago
+Doble cobro en pase mensual rider R0070 #cobro
+GPS saltando en ST017 #gps
+La bateria no carga en la estacion ST007 #bateria
+Rueda pinchada scooter V0034 #rueda
+Rueda pinchada scooter V0015 #rueda
+GPS saltando en ST018 #gps
+La bateria no carga en la estacion ST003 #bateria
+Freno irregular en vehiculo V0066 #freno
+La app cierra al iniciar viaje V0005 #app
+La app cierra al iniciar viaje V0049 #app
+Rueda pinchada scooter V0001 #rueda
+Rueda pinchada scooter V0018 #rueda
+Doble cobro en pase mensual rider R0042 #cobro
+payment_fail repetido rider R0110 #pago
+Freno irregular en vehiculo V0054 #freno
+Freno irregular en vehiculo V0012 #freno
+GPS saltando en ST019 #gps
+Freno irregular en vehiculo V0011 #freno
+Candado no libera en estacion ST020 #candado
+Candado no libera en estacion ST018 #candado
+Doble cobro en pase mensual rider R0021 #cobro
+La app cierra al iniciar viaje V0022 #app
+GPS saltando en ST003 #gps
+payment_fail repetido rider R0106 #pago
+GPS saltando en ST023 #gps
+Candado no libera en estacion ST001 #candado
+Doble cobro en pase mensual rider R0103 #cobro
+Doble cobro en pase mensual rider R0085 #cobro
+Candado no libera en estacion ST002 #candado
+La app cierra al iniciar viaje V0031 #app
+Rueda pinchada scooter V0007 #rueda
+La bateria no carga en la estacion ST014 #bateria
+payment_fail repetido rider R0042 #pago
+Candado no libera en estacion ST012 #candado
+GPS saltando en ST010 #gps
+Candado no libera en estacion ST021 #candado
+Freno irregular en vehiculo V0055 #freno
+La app cierra al iniciar viaje V0034 #app
+payment_fail repetido rider R0029 #pago
+GPS saltando en ST012 #gps
+Doble cobro en pase mensual rider R0089 #cobro
+Doble cobro en pase mensual rider R0043 #cobro
+La app cierra al iniciar viaje V0036 #app
+La app cierra al iniciar viaje V0051 #app
+GPS saltando en ST023 #gps
+La app cierra al iniciar viaje V0054 #app
+La bateria no carga en la estacion ST000 #bateria
+Freno irregular en vehiculo V0076 #freno
+GPS saltando en ST013 #gps
+Candado no libera en estacion ST023 #candado
+GPS saltando en ST010 #gps
+La bateria no carga en la estacion ST008 #bateria
+GPS saltando en ST008 #gps
+La app cierra al iniciar viaje V0012 #app
+La app cierra al iniciar viaje V0046 #app
+Doble cobro en pase mensual rider R0102 #cobro
+Doble cobro en pase mensual rider R0099 #cobro
+Doble cobro en pase mensual rider R0075 #cobro
+Doble cobro en pase mensual rider R0085 #cobro
+La app cierra al iniciar viaje V0039 #app
+payment_fail repetido rider R0072 #pago
+Doble cobro en pase mensual rider R0106 #cobro
+Rueda pinchada scooter V0050 #rueda
+Candado no libera en estacion ST001 #candado
+Doble cobro en pase mensual rider R0011 #cobro
+GPS saltando en ST010 #gps
+GPS saltando en ST004 #gps
+La app cierra al iniciar viaje V0022 #app
+Rueda pinchada scooter V0075 #rueda
+Rueda pinchada scooter V0057 #rueda
+La app cierra al iniciar viaje V0012 #app
+Rueda pinchada scooter V0002 #rueda
+payment_fail repetido rider R0011 #pago
+La bateria no carga en la estacion ST008 #bateria
+Doble cobro en pase mensual rider R0009 #cobro
+Freno irregular en vehiculo V0008 #freno
+GPS saltando en ST021 #gps
+Freno irregular en vehiculo V0022 #freno
+Rueda pinchada scooter V0035 #rueda
+La bateria no carga en la estacion ST007 #bateria
+Rueda pinchada scooter V0066 #rueda
+La bateria no carga en la estacion ST016 #bateria
+Doble cobro en pase mensual rider R0095 #cobro
+Rueda pinchada scooter V0036 #rueda
+payment_fail repetido rider R0071 #pago
+Doble cobro en pase mensual rider R0048 #cobro
+payment_fail repetido rider R0067 #pago
+payment_fail repetido rider R0013 #pago
+Doble cobro en pase mensual rider R0007 #cobro
+La app cierra al iniciar viaje V0053 #app
+La bateria no carga en la estacion ST015 #bateria
+La bateria no carga en la estacion ST022 #bateria
+Doble cobro en pase mensual rider R0059 #cobro
+Doble cobro en pase mensual rider R0024 #cobro
+payment_fail repetido rider R0095 #pago
+GPS saltando en ST009 #gps
+Rueda pinchada scooter V0053 #rueda
+La app cierra al iniciar viaje V0074 #app
+Doble cobro en pase mensual rider R0089 #cobro
+payment_fail repetido rider R0021 #pago
+La app cierra al iniciar viaje V0078 #app
+Freno irregular en vehiculo V0037 #freno
+payment_fail repetido rider R0050 #pago
+Rueda pinchada scooter V0009 #rueda
+La bateria no carga en la estacion ST018 #bateria
+GPS saltando en ST008 #gps
+La app cierra al iniciar viaje V0035 #app
+Candado no libera en estacion ST012 #candado

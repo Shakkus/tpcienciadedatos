@@ -1,0 +1,38 @@
+# Contrato Bronze — viajes NexoUrbano
+# El squad debe copiar este archivo a su repo y ajustar lo que midan en el perfilado.
+
+dataset: bronze_viajes
+owner: squad_platform
+grano: un viaje (ride_id)
+timezone: UTC
+formato: csv
+particionado: ts_start (yyyy/mm/dd) en el Data Lake
+clave_primaria: ride_id
+frescura_sla: batch diario 06:00 ART
+fuentes:
+  - generador sintético tools/generar_datos.py
+  - dataset abierto de movilidad (declarar URL)
+
+columnas:
+  - {nombre: ride_id, tipo: string, nullable: false}
+  - {nombre: ts_start, tipo: timestamp, nullable: false}
+  - {nombre: ts_end, tipo: timestamp, nullable: false}
+  - {nombre: duration_s, tipo: int, nullable: false}
+  - {nombre: rider_id, tipo: string, nullable: false}
+  - {nombre: vehicle_id, tipo: string, nullable: false}
+  - {nombre: station_start, tipo: string, nullable: false}
+  - {nombre: station_end, tipo: string, nullable: false}
+  - {nombre: km, tipo: float, nullable: true}
+  - {nombre: fare_ars, tipo: float, nullable: true}
+
+reglas_rechazo_silver:
+  - duration_s < 30
+  - duration_s > 14400
+  - ts_end < ts_start
+  - station_start o station_end nulos
+  - fare_ars < 0
+
+calidad:
+  nulos_max_pct: 2
+  duplicados_ride_id: 0
+  late_data_horas: 24

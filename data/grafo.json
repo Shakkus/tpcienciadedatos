@@ -1,0 +1,2760 @@
+{
+  "amigos": [
+    {
+      "a": "R0000",
+      "b": "R0100"
+    },
+    {
+      "a": "R0001",
+      "b": "R0021"
+    },
+    {
+      "a": "R0001",
+      "b": "R0032"
+    },
+    {
+      "a": "R0001",
+      "b": "R0042"
+    },
+    {
+      "a": "R0001",
+      "b": "R0052"
+    },
+    {
+      "a": "R0001",
+      "b": "R0053"
+    },
+    {
+      "a": "R0001",
+      "b": "R0074"
+    },
+    {
+      "a": "R0001",
+      "b": "R0080"
+    },
+    {
+      "a": "R0001",
+      "b": "R0096"
+    },
+    {
+      "a": "R0002",
+      "b": "R0020"
+    },
+    {
+      "a": "R0002",
+      "b": "R0034"
+    },
+    {
+      "a": "R0002",
+      "b": "R0076"
+    },
+    {
+      "a": "R0002",
+      "b": "R0085"
+    },
+    {
+      "a": "R0002",
+      "b": "R0106"
+    },
+    {
+      "a": "R0003",
+      "b": "R0011"
+    },
+    {
+      "a": "R0003",
+      "b": "R0103"
+    },
+    {
+      "a": "R0004",
+      "b": "R0068"
+    },
+    {
+      "a": "R0004",
+      "b": "R0069"
+    },
+    {
+      "a": "R0004",
+      "b": "R0082"
+    },
+    {
+      "a": "R0004",
+      "b": "R0104"
+    },
+    {
+      "a": "R0004",
+      "b": "R0112"
+    },
+    {
+      "a": "R0005",
+      "b": "R0030"
+    },
+    {
+      "a": "R0005",
+      "b": "R0044"
+    },
+    {
+      "a": "R0005",
+      "b": "R0069"
+    },
+    {
+      "a": "R0005",
+      "b": "R0089"
+    },
+    {
+      "a": "R0005",
+      "b": "R0119"
+    },
+    {
+      "a": "R0006",
+      "b": "R0016"
+    },
+    {
+      "a": "R0006",
+      "b": "R0042"
+    },
+    {
+      "a": "R0006",
+      "b": "R0056"
+    },
+    {
+      "a": "R0006",
+      "b": "R0065"
+    },
+    {
+      "a": "R0007",
+      "b": "R0110"
+    },
+    {
+      "a": "R0007",
+      "b": "R0118"
+    },
+    {
+      "a": "R0008",
+      "b": "R0034"
+    },
+    {
+      "a": "R0009",
+      "b": "R0014"
+    },
+    {
+      "a": "R0009",
+      "b": "R0090"
+    },
+    {
+      "a": "R0009",
+      "b": "R0097"
+    },
+    {
+      "a": "R0010",
+      "b": "R0028"
+    },
+    {
+      "a": "R0010",
+      "b": "R0051"
+    },
+    {
+      "a": "R0010",
+      "b": "R0057"
+    },
+    {
+      "a": "R0010",
+      "b": "R0058"
+    },
+    {
+      "a": "R0010",
+      "b": "R0086"
+    },
+    {
+      "a": "R0010",
+      "b": "R0090"
+    },
+    {
+      "a": "R0011",
+      "b": "R0035"
+    },
+    {
+      "a": "R0011",
+      "b": "R0050"
+    },
+    {
+      "a": "R0012",
+      "b": "R0068"
+    },
+    {
+      "a": "R0012",
+      "b": "R0071"
+    },
+    {
+      "a": "R0012",
+      "b": "R0072"
+    },
+    {
+      "a": "R0012",
+      "b": "R0102"
+    },
+    {
+      "a": "R0013",
+      "b": "R0043"
+    },
+    {
+      "a": "R0013",
+      "b": "R0097"
+    },
+    {
+      "a": "R0014",
+      "b": "R0049"
+    },
+    {
+      "a": "R0014",
+      "b": "R0081"
+    },
+    {
+      "a": "R0015",
+      "b": "R0026"
+    },
+    {
+      "a": "R0015",
+      "b": "R0031"
+    },
+    {
+      "a": "R0016",
+      "b": "R0105"
+    },
+    {
+      "a": "R0016",
+      "b": "R0116"
+    },
+    {
+      "a": "R0017",
+      "b": "R0080"
+    },
+    {
+      "a": "R0017",
+      "b": "R0102"
+    },
+    {
+      "a": "R0018",
+      "b": "R0019"
+    },
+    {
+      "a": "R0018",
+      "b": "R0093"
+    },
+    {
+      "a": "R0019",
+      "b": "R0021"
+    },
+    {
+      "a": "R0019",
+      "b": "R0046"
+    },
+    {
+      "a": "R0019",
+      "b": "R0085"
+    },
+    {
+      "a": "R0019",
+      "b": "R0109"
+    },
+    {
+      "a": "R0021",
+      "b": "R0035"
+    },
+    {
+      "a": "R0021",
+      "b": "R0079"
+    },
+    {
+      "a": "R0022",
+      "b": "R0033"
+    },
+    {
+      "a": "R0022",
+      "b": "R0111"
+    },
+    {
+      "a": "R0023",
+      "b": "R0037"
+    },
+    {
+      "a": "R0023",
+      "b": "R0043"
+    },
+    {
+      "a": "R0023",
+      "b": "R0065"
+    },
+    {
+      "a": "R0023",
+      "b": "R0076"
+    },
+    {
+      "a": "R0023",
+      "b": "R0094"
+    },
+    {
+      "a": "R0023",
+      "b": "R0101"
+    },
+    {
+      "a": "R0024",
+      "b": "R0053"
+    },
+    {
+      "a": "R0025",
+      "b": "R0034"
+    },
+    {
+      "a": "R0025",
+      "b": "R0045"
+    },
+    {
+      "a": "R0025",
+      "b": "R0052"
+    },
+    {
+      "a": "R0025",
+      "b": "R0069"
+    },
+    {
+      "a": "R0025",
+      "b": "R0081"
+    },
+    {
+      "a": "R0026",
+      "b": "R0047"
+    },
+    {
+      "a": "R0026",
+      "b": "R0051"
+    },
+    {
+      "a": "R0027",
+      "b": "R0028"
+    },
+    {
+      "a": "R0027",
+      "b": "R0042"
+    },
+    {
+      "a": "R0027",
+      "b": "R0066"
+    },
+    {
+      "a": "R0027",
+      "b": "R0100"
+    },
+    {
+      "a": "R0028",
+      "b": "R0029"
+    },
+    {
+      "a": "R0028",
+      "b": "R0080"
+    },
+    {
+      "a": "R0029",
+      "b": "R0109"
+    },
+    {
+      "a": "R0030",
+      "b": "R0048"
+    },
+    {
+      "a": "R0030",
+      "b": "R0058"
+    },
+    {
+      "a": "R0030",
+      "b": "R0065"
+    },
+    {
+      "a": "R0030",
+      "b": "R0079"
+    },
+    {
+      "a": "R0030",
+      "b": "R0083"
+    },
+    {
+      "a": "R0030",
+      "b": "R0092"
+    },
+    {
+      "a": "R0030",
+      "b": "R0095"
+    },
+    {
+      "a": "R0030",
+      "b": "R0116"
+    },
+    {
+      "a": "R0030",
+      "b": "R0117"
+    },
+    {
+      "a": "R0031",
+      "b": "R0055"
+    },
+    {
+      "a": "R0031",
+      "b": "R0103"
+    },
+    {
+      "a": "R0032",
+      "b": "R0043"
+    },
+    {
+      "a": "R0032",
+      "b": "R0050"
+    },
+    {
+      "a": "R0032",
+      "b": "R0077"
+    },
+    {
+      "a": "R0033",
+      "b": "R0040"
+    },
+    {
+      "a": "R0033",
+      "b": "R0061"
+    },
+    {
+      "a": "R0034",
+      "b": "R0080"
+    },
+    {
+      "a": "R0034",
+      "b": "R0083"
+    },
+    {
+      "a": "R0034",
+      "b": "R0114"
+    },
+    {
+      "a": "R0035",
+      "b": "R0057"
+    },
+    {
+      "a": "R0035",
+      "b": "R0067"
+    },
+    {
+      "a": "R0035",
+      "b": "R0085"
+    },
+    {
+      "a": "R0035",
+      "b": "R0086"
+    },
+    {
+      "a": "R0035",
+      "b": "R0104"
+    },
+    {
+      "a": "R0035",
+      "b": "R0119"
+    },
+    {
+      "a": "R0036",
+      "b": "R0077"
+    },
+    {
+      "a": "R0036",
+      "b": "R0108"
+    },
+    {
+      "a": "R0037",
+      "b": "R0062"
+    },
+    {
+      "a": "R0037",
+      "b": "R0081"
+    },
+    {
+      "a": "R0037",
+      "b": "R0090"
+    },
+    {
+      "a": "R0037",
+      "b": "R0106"
+    },
+    {
+      "a": "R0037",
+      "b": "R0115"
+    },
+    {
+      "a": "R0039",
+      "b": "R0041"
+    },
+    {
+      "a": "R0039",
+      "b": "R0088"
+    },
+    {
+      "a": "R0039",
+      "b": "R0089"
+    },
+    {
+      "a": "R0039",
+      "b": "R0095"
+    },
+    {
+      "a": "R0040",
+      "b": "R0051"
+    },
+    {
+      "a": "R0040",
+      "b": "R0057"
+    },
+    {
+      "a": "R0040",
+      "b": "R0061"
+    },
+    {
+      "a": "R0040",
+      "b": "R0076"
+    },
+    {
+      "a": "R0041",
+      "b": "R0050"
+    },
+    {
+      "a": "R0041",
+      "b": "R0077"
+    },
+    {
+      "a": "R0041",
+      "b": "R0078"
+    },
+    {
+      "a": "R0041",
+      "b": "R0096"
+    },
+    {
+      "a": "R0041",
+      "b": "R0100"
+    },
+    {
+      "a": "R0041",
+      "b": "R0112"
+    },
+    {
+      "a": "R0042",
+      "b": "R0105"
+    },
+    {
+      "a": "R0042",
+      "b": "R0109"
+    },
+    {
+      "a": "R0043",
+      "b": "R0057"
+    },
+    {
+      "a": "R0044",
+      "b": "R0101"
+    },
+    {
+      "a": "R0044",
+      "b": "R0112"
+    },
+    {
+      "a": "R0045",
+      "b": "R0119"
+    },
+    {
+      "a": "R0046",
+      "b": "R0049"
+    },
+    {
+      "a": "R0046",
+      "b": "R0069"
+    },
+    {
+      "a": "R0047",
+      "b": "R0052"
+    },
+    {
+      "a": "R0047",
+      "b": "R0062"
+    },
+    {
+      "a": "R0047",
+      "b": "R0081"
+    },
+    {
+      "a": "R0047",
+      "b": "R0085"
+    },
+    {
+      "a": "R0048",
+      "b": "R0081"
+    },
+    {
+      "a": "R0048",
+      "b": "R0098"
+    },
+    {
+      "a": "R0048",
+      "b": "R0105"
+    },
+    {
+      "a": "R0049",
+      "b": "R0066"
+    },
+    {
+      "a": "R0049",
+      "b": "R0072"
+    },
+    {
+      "a": "R0049",
+      "b": "R0105"
+    },
+    {
+      "a": "R0050",
+      "b": "R0065"
+    },
+    {
+      "a": "R0050",
+      "b": "R0068"
+    },
+    {
+      "a": "R0051",
+      "b": "R0056"
+    },
+    {
+      "a": "R0052",
+      "b": "R0064"
+    },
+    {
+      "a": "R0053",
+      "b": "R0101"
+    },
+    {
+      "a": "R0054",
+      "b": "R0061"
+    },
+    {
+      "a": "R0054",
+      "b": "R0069"
+    },
+    {
+      "a": "R0055",
+      "b": "R0067"
+    },
+    {
+      "a": "R0055",
+      "b": "R0093"
+    },
+    {
+      "a": "R0056",
+      "b": "R0080"
+    },
+    {
+      "a": "R0056",
+      "b": "R0083"
+    },
+    {
+      "a": "R0056",
+      "b": "R0085"
+    },
+    {
+      "a": "R0056",
+      "b": "R0113"
+    },
+    {
+      "a": "R0057",
+      "b": "R0065"
+    },
+    {
+      "a": "R0057",
+      "b": "R0100"
+    },
+    {
+      "a": "R0057",
+      "b": "R0101"
+    },
+    {
+      "a": "R0057",
+      "b": "R0114"
+    },
+    {
+      "a": "R0058",
+      "b": "R0075"
+    },
+    {
+      "a": "R0058",
+      "b": "R0078"
+    },
+    {
+      "a": "R0058",
+      "b": "R0094"
+    },
+    {
+      "a": "R0059",
+      "b": "R0096"
+    },
+    {
+      "a": "R0060",
+      "b": "R0109"
+    },
+    {
+      "a": "R0061",
+      "b": "R0074"
+    },
+    {
+      "a": "R0062",
+      "b": "R0096"
+    },
+    {
+      "a": "R0062",
+      "b": "R0097"
+    },
+    {
+      "a": "R0062",
+      "b": "R0118"
+    },
+    {
+      "a": "R0063",
+      "b": "R0070"
+    },
+    {
+      "a": "R0063",
+      "b": "R0085"
+    },
+    {
+      "a": "R0065",
+      "b": "R0093"
+    },
+    {
+      "a": "R0066",
+      "b": "R0070"
+    },
+    {
+      "a": "R0067",
+      "b": "R0117"
+    },
+    {
+      "a": "R0069",
+      "b": "R0106"
+    },
+    {
+      "a": "R0070",
+      "b": "R0103"
+    },
+    {
+      "a": "R0072",
+      "b": "R0089"
+    },
+    {
+      "a": "R0072",
+      "b": "R0114"
+    },
+    {
+      "a": "R0073",
+      "b": "R0075"
+    },
+    {
+      "a": "R0073",
+      "b": "R0080"
+    },
+    {
+      "a": "R0073",
+      "b": "R0081"
+    },
+    {
+      "a": "R0073",
+      "b": "R0110"
+    },
+    {
+      "a": "R0074",
+      "b": "R0079"
+    },
+    {
+      "a": "R0074",
+      "b": "R0086"
+    },
+    {
+      "a": "R0074",
+      "b": "R0098"
+    },
+    {
+      "a": "R0076",
+      "b": "R0093"
+    },
+    {
+      "a": "R0076",
+      "b": "R0098"
+    },
+    {
+      "a": "R0078",
+      "b": "R0119"
+    },
+    {
+      "a": "R0080",
+      "b": "R0119"
+    },
+    {
+      "a": "R0082",
+      "b": "R0110"
+    },
+    {
+      "a": "R0083",
+      "b": "R0117"
+    },
+    {
+      "a": "R0084",
+      "b": "R0101"
+    },
+    {
+      "a": "R0084",
+      "b": "R0113"
+    },
+    {
+      "a": "R0085",
+      "b": "R0117"
+    },
+    {
+      "a": "R0085",
+      "b": "R0118"
+    },
+    {
+      "a": "R0088",
+      "b": "R0090"
+    },
+    {
+      "a": "R0089",
+      "b": "R0090"
+    },
+    {
+      "a": "R0091",
+      "b": "R0100"
+    },
+    {
+      "a": "R0092",
+      "b": "R0111"
+    },
+    {
+      "a": "R0092",
+      "b": "R0117"
+    },
+    {
+      "a": "R0094",
+      "b": "R0111"
+    },
+    {
+      "a": "R0094",
+      "b": "R0117"
+    },
+    {
+      "a": "R0095",
+      "b": "R0108"
+    },
+    {
+      "a": "R0095",
+      "b": "R0119"
+    },
+    {
+      "a": "R0096",
+      "b": "R0106"
+    },
+    {
+      "a": "R0099",
+      "b": "R0112"
+    },
+    {
+      "a": "R0100",
+      "b": "R0117"
+    },
+    {
+      "a": "R0101",
+      "b": "R0108"
+    },
+    {
+      "a": "R0110",
+      "b": "R0111"
+    },
+    {
+      "a": "R0110",
+      "b": "R0115"
+    }
+  ],
+  "viajo_con": [
+    {
+      "a": "R0009",
+      "b": "R0114",
+      "station_id": "ST020",
+      "n": 3
+    },
+    {
+      "a": "R0045",
+      "b": "R0013",
+      "station_id": "ST007",
+      "n": 5
+    },
+    {
+      "a": "R0097",
+      "b": "R0014",
+      "station_id": "ST006",
+      "n": 2
+    },
+    {
+      "a": "R0042",
+      "b": "R0016",
+      "station_id": "ST015",
+      "n": 1
+    },
+    {
+      "a": "R0102",
+      "b": "R0068",
+      "station_id": "ST006",
+      "n": 4
+    },
+    {
+      "a": "R0110",
+      "b": "R0081",
+      "station_id": "ST016",
+      "n": 4
+    },
+    {
+      "a": "R0063",
+      "b": "R0041",
+      "station_id": "ST003",
+      "n": 5
+    },
+    {
+      "a": "R0026",
+      "b": "R0029",
+      "station_id": "ST017",
+      "n": 6
+    },
+    {
+      "a": "R0000",
+      "b": "R0054",
+      "station_id": "ST015",
+      "n": 3
+    },
+    {
+      "a": "R0000",
+      "b": "R0092",
+      "station_id": "ST015",
+      "n": 7
+    },
+    {
+      "a": "R0069",
+      "b": "R0108",
+      "station_id": "ST015",
+      "n": 7
+    },
+    {
+      "a": "R0060",
+      "b": "R0082",
+      "station_id": "ST001",
+      "n": 4
+    },
+    {
+      "a": "R0062",
+      "b": "R0091",
+      "station_id": "ST015",
+      "n": 1
+    },
+    {
+      "a": "R0050",
+      "b": "R0060",
+      "station_id": "ST002",
+      "n": 5
+    },
+    {
+      "a": "R0079",
+      "b": "R0003",
+      "station_id": "ST005",
+      "n": 1
+    },
+    {
+      "a": "R0056",
+      "b": "R0105",
+      "station_id": "ST009",
+      "n": 2
+    },
+    {
+      "a": "R0111",
+      "b": "R0104",
+      "station_id": "ST010",
+      "n": 1
+    },
+    {
+      "a": "R0091",
+      "b": "R0082",
+      "station_id": "ST009",
+      "n": 3
+    },
+    {
+      "a": "R0042",
+      "b": "R0039",
+      "station_id": "ST004",
+      "n": 5
+    },
+    {
+      "a": "R0064",
+      "b": "R0039",
+      "station_id": "ST022",
+      "n": 4
+    },
+    {
+      "a": "R0002",
+      "b": "R0019",
+      "station_id": "ST023",
+      "n": 6
+    },
+    {
+      "a": "R0094",
+      "b": "R0031",
+      "station_id": "ST003",
+      "n": 7
+    },
+    {
+      "a": "R0087",
+      "b": "R0085",
+      "station_id": "ST009",
+      "n": 6
+    },
+    {
+      "a": "R0075",
+      "b": "R0030",
+      "station_id": "ST012",
+      "n": 7
+    },
+    {
+      "a": "R0103",
+      "b": "R0085",
+      "station_id": "ST018",
+      "n": 5
+    },
+    {
+      "a": "R0022",
+      "b": "R0066",
+      "station_id": "ST022",
+      "n": 4
+    },
+    {
+      "a": "R0053",
+      "b": "R0045",
+      "station_id": "ST014",
+      "n": 6
+    },
+    {
+      "a": "R0049",
+      "b": "R0029",
+      "station_id": "ST000",
+      "n": 4
+    },
+    {
+      "a": "R0015",
+      "b": "R0082",
+      "station_id": "ST007",
+      "n": 2
+    },
+    {
+      "a": "R0017",
+      "b": "R0009",
+      "station_id": "ST023",
+      "n": 4
+    },
+    {
+      "a": "R0010",
+      "b": "R0090",
+      "station_id": "ST002",
+      "n": 1
+    },
+    {
+      "a": "R0079",
+      "b": "R0029",
+      "station_id": "ST020",
+      "n": 4
+    },
+    {
+      "a": "R0030",
+      "b": "R0049",
+      "station_id": "ST015",
+      "n": 3
+    },
+    {
+      "a": "R0078",
+      "b": "R0093",
+      "station_id": "ST002",
+      "n": 2
+    },
+    {
+      "a": "R0004",
+      "b": "R0060",
+      "station_id": "ST006",
+      "n": 6
+    },
+    {
+      "a": "R0054",
+      "b": "R0077",
+      "station_id": "ST011",
+      "n": 2
+    },
+    {
+      "a": "R0034",
+      "b": "R0068",
+      "station_id": "ST018",
+      "n": 1
+    },
+    {
+      "a": "R0071",
+      "b": "R0041",
+      "station_id": "ST010",
+      "n": 4
+    },
+    {
+      "a": "R0081",
+      "b": "R0104",
+      "station_id": "ST001",
+      "n": 2
+    },
+    {
+      "a": "R0113",
+      "b": "R0061",
+      "station_id": "ST003",
+      "n": 2
+    },
+    {
+      "a": "R0041",
+      "b": "R0018",
+      "station_id": "ST004",
+      "n": 6
+    },
+    {
+      "a": "R0016",
+      "b": "R0117",
+      "station_id": "ST004",
+      "n": 6
+    },
+    {
+      "a": "R0015",
+      "b": "R0081",
+      "station_id": "ST016",
+      "n": 5
+    },
+    {
+      "a": "R0029",
+      "b": "R0050",
+      "station_id": "ST016",
+      "n": 7
+    },
+    {
+      "a": "R0025",
+      "b": "R0047",
+      "station_id": "ST015",
+      "n": 3
+    },
+    {
+      "a": "R0078",
+      "b": "R0005",
+      "station_id": "ST015",
+      "n": 4
+    },
+    {
+      "a": "R0084",
+      "b": "R0113",
+      "station_id": "ST009",
+      "n": 4
+    },
+    {
+      "a": "R0089",
+      "b": "R0103",
+      "station_id": "ST022",
+      "n": 4
+    },
+    {
+      "a": "R0103",
+      "b": "R0033",
+      "station_id": "ST016",
+      "n": 6
+    },
+    {
+      "a": "R0061",
+      "b": "R0119",
+      "station_id": "ST012",
+      "n": 6
+    },
+    {
+      "a": "R0039",
+      "b": "R0030",
+      "station_id": "ST019",
+      "n": 5
+    },
+    {
+      "a": "R0075",
+      "b": "R0115",
+      "station_id": "ST017",
+      "n": 6
+    },
+    {
+      "a": "R0075",
+      "b": "R0024",
+      "station_id": "ST018",
+      "n": 6
+    },
+    {
+      "a": "R0013",
+      "b": "R0095",
+      "station_id": "ST021",
+      "n": 3
+    },
+    {
+      "a": "R0055",
+      "b": "R0022",
+      "station_id": "ST014",
+      "n": 2
+    },
+    {
+      "a": "R0017",
+      "b": "R0091",
+      "station_id": "ST015",
+      "n": 7
+    },
+    {
+      "a": "R0013",
+      "b": "R0090",
+      "station_id": "ST012",
+      "n": 4
+    },
+    {
+      "a": "R0092",
+      "b": "R0052",
+      "station_id": "ST018",
+      "n": 7
+    },
+    {
+      "a": "R0093",
+      "b": "R0048",
+      "station_id": "ST015",
+      "n": 1
+    },
+    {
+      "a": "R0097",
+      "b": "R0015",
+      "station_id": "ST003",
+      "n": 5
+    },
+    {
+      "a": "R0092",
+      "b": "R0116",
+      "station_id": "ST013",
+      "n": 3
+    },
+    {
+      "a": "R0035",
+      "b": "R0042",
+      "station_id": "ST016",
+      "n": 2
+    },
+    {
+      "a": "R0093",
+      "b": "R0061",
+      "station_id": "ST004",
+      "n": 2
+    },
+    {
+      "a": "R0092",
+      "b": "R0083",
+      "station_id": "ST006",
+      "n": 7
+    },
+    {
+      "a": "R0075",
+      "b": "R0029",
+      "station_id": "ST018",
+      "n": 5
+    },
+    {
+      "a": "R0036",
+      "b": "R0029",
+      "station_id": "ST014",
+      "n": 5
+    },
+    {
+      "a": "R0039",
+      "b": "R0101",
+      "station_id": "ST008",
+      "n": 3
+    },
+    {
+      "a": "R0040",
+      "b": "R0046",
+      "station_id": "ST010",
+      "n": 3
+    },
+    {
+      "a": "R0011",
+      "b": "R0060",
+      "station_id": "ST006",
+      "n": 4
+    },
+    {
+      "a": "R0002",
+      "b": "R0059",
+      "station_id": "ST010",
+      "n": 7
+    },
+    {
+      "a": "R0047",
+      "b": "R0107",
+      "station_id": "ST011",
+      "n": 4
+    },
+    {
+      "a": "R0029",
+      "b": "R0023",
+      "station_id": "ST001",
+      "n": 7
+    },
+    {
+      "a": "R0087",
+      "b": "R0091",
+      "station_id": "ST005",
+      "n": 2
+    },
+    {
+      "a": "R0047",
+      "b": "R0055",
+      "station_id": "ST021",
+      "n": 1
+    },
+    {
+      "a": "R0055",
+      "b": "R0084",
+      "station_id": "ST008",
+      "n": 4
+    },
+    {
+      "a": "R0097",
+      "b": "R0057",
+      "station_id": "ST002",
+      "n": 7
+    },
+    {
+      "a": "R0093",
+      "b": "R0098",
+      "station_id": "ST019",
+      "n": 5
+    },
+    {
+      "a": "R0002",
+      "b": "R0018",
+      "station_id": "ST023",
+      "n": 4
+    },
+    {
+      "a": "R0095",
+      "b": "R0004",
+      "station_id": "ST016",
+      "n": 5
+    },
+    {
+      "a": "R0048",
+      "b": "R0049",
+      "station_id": "ST015",
+      "n": 6
+    },
+    {
+      "a": "R0030",
+      "b": "R0109",
+      "station_id": "ST003",
+      "n": 5
+    },
+    {
+      "a": "R0037",
+      "b": "R0055",
+      "station_id": "ST011",
+      "n": 7
+    },
+    {
+      "a": "R0106",
+      "b": "R0104",
+      "station_id": "ST009",
+      "n": 3
+    },
+    {
+      "a": "R0119",
+      "b": "R0092",
+      "station_id": "ST018",
+      "n": 3
+    },
+    {
+      "a": "R0024",
+      "b": "R0108",
+      "station_id": "ST018",
+      "n": 3
+    },
+    {
+      "a": "R0045",
+      "b": "R0030",
+      "station_id": "ST007",
+      "n": 2
+    },
+    {
+      "a": "R0076",
+      "b": "R0059",
+      "station_id": "ST003",
+      "n": 7
+    },
+    {
+      "a": "R0022",
+      "b": "R0069",
+      "station_id": "ST014",
+      "n": 5
+    },
+    {
+      "a": "R0019",
+      "b": "R0061",
+      "station_id": "ST018",
+      "n": 7
+    },
+    {
+      "a": "R0109",
+      "b": "R0055",
+      "station_id": "ST017",
+      "n": 3
+    },
+    {
+      "a": "R0016",
+      "b": "R0036",
+      "station_id": "ST014",
+      "n": 2
+    },
+    {
+      "a": "R0073",
+      "b": "R0036",
+      "station_id": "ST004",
+      "n": 2
+    },
+    {
+      "a": "R0020",
+      "b": "R0001",
+      "station_id": "ST005",
+      "n": 3
+    },
+    {
+      "a": "R0068",
+      "b": "R0070",
+      "station_id": "ST011",
+      "n": 1
+    },
+    {
+      "a": "R0097",
+      "b": "R0043",
+      "station_id": "ST011",
+      "n": 3
+    },
+    {
+      "a": "R0097",
+      "b": "R0109",
+      "station_id": "ST004",
+      "n": 3
+    },
+    {
+      "a": "R0068",
+      "b": "R0041",
+      "station_id": "ST016",
+      "n": 5
+    },
+    {
+      "a": "R0021",
+      "b": "R0064",
+      "station_id": "ST002",
+      "n": 1
+    },
+    {
+      "a": "R0100",
+      "b": "R0072",
+      "station_id": "ST015",
+      "n": 5
+    },
+    {
+      "a": "R0023",
+      "b": "R0022",
+      "station_id": "ST016",
+      "n": 3
+    },
+    {
+      "a": "R0033",
+      "b": "R0069",
+      "station_id": "ST019",
+      "n": 7
+    },
+    {
+      "a": "R0018",
+      "b": "R0077",
+      "station_id": "ST011",
+      "n": 1
+    },
+    {
+      "a": "R0001",
+      "b": "R0106",
+      "station_id": "ST016",
+      "n": 3
+    },
+    {
+      "a": "R0107",
+      "b": "R0019",
+      "station_id": "ST017",
+      "n": 2
+    },
+    {
+      "a": "R0097",
+      "b": "R0049",
+      "station_id": "ST001",
+      "n": 3
+    },
+    {
+      "a": "R0011",
+      "b": "R0000",
+      "station_id": "ST021",
+      "n": 2
+    },
+    {
+      "a": "R0005",
+      "b": "R0114",
+      "station_id": "ST023",
+      "n": 5
+    },
+    {
+      "a": "R0054",
+      "b": "R0119",
+      "station_id": "ST009",
+      "n": 3
+    },
+    {
+      "a": "R0005",
+      "b": "R0102",
+      "station_id": "ST008",
+      "n": 6
+    },
+    {
+      "a": "R0077",
+      "b": "R0078",
+      "station_id": "ST002",
+      "n": 5
+    },
+    {
+      "a": "R0064",
+      "b": "R0054",
+      "station_id": "ST009",
+      "n": 3
+    },
+    {
+      "a": "R0056",
+      "b": "R0004",
+      "station_id": "ST021",
+      "n": 4
+    },
+    {
+      "a": "R0084",
+      "b": "R0118",
+      "station_id": "ST017",
+      "n": 1
+    },
+    {
+      "a": "R0011",
+      "b": "R0064",
+      "station_id": "ST019",
+      "n": 2
+    },
+    {
+      "a": "R0062",
+      "b": "R0053",
+      "station_id": "ST015",
+      "n": 7
+    },
+    {
+      "a": "R0073",
+      "b": "R0007",
+      "station_id": "ST013",
+      "n": 6
+    },
+    {
+      "a": "R0058",
+      "b": "R0048",
+      "station_id": "ST021",
+      "n": 5
+    },
+    {
+      "a": "R0055",
+      "b": "R0104",
+      "station_id": "ST010",
+      "n": 5
+    },
+    {
+      "a": "R0111",
+      "b": "R0079",
+      "station_id": "ST002",
+      "n": 6
+    },
+    {
+      "a": "R0075",
+      "b": "R0032",
+      "station_id": "ST019",
+      "n": 2
+    },
+    {
+      "a": "R0043",
+      "b": "R0028",
+      "station_id": "ST007",
+      "n": 6
+    },
+    {
+      "a": "R0050",
+      "b": "R0096",
+      "station_id": "ST003",
+      "n": 2
+    },
+    {
+      "a": "R0064",
+      "b": "R0026",
+      "station_id": "ST016",
+      "n": 6
+    },
+    {
+      "a": "R0006",
+      "b": "R0008",
+      "station_id": "ST021",
+      "n": 5
+    },
+    {
+      "a": "R0024",
+      "b": "R0062",
+      "station_id": "ST000",
+      "n": 7
+    },
+    {
+      "a": "R0041",
+      "b": "R0051",
+      "station_id": "ST001",
+      "n": 4
+    },
+    {
+      "a": "R0051",
+      "b": "R0004",
+      "station_id": "ST000",
+      "n": 6
+    },
+    {
+      "a": "R0052",
+      "b": "R0047",
+      "station_id": "ST012",
+      "n": 6
+    },
+    {
+      "a": "R0046",
+      "b": "R0115",
+      "station_id": "ST007",
+      "n": 4
+    },
+    {
+      "a": "R0015",
+      "b": "R0008",
+      "station_id": "ST003",
+      "n": 4
+    },
+    {
+      "a": "R0106",
+      "b": "R0075",
+      "station_id": "ST019",
+      "n": 6
+    },
+    {
+      "a": "R0101",
+      "b": "R0118",
+      "station_id": "ST019",
+      "n": 5
+    },
+    {
+      "a": "R0053",
+      "b": "R0104",
+      "station_id": "ST006",
+      "n": 1
+    },
+    {
+      "a": "R0038",
+      "b": "R0072",
+      "station_id": "ST022",
+      "n": 1
+    },
+    {
+      "a": "R0064",
+      "b": "R0000",
+      "station_id": "ST002",
+      "n": 7
+    },
+    {
+      "a": "R0119",
+      "b": "R0100",
+      "station_id": "ST003",
+      "n": 5
+    },
+    {
+      "a": "R0112",
+      "b": "R0090",
+      "station_id": "ST010",
+      "n": 2
+    },
+    {
+      "a": "R0055",
+      "b": "R0031",
+      "station_id": "ST017",
+      "n": 6
+    },
+    {
+      "a": "R0011",
+      "b": "R0022",
+      "station_id": "ST014",
+      "n": 6
+    },
+    {
+      "a": "R0113",
+      "b": "R0050",
+      "station_id": "ST007",
+      "n": 3
+    },
+    {
+      "a": "R0016",
+      "b": "R0076",
+      "station_id": "ST010",
+      "n": 2
+    },
+    {
+      "a": "R0078",
+      "b": "R0115",
+      "station_id": "ST007",
+      "n": 1
+    },
+    {
+      "a": "R0114",
+      "b": "R0073",
+      "station_id": "ST014",
+      "n": 3
+    },
+    {
+      "a": "R0036",
+      "b": "R0115",
+      "station_id": "ST001",
+      "n": 6
+    },
+    {
+      "a": "R0087",
+      "b": "R0047",
+      "station_id": "ST003",
+      "n": 5
+    },
+    {
+      "a": "R0003",
+      "b": "R0099",
+      "station_id": "ST023",
+      "n": 2
+    },
+    {
+      "a": "R0092",
+      "b": "R0117",
+      "station_id": "ST001",
+      "n": 5
+    },
+    {
+      "a": "R0026",
+      "b": "R0058",
+      "station_id": "ST019",
+      "n": 4
+    },
+    {
+      "a": "R0076",
+      "b": "R0072",
+      "station_id": "ST005",
+      "n": 7
+    },
+    {
+      "a": "R0034",
+      "b": "R0024",
+      "station_id": "ST015",
+      "n": 2
+    },
+    {
+      "a": "R0040",
+      "b": "R0100",
+      "station_id": "ST014",
+      "n": 3
+    },
+    {
+      "a": "R0061",
+      "b": "R0100",
+      "station_id": "ST011",
+      "n": 7
+    },
+    {
+      "a": "R0013",
+      "b": "R0077",
+      "station_id": "ST022",
+      "n": 4
+    },
+    {
+      "a": "R0068",
+      "b": "R0000",
+      "station_id": "ST019",
+      "n": 2
+    },
+    {
+      "a": "R0068",
+      "b": "R0080",
+      "station_id": "ST000",
+      "n": 7
+    },
+    {
+      "a": "R0034",
+      "b": "R0024",
+      "station_id": "ST022",
+      "n": 7
+    },
+    {
+      "a": "R0035",
+      "b": "R0068",
+      "station_id": "ST018",
+      "n": 4
+    },
+    {
+      "a": "R0030",
+      "b": "R0082",
+      "station_id": "ST019",
+      "n": 5
+    },
+    {
+      "a": "R0044",
+      "b": "R0006",
+      "station_id": "ST013",
+      "n": 3
+    },
+    {
+      "a": "R0111",
+      "b": "R0008",
+      "station_id": "ST010",
+      "n": 6
+    }
+  ],
+  "le_gusta": [
+    {
+      "rider_id": "R0000",
+      "interes": "futbol"
+    },
+    {
+      "rider_id": "R0001",
+      "interes": "gastronomia"
+    },
+    {
+      "rider_id": "R0002",
+      "interes": "musica"
+    },
+    {
+      "rider_id": "R0003",
+      "interes": "diseno"
+    },
+    {
+      "rider_id": "R0004",
+      "interes": "musica"
+    },
+    {
+      "rider_id": "R0005",
+      "interes": "cafe"
+    },
+    {
+      "rider_id": "R0006",
+      "interes": "clima"
+    },
+    {
+      "rider_id": "R0007",
+      "interes": "fotografia"
+    },
+    {
+      "rider_id": "R0008",
+      "interes": "musica"
+    },
+    {
+      "rider_id": "R0009",
+      "interes": "tecnologia"
+    },
+    {
+      "rider_id": "R0010",
+      "interes": "clima"
+    },
+    {
+      "rider_id": "R0011",
+      "interes": "musica"
+    },
+    {
+      "rider_id": "R0012",
+      "interes": "tecnologia"
+    },
+    {
+      "rider_id": "R0013",
+      "interes": "gastronomia"
+    },
+    {
+      "rider_id": "R0014",
+      "interes": "fotografia"
+    },
+    {
+      "rider_id": "R0015",
+      "interes": "diseno"
+    },
+    {
+      "rider_id": "R0016",
+      "interes": "clima"
+    },
+    {
+      "rider_id": "R0017",
+      "interes": "clima"
+    },
+    {
+      "rider_id": "R0018",
+      "interes": "ciclovia"
+    },
+    {
+      "rider_id": "R0019",
+      "interes": "running"
+    },
+    {
+      "rider_id": "R0020",
+      "interes": "musica"
+    },
+    {
+      "rider_id": "R0021",
+      "interes": "ciclovia"
+    },
+    {
+      "rider_id": "R0022",
+      "interes": "clima"
+    },
+    {
+      "rider_id": "R0023",
+      "interes": "diseno"
+    },
+    {
+      "rider_id": "R0024",
+      "interes": "diseno"
+    },
+    {
+      "rider_id": "R0025",
+      "interes": "fotografia"
+    },
+    {
+      "rider_id": "R0026",
+      "interes": "tecnologia"
+    },
+    {
+      "rider_id": "R0027",
+      "interes": "fotografia"
+    },
+    {
+      "rider_id": "R0028",
+      "interes": "gastronomia"
+    },
+    {
+      "rider_id": "R0029",
+      "interes": "futbol"
+    },
+    {
+      "rider_id": "R0030",
+      "interes": "fotografia"
+    },
+    {
+      "rider_id": "R0031",
+      "interes": "ciclovia"
+    },
+    {
+      "rider_id": "R0032",
+      "interes": "ciclovia"
+    },
+    {
+      "rider_id": "R0033",
+      "interes": "futbol"
+    },
+    {
+      "rider_id": "R0034",
+      "interes": "musica"
+    },
+    {
+      "rider_id": "R0035",
+      "interes": "ciclovia"
+    },
+    {
+      "rider_id": "R0036",
+      "interes": "fotografia"
+    },
+    {
+      "rider_id": "R0037",
+      "interes": "cafe"
+    },
+    {
+      "rider_id": "R0038",
+      "interes": "diseno"
+    },
+    {
+      "rider_id": "R0039",
+      "interes": "tecnologia"
+    },
+    {
+      "rider_id": "R0040",
+      "interes": "running"
+    },
+    {
+      "rider_id": "R0041",
+      "interes": "diseno"
+    },
+    {
+      "rider_id": "R0042",
+      "interes": "running"
+    },
+    {
+      "rider_id": "R0043",
+      "interes": "gastronomia"
+    },
+    {
+      "rider_id": "R0044",
+      "interes": "ciclovia"
+    },
+    {
+      "rider_id": "R0045",
+      "interes": "diseno"
+    },
+    {
+      "rider_id": "R0046",
+      "interes": "diseno"
+    },
+    {
+      "rider_id": "R0047",
+      "interes": "diseno"
+    },
+    {
+      "rider_id": "R0048",
+      "interes": "futbol"
+    },
+    {
+      "rider_id": "R0049",
+      "interes": "ciclovia"
+    },
+    {
+      "rider_id": "R0050",
+      "interes": "gastronomia"
+    },
+    {
+      "rider_id": "R0051",
+      "interes": "tecnologia"
+    },
+    {
+      "rider_id": "R0052",
+      "interes": "cafe"
+    },
+    {
+      "rider_id": "R0053",
+      "interes": "ciclovia"
+    },
+    {
+      "rider_id": "R0054",
+      "interes": "running"
+    },
+    {
+      "rider_id": "R0055",
+      "interes": "tecnologia"
+    },
+    {
+      "rider_id": "R0056",
+      "interes": "clima"
+    },
+    {
+      "rider_id": "R0057",
+      "interes": "tecnologia"
+    },
+    {
+      "rider_id": "R0058",
+      "interes": "running"
+    },
+    {
+      "rider_id": "R0059",
+      "interes": "musica"
+    },
+    {
+      "rider_id": "R0060",
+      "interes": "running"
+    },
+    {
+      "rider_id": "R0061",
+      "interes": "running"
+    },
+    {
+      "rider_id": "R0062",
+      "interes": "fotografia"
+    },
+    {
+      "rider_id": "R0063",
+      "interes": "tecnologia"
+    },
+    {
+      "rider_id": "R0064",
+      "interes": "gastronomia"
+    },
+    {
+      "rider_id": "R0065",
+      "interes": "fotografia"
+    },
+    {
+      "rider_id": "R0066",
+      "interes": "fotografia"
+    },
+    {
+      "rider_id": "R0067",
+      "interes": "ciclovia"
+    },
+    {
+      "rider_id": "R0068",
+      "interes": "ciclovia"
+    },
+    {
+      "rider_id": "R0069",
+      "interes": "ciclovia"
+    },
+    {
+      "rider_id": "R0070",
+      "interes": "musica"
+    },
+    {
+      "rider_id": "R0071",
+      "interes": "cafe"
+    },
+    {
+      "rider_id": "R0072",
+      "interes": "futbol"
+    },
+    {
+      "rider_id": "R0073",
+      "interes": "running"
+    },
+    {
+      "rider_id": "R0074",
+      "interes": "tecnologia"
+    },
+    {
+      "rider_id": "R0075",
+      "interes": "futbol"
+    },
+    {
+      "rider_id": "R0076",
+      "interes": "diseno"
+    },
+    {
+      "rider_id": "R0077",
+      "interes": "cafe"
+    },
+    {
+      "rider_id": "R0078",
+      "interes": "fotografia"
+    },
+    {
+      "rider_id": "R0079",
+      "interes": "gastronomia"
+    },
+    {
+      "rider_id": "R0080",
+      "interes": "futbol"
+    },
+    {
+      "rider_id": "R0081",
+      "interes": "futbol"
+    },
+    {
+      "rider_id": "R0082",
+      "interes": "gastronomia"
+    },
+    {
+      "rider_id": "R0083",
+      "interes": "ciclovia"
+    },
+    {
+      "rider_id": "R0084",
+      "interes": "clima"
+    },
+    {
+      "rider_id": "R0085",
+      "interes": "cafe"
+    },
+    {
+      "rider_id": "R0086",
+      "interes": "diseno"
+    },
+    {
+      "rider_id": "R0087",
+      "interes": "tecnologia"
+    },
+    {
+      "rider_id": "R0088",
+      "interes": "clima"
+    },
+    {
+      "rider_id": "R0089",
+      "interes": "musica"
+    },
+    {
+      "rider_id": "R0090",
+      "interes": "diseno"
+    },
+    {
+      "rider_id": "R0091",
+      "interes": "fotografia"
+    },
+    {
+      "rider_id": "R0092",
+      "interes": "running"
+    },
+    {
+      "rider_id": "R0093",
+      "interes": "cafe"
+    },
+    {
+      "rider_id": "R0094",
+      "interes": "diseno"
+    },
+    {
+      "rider_id": "R0095",
+      "interes": "gastronomia"
+    },
+    {
+      "rider_id": "R0096",
+      "interes": "fotografia"
+    },
+    {
+      "rider_id": "R0097",
+      "interes": "musica"
+    },
+    {
+      "rider_id": "R0098",
+      "interes": "ciclovia"
+    },
+    {
+      "rider_id": "R0099",
+      "interes": "cafe"
+    },
+    {
+      "rider_id": "R0100",
+      "interes": "ciclovia"
+    },
+    {
+      "rider_id": "R0101",
+      "interes": "musica"
+    },
+    {
+      "rider_id": "R0102",
+      "interes": "musica"
+    },
+    {
+      "rider_id": "R0103",
+      "interes": "running"
+    },
+    {
+      "rider_id": "R0104",
+      "interes": "gastronomia"
+    },
+    {
+      "rider_id": "R0105",
+      "interes": "tecnologia"
+    },
+    {
+      "rider_id": "R0106",
+      "interes": "fotografia"
+    },
+    {
+      "rider_id": "R0107",
+      "interes": "tecnologia"
+    },
+    {
+      "rider_id": "R0108",
+      "interes": "musica"
+    },
+    {
+      "rider_id": "R0109",
+      "interes": "diseno"
+    },
+    {
+      "rider_id": "R0110",
+      "interes": "running"
+    },
+    {
+      "rider_id": "R0111",
+      "interes": "gastronomia"
+    },
+    {
+      "rider_id": "R0112",
+      "interes": "cafe"
+    },
+    {
+      "rider_id": "R0113",
+      "interes": "tecnologia"
+    },
+    {
+      "rider_id": "R0114",
+      "interes": "gastronomia"
+    },
+    {
+      "rider_id": "R0115",
+      "interes": "tecnologia"
+    },
+    {
+      "rider_id": "R0116",
+      "interes": "clima"
+    },
+    {
+      "rider_id": "R0117",
+      "interes": "musica"
+    },
+    {
+      "rider_id": "R0118",
+      "interes": "fotografia"
+    },
+    {
+      "rider_id": "R0119",
+      "interes": "ciclovia"
+    },
+    {
+      "rider_id": "R0000",
+      "interes": "cafe"
+    },
+    {
+      "rider_id": "R0003",
+      "interes": "futbol"
+    },
+    {
+      "rider_id": "R0004",
+      "interes": "fotografia"
+    },
+    {
+      "rider_id": "R0005",
+      "interes": "ciclovia"
+    },
+    {
+      "rider_id": "R0006",
+      "interes": "futbol"
+    },
+    {
+      "rider_id": "R0007",
+      "interes": "clima"
+    },
+    {
+      "rider_id": "R0008",
+      "interes": "fotografia"
+    },
+    {
+      "rider_id": "R0009",
+      "interes": "cafe"
+    },
+    {
+      "rider_id": "R0010",
+      "interes": "running"
+    },
+    {
+      "rider_id": "R0011",
+      "interes": "ciclovia"
+    },
+    {
+      "rider_id": "R0012",
+      "interes": "gastronomia"
+    },
+    {
+      "rider_id": "R0013",
+      "interes": "ciclovia"
+    },
+    {
+      "rider_id": "R0014",
+      "interes": "futbol"
+    },
+    {
+      "rider_id": "R0015",
+      "interes": "gastronomia"
+    },
+    {
+      "rider_id": "R0016",
+      "interes": "ciclovia"
+    },
+    {
+      "rider_id": "R0018",
+      "interes": "running"
+    },
+    {
+      "rider_id": "R0019",
+      "interes": "musica"
+    },
+    {
+      "rider_id": "R0020",
+      "interes": "clima"
+    },
+    {
+      "rider_id": "R0021",
+      "interes": "futbol"
+    },
+    {
+      "rider_id": "R0022",
+      "interes": "diseno"
+    },
+    {
+      "rider_id": "R0023",
+      "interes": "running"
+    },
+    {
+      "rider_id": "R0026",
+      "interes": "running"
+    },
+    {
+      "rider_id": "R0027",
+      "interes": "ciclovia"
+    },
+    {
+      "rider_id": "R0028",
+      "interes": "clima"
+    },
+    {
+      "rider_id": "R0030",
+      "interes": "diseno"
+    },
+    {
+      "rider_id": "R0031",
+      "interes": "futbol"
+    },
+    {
+      "rider_id": "R0033",
+      "interes": "fotografia"
+    },
+    {
+      "rider_id": "R0034",
+      "interes": "futbol"
+    },
+    {
+      "rider_id": "R0036",
+      "interes": "gastronomia"
+    },
+    {
+      "rider_id": "R0037",
+      "interes": "gastronomia"
+    },
+    {
+      "rider_id": "R0038",
+      "interes": "cafe"
+    },
+    {
+      "rider_id": "R0039",
+      "interes": "cafe"
+    },
+    {
+      "rider_id": "R0040",
+      "interes": "clima"
+    },
+    {
+      "rider_id": "R0041",
+      "interes": "cafe"
+    },
+    {
+      "rider_id": "R0042",
+      "interes": "musica"
+    },
+    {
+      "rider_id": "R0043",
+      "interes": "running"
+    },
+    {
+      "rider_id": "R0044",
+      "interes": "running"
+    },
+    {
+      "rider_id": "R0045",
+      "interes": "running"
+    },
+    {
+      "rider_id": "R0046",
+      "interes": "ciclovia"
+    },
+    {
+      "rider_id": "R0047",
+      "interes": "musica"
+    },
+    {
+      "rider_id": "R0048",
+      "interes": "musica"
+    },
+    {
+      "rider_id": "R0049",
+      "interes": "futbol"
+    },
+    {
+      "rider_id": "R0051",
+      "interes": "musica"
+    },
+    {
+      "rider_id": "R0052",
+      "interes": "fotografia"
+    },
+    {
+      "rider_id": "R0053",
+      "interes": "cafe"
+    },
+    {
+      "rider_id": "R0054",
+      "interes": "musica"
+    },
+    {
+      "rider_id": "R0055",
+      "interes": "diseno"
+    },
+    {
+      "rider_id": "R0056",
+      "interes": "ciclovia"
+    },
+    {
+      "rider_id": "R0057",
+      "interes": "running"
+    },
+    {
+      "rider_id": "R0058",
+      "interes": "tecnologia"
+    },
+    {
+      "rider_id": "R0059",
+      "interes": "futbol"
+    },
+    {
+      "rider_id": "R0060",
+      "interes": "fotografia"
+    },
+    {
+      "rider_id": "R0061",
+      "interes": "clima"
+    },
+    {
+      "rider_id": "R0062",
+      "interes": "diseno"
+    },
+    {
+      "rider_id": "R0063",
+      "interes": "musica"
+    },
+    {
+      "rider_id": "R0064",
+      "interes": "clima"
+    },
+    {
+      "rider_id": "R0065",
+      "interes": "ciclovia"
+    },
+    {
+      "rider_id": "R0066",
+      "interes": "cafe"
+    },
+    {
+      "rider_id": "R0067",
+      "interes": "clima"
+    },
+    {
+      "rider_id": "R0068",
+      "interes": "tecnologia"
+    },
+    {
+      "rider_id": "R0069",
+      "interes": "running"
+    },
+    {
+      "rider_id": "R0070",
+      "interes": "futbol"
+    },
+    {
+      "rider_id": "R0071",
+      "interes": "musica"
+    },
+    {
+      "rider_id": "R0072",
+      "interes": "fotografia"
+    },
+    {
+      "rider_id": "R0073",
+      "interes": "gastronomia"
+    },
+    {
+      "rider_id": "R0074",
+      "interes": "musica"
+    },
+    {
+      "rider_id": "R0075",
+      "interes": "fotografia"
+    },
+    {
+      "rider_id": "R0076",
+      "interes": "ciclovia"
+    },
+    {
+      "rider_id": "R0077",
+      "interes": "ciclovia"
+    },
+    {
+      "rider_id": "R0078",
+      "interes": "futbol"
+    },
+    {
+      "rider_id": "R0079",
+      "interes": "fotografia"
+    },
+    {
+      "rider_id": "R0080",
+      "interes": "running"
+    },
+    {
+      "rider_id": "R0081",
+      "interes": "cafe"
+    },
+    {
+      "rider_id": "R0082",
+      "interes": "futbol"
+    },
+    {
+      "rider_id": "R0083",
+      "interes": "futbol"
+    },
+    {
+      "rider_id": "R0084",
+      "interes": "tecnologia"
+    },
+    {
+      "rider_id": "R0085",
+      "interes": "diseno"
+    },
+    {
+      "rider_id": "R0087",
+      "interes": "musica"
+    },
+    {
+      "rider_id": "R0088",
+      "interes": "gastronomia"
+    },
+    {
+      "rider_id": "R0089",
+      "interes": "fotografia"
+    },
+    {
+      "rider_id": "R0090",
+      "interes": "musica"
+    },
+    {
+      "rider_id": "R0091",
+      "interes": "diseno"
+    },
+    {
+      "rider_id": "R0092",
+      "interes": "diseno"
+    },
+    {
+      "rider_id": "R0093",
+      "interes": "running"
+    },
+    {
+      "rider_id": "R0094",
+      "interes": "running"
+    },
+    {
+      "rider_id": "R0095",
+      "interes": "musica"
+    },
+    {
+      "rider_id": "R0096",
+      "interes": "musica"
+    },
+    {
+      "rider_id": "R0097",
+      "interes": "futbol"
+    },
+    {
+      "rider_id": "R0098",
+      "interes": "musica"
+    },
+    {
+      "rider_id": "R0099",
+      "interes": "gastronomia"
+    },
+    {
+      "rider_id": "R0101",
+      "interes": "fotografia"
+    },
+    {
+      "rider_id": "R0102",
+      "interes": "tecnologia"
+    },
+    {
+      "rider_id": "R0103",
+      "interes": "clima"
+    },
+    {
+      "rider_id": "R0104",
+      "interes": "clima"
+    },
+    {
+      "rider_id": "R0105",
+      "interes": "clima"
+    },
+    {
+      "rider_id": "R0107",
+      "interes": "musica"
+    },
+    {
+      "rider_id": "R0108",
+      "interes": "ciclovia"
+    },
+    {
+      "rider_id": "R0109",
+      "interes": "tecnologia"
+    },
+    {
+      "rider_id": "R0110",
+      "interes": "futbol"
+    },
+    {
+      "rider_id": "R0111",
+      "interes": "running"
+    },
+    {
+      "rider_id": "R0112",
+      "interes": "tecnologia"
+    },
+    {
+      "rider_id": "R0113",
+      "interes": "ciclovia"
+    },
+    {
+      "rider_id": "R0114",
+      "interes": "musica"
+    },
+    {
+      "rider_id": "R0115",
+      "interes": "ciclovia"
+    },
+    {
+      "rider_id": "R0116",
+      "interes": "gastronomia"
+    },
+    {
+      "rider_id": "R0117",
+      "interes": "running"
+    },
+    {
+      "rider_id": "R0118",
+      "interes": "ciclovia"
+    },
+    {
+      "rider_id": "R0119",
+      "interes": "tecnologia"
+    }
+  ]
+}
