@@ -1,0 +1,52 @@
+NexoUrbano — perfilado dataset abierto
+Archivo: data\Dataset_abierto_real.csv
+Generado: 2026-10-09T19:14:14
+
+Filas (sin encabezado): 750,650
+Requisito mínimo 100k filas: CUMPLE (100,000 requeridas)
+Columnas (12): id, genero, edad, fecha_alta, hora_alta, dni, anio, mes, dia, nombre_dia, nombre_mes, tipo_dia
+
+=== Nulos y vacíos ===
+  id [numeric]: nulos=0 (0.00%), vacios=0 (0.00%), cardinalidad~750650
+  id duplicados aparentes: 0
+  genero [categorical]: nulos=0 (0.00%), vacios=0 (0.00%), cardinalidad~3
+  edad [numeric]: nulos=0 (0.00%), vacios=0 (0.00%), cardinalidad~75
+  edad: min=16.0, max=90.0, media=32.58, mediana=30.00
+  edad fuera de [16,100] (outliers operativos): 0 (0.00%)
+  fecha_alta [date]: nulos=0 (0.00%), vacios=0 (0.00%), cardinalidad~2186
+  hora_alta [time]: nulos=0 (0.00%), vacios=0 (0.00%), cardinalidad~50000 (cardinalidad truncada en muestra)
+  dni [categorical]: nulos=0 (0.00%), vacios=0 (0.00%), cardinalidad~2
+  anio [numeric]: nulos=0 (0.00%), vacios=0 (0.00%), cardinalidad~7
+  mes [numeric]: nulos=0 (0.00%), vacios=0 (0.00%), cardinalidad~12
+  dia [numeric]: nulos=0 (0.00%), vacios=0 (0.00%), cardinalidad~31
+  nombre_dia [categorical]: nulos=0 (0.00%), vacios=0 (0.00%), cardinalidad~7
+  nombre_mes [categorical]: nulos=0 (0.00%), vacios=0 (0.00%), cardinalidad~12
+  tipo_dia [categorical]: nulos=0 (0.00%), vacios=0 (0.00%), cardinalidad~2
+
+Drift temporal (fecha_alta):
+  Rango: 2019-02-16 -> 2025-03-06
+  Filas con fecha parseable: 750650 / 750650
+  Conteo por año:
+    2019: 82,789
+    2020: 107,126
+    2021: 81,564
+    2022: 105,986
+    2023: 136,012
+    2024: 196,983
+    2025: 40,190
+  Top 6 meses (año-mes):
+    2025-01: 22,883
+    2024-10: 21,963
+    2020-01: 20,751
+    2024-09: 20,613
+    2024-01: 20,442
+    2024-11: 20,293
+
+Métricas de negocio (dataset abierto — altas / usuarios):
+  1) Total registros perfilados: 750,650
+  2) Distribución género: {'Masculino': 347700, 'Femenino': 303565, 'Otro': 99385}
+  3) Edad p50 / p95: 30 / 55 años
+  4) Hora de alta más frecuente (moda): (16, 68100)
+  5) Tipo de día: {'Día hábil': 513027, 'Fin de semana': 237623}
+
+Nota: este CSV describe altas de usuarios (dataset abierto real). El Bronze operativo de viajes del TP sigue en data/viajes.csv (contrato bronze_viajes.yaml).

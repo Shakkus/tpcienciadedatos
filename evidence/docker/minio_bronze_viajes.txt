@@ -1,0 +1,115 @@
+NexoUrbano — Bronze viajes en MinIO
+Origen: data\viajes.csv
+Endpoint API: http://localhost:9000
+Consola: http://localhost:9001
+Filas subidas: 250,000
+Particiones (días): 91
+
+URI base: s3a://bronze/viajes/yyyy/mm/dd/viajes.csv
+
+Muestra de URIs:
+  s3a://bronze/viajes/2026/03/01/viajes.csv
+  s3a://bronze/viajes/2026/03/02/viajes.csv
+  s3a://bronze/viajes/2026/03/03/viajes.csv
+  s3a://bronze/viajes/2026/03/04/viajes.csv
+  s3a://bronze/viajes/2026/03/05/viajes.csv
+  s3a://bronze/viajes/2026/03/06/viajes.csv
+  s3a://bronze/viajes/2026/03/07/viajes.csv
+  s3a://bronze/viajes/2026/03/08/viajes.csv
+  s3a://bronze/viajes/2026/03/09/viajes.csv
+  s3a://bronze/viajes/2026/03/10/viajes.csv
+  ... y 81 particiones más
+
+Objetos en bronze (prefijo viajes/):
+  bronze/viajes/2026/03/01/viajes.csv (484087 bytes)
+  bronze/viajes/2026/03/02/viajes.csv (467836 bytes)
+  bronze/viajes/2026/03/03/viajes.csv (462639 bytes)
+  bronze/viajes/2026/03/04/viajes.csv (450968 bytes)
+  bronze/viajes/2026/03/05/viajes.csv (461557 bytes)
+  bronze/viajes/2026/03/06/viajes.csv (479510 bytes)
+  bronze/viajes/2026/03/07/viajes.csv (473356 bytes)
+  bronze/viajes/2026/03/08/viajes.csv (480731 bytes)
+  bronze/viajes/2026/03/09/viajes.csv (468575 bytes)
+  bronze/viajes/2026/03/10/viajes.csv (449684 bytes)
+  bronze/viajes/2026/03/11/viajes.csv (462280 bytes)
+  bronze/viajes/2026/03/12/viajes.csv (459289 bytes)
+  bronze/viajes/2026/03/13/viajes.csv (473330 bytes)
+  bronze/viajes/2026/03/14/viajes.csv (454163 bytes)
+  bronze/viajes/2026/03/15/viajes.csv (466718 bytes)
+  bronze/viajes/2026/03/16/viajes.csv (464276 bytes)
+  bronze/viajes/2026/03/17/viajes.csv (471184 bytes)
+  bronze/viajes/2026/03/18/viajes.csv (454635 bytes)
+  bronze/viajes/2026/03/19/viajes.csv (475976 bytes)
+  bronze/viajes/2026/03/20/viajes.csv (473546 bytes)
+  bronze/viajes/2026/03/21/viajes.csv (472590 bytes)
+  bronze/viajes/2026/03/22/viajes.csv (432301 bytes)
+  bronze/viajes/2026/03/23/viajes.csv (477872 bytes)
+  bronze/viajes/2026/03/24/viajes.csv (466917 bytes)
+  bronze/viajes/2026/03/25/viajes.csv (475801 bytes)
+  bronze/viajes/2026/03/26/viajes.csv (466614 bytes)
+  bronze/viajes/2026/03/27/viajes.csv (463297 bytes)
+  bronze/viajes/2026/03/28/viajes.csv (456181 bytes)
+  bronze/viajes/2026/03/29/viajes.csv (469931 bytes)
+  bronze/viajes/2026/03/30/viajes.csv (468607 bytes)
+  bronze/viajes/2026/03/31/viajes.csv (461538 bytes)
+  bronze/viajes/2026/04/01/viajes.csv (466531 bytes)
+  bronze/viajes/2026/04/02/viajes.csv (456080 bytes)
+  bronze/viajes/2026/04/03/viajes.csv (472271 bytes)
+  bronze/viajes/2026/04/04/viajes.csv (461283 bytes)
+  bronze/viajes/2026/04/05/viajes.csv (471802 bytes)
+  bronze/viajes/2026/04/06/viajes.csv (460582 bytes)
+  bronze/viajes/2026/04/07/viajes.csv (457572 bytes)
+  bronze/viajes/2026/04/08/viajes.csv (478843 bytes)
+  bronze/viajes/2026/04/09/viajes.csv (482601 bytes)
+  bronze/viajes/2026/04/10/viajes.csv (446523 bytes)
+  bronze/viajes/2026/04/11/viajes.csv (464973 bytes)
+  bronze/viajes/2026/04/12/viajes.csv (471234 bytes)
+  bronze/viajes/2026/04/13/viajes.csv (473682 bytes)
+  bronze/viajes/2026/04/14/viajes.csv (477844 bytes)
+  bronze/viajes/2026/04/15/viajes.csv (458869 bytes)
+  bronze/viajes/2026/04/16/viajes.csv (475082 bytes)
+  bronze/viajes/2026/04/17/viajes.csv (449873 bytes)
+  bronze/viajes/2026/04/18/viajes.csv (467930 bytes)
+  bronze/viajes/2026/04/19/viajes.csv (453366 bytes)
+  bronze/viajes/2026/04/20/viajes.csv (474461 bytes)
+  bronze/viajes/2026/04/21/viajes.csv (473880 bytes)
+  bronze/viajes/2026/04/22/viajes.csv (478776 bytes)
+  bronze/viajes/2026/04/23/viajes.csv (465698 bytes)
+  bronze/viajes/2026/04/24/viajes.csv (475690 bytes)
+  bronze/viajes/2026/04/25/viajes.csv (467469 bytes)
+  bronze/viajes/2026/04/26/viajes.csv (464331 bytes)
+  bronze/viajes/2026/04/27/viajes.csv (466630 bytes)
+  bronze/viajes/2026/04/28/viajes.csv (470733 bytes)
+  bronze/viajes/2026/04/29/viajes.csv (469165 bytes)
+  bronze/viajes/2026/04/30/viajes.csv (459947 bytes)
+  bronze/viajes/2026/05/01/viajes.csv (468007 bytes)
+  bronze/viajes/2026/05/02/viajes.csv (465073 bytes)
+  bronze/viajes/2026/05/03/viajes.csv (458293 bytes)
+  bronze/viajes/2026/05/04/viajes.csv (464849 bytes)
+  bronze/viajes/2026/05/05/viajes.csv (460083 bytes)
+  bronze/viajes/2026/05/06/viajes.csv (465667 bytes)
+  bronze/viajes/2026/05/07/viajes.csv (460324 bytes)
+  bronze/viajes/2026/05/08/viajes.csv (469015 bytes)
+  bronze/viajes/2026/05/09/viajes.csv (475948 bytes)
+  bronze/viajes/2026/05/10/viajes.csv (459893 bytes)
+  bronze/viajes/2026/05/11/viajes.csv (483973 bytes)
+  bronze/viajes/2026/05/12/viajes.csv (475763 bytes)
+  bronze/viajes/2026/05/13/viajes.csv (448065 bytes)
+  bronze/viajes/2026/05/14/viajes.csv (472121 bytes)
+  bronze/viajes/2026/05/15/viajes.csv (465202 bytes)
+  bronze/viajes/2026/05/16/viajes.csv (473056 bytes)
+  bronze/viajes/2026/05/17/viajes.csv (473258 bytes)
+  bronze/viajes/2026/05/18/viajes.csv (469964 bytes)
+  bronze/viajes/2026/05/19/viajes.csv (452843 bytes)
+  bronze/viajes/2026/05/20/viajes.csv (465024 bytes)
+  bronze/viajes/2026/05/21/viajes.csv (440388 bytes)
+  bronze/viajes/2026/05/22/viajes.csv (472854 bytes)
+  bronze/viajes/2026/05/23/viajes.csv (468803 bytes)
+  bronze/viajes/2026/05/24/viajes.csv (470705 bytes)
+  bronze/viajes/2026/05/25/viajes.csv (456784 bytes)
+  bronze/viajes/2026/05/26/viajes.csv (463307 bytes)
+  bronze/viajes/2026/05/27/viajes.csv (474462 bytes)
+  bronze/viajes/2026/05/28/viajes.csv (472003 bytes)
+  bronze/viajes/2026/05/29/viajes.csv (476278 bytes)
+  bronze/viajes/2026/05/30/viajes.csv (334 bytes)
+Total objetos listados: 91

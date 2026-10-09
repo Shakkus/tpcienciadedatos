@@ -1,0 +1,37 @@
+# Contrato — dataset abierto real (perfilado 01-discovery/perfilado.py)
+# Complementa el Bronze de viajes sintéticos (bronze_viajes.yaml); no reemplaza el grano ride_id.
+
+dataset: dataset_abierto_real
+owner: squad_discovery
+grano: un registro de alta de usuario (id)
+timezone: America/Argentina/Buenos_Aires
+formato: csv
+archivo_repo: data/Dataset_abierto_real.csv
+clave_primaria: id
+
+fuentes:
+  - dataset abierto de movilidad/usuarios (declarar URL en ADR/000-contexto.md)
+
+columnas:
+  - {nombre: id, tipo: string, nullable: false}
+  - {nombre: genero, tipo: string, nullable: false}
+  - {nombre: edad, tipo: int, nullable: false}
+  - {nombre: fecha_alta, tipo: date, nullable: false}
+  - {nombre: hora_alta, tipo: time, nullable: false}
+  - {nombre: dni, tipo: string, nullable: true}
+  - {nombre: anio, tipo: int, nullable: false}
+  - {nombre: mes, tipo: int, nullable: false}
+  - {nombre: dia, tipo: int, nullable: false}
+  - {nombre: nombre_dia, tipo: string, nullable: false}
+  - {nombre: nombre_mes, tipo: string, nullable: false}
+  - {nombre: tipo_dia, tipo: string, nullable: false}
+
+reglas_calidad_observadas:
+  - edad fuera de [16, 100] documentar en perfilado (outliers demográficos)
+  - columna dni enmascarada o constante (valor FALSE en muestra) — no usar como PII en Gold
+
+calidad:
+  filas_minimas_entrega: 100000
+  filas_medidas: 750650
+  nulos_max_pct: 2
+  duplicados_id: 0
