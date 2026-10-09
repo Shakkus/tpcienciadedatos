@@ -1,1 +1,1 @@
-{"ts": "2026-05-20T12:00:51+00:00", "event": "unlock_ok", "vehicle_id": "V0059", "rider_id": "R0078", "battery_pct": 56.7}
+{"ts": "2026-05-20T12:00:51+00:00", "event": "ride_start", "vehicle_id": "V0037", "rider_id": "R0025", "battery_pct": 63.6}

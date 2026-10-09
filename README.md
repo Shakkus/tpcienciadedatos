@@ -1,33 +1,84 @@
-# NexoUrbano 2026 — pack del TP
+# NexoUrbano 2026 — Squad (grupo 67)
 
-Este directorio es el **pack de cátedra** del trabajo práctico evaluativo.
+Ciudad: **Buenos Aires** · Semilla datos sintéticos: **`67001`** · Contexto: [ADR/000-contexto.md](ADR/000-contexto.md)
 
-| Archivo | Quién lo usa |
-|---|---|
-| [TP_NexoUrbano_2026.md](TP_NexoUrbano_2026.md) | Estudiantes (enunciado completo) |
-| [ANEXO_DOCENTE.md](ANEXO_DOCENTE.md) | Docentes (rúbrica viva, orales, plan B) |
-| [tools/generar_datos.py](tools/generar_datos.py) | Squads, día 0 |
-| [docker-compose.yml](docker-compose.yml) | Mongo, Cassandra, Neo4j, MySQL, MinIO |
-| [contratos/bronze_viajes.yaml](contratos/bronze_viajes.yaml) | Plantilla de data contract |
-| [.env.example](.env.example) | Secretos fuera de Git |
+Integrantes: Sebastian Albornoz, Mauricio Jurado, Alvaro Costa.
 
-## Arranque en 10 minutos
+**Cola de trabajo por persona:** [PENDIENTES_POR_INTEGRANTE.md](PENDIENTES_POR_INTEGRANTE.md)
+
+## Arranque local (< 20 min)
+
+### 1. Datos
 
 ```bash
-python3 tools/generar_datos.py --seed 101 --n-viajes 250000
-docker compose up -d mysql mongo minio
+python tools/generar_datos.py --seed 67001 --n-viajes 250000
 ```
 
-Luego cada squad copia la estructura de carpetas del enunciado a **su** repositorio (no entreguen este pack mezclado con el producto).
+Dataset abierto real (M1): `data/Dataset_abierto_real.csv` (perfilado en `01-discovery/perfilado.py`).
 
-## Semilla
+### 2. Docker (mínimo kick-off)
 
-`--seed` = número de grupo × 100 + comisión. Dos grupos con la misma semilla tienen los mismos IDs: eso se considera copia.
+```bash
+docker compose up -d mysql mongo minio
+docker compose ps
+```
 
-## Hardware
+| Servicio | Puerto host | Notas |
+|----------|-------------|--------|
+| MinIO API | 9000 | S3 |
+| MinIO consola | 9001 | usuario/clave en `docker-compose.yml` |
+| MySQL | 3306 | DB `crm`, root password `nexo` |
+| Mongo | 27018 | Un NoSQL a la vez si tenés 8 GB RAM |
 
-- 8 GB RAM: levantar **un** NoSQL a la vez.
-- 16 GB: MySQL + Mongo + Neo4j juntos; Cassandra aparte.
-- Hadoop/Hive/HBase: sandbox Docker de la cátedra o el que documente el squad.
+```bash
+cp .env.example .env
+pip install -r requirements.txt
+```
 
-Azure y Databricks van por **cuenta free / Community**. Si piden tarjeta, MinIO + Spark local con ADR de paridad (está permitido en el enunciado).
+### 3. Bronze en el lake (MinIO)
+
+```bash
+python tools/bronze_a_minio.py
+```
+
+- **URI base:** `s3a://bronze/viajes/yyyy/mm/dd/viajes.csv`
+- **ADR:** [ADR/001-datalake.md](ADR/001-datalake.md)
+- **Evidencia:** [evidence/docker/minio_bronze_viajes.txt](evidence/docker/minio_bronze_viajes.txt)
+
+## Recortes de alcance (enunciado §8)
+
+Documentados en [ADR/000-contexto.md](ADR/000-contexto.md):
+
+1. **Azure ADLS → MinIO** (Chainguard) + [ADR/001-datalake.md](ADR/001-datalake.md)
+2. Imágenes Docker desde **public.ecr.aws** (Docker Hub inestable)
+3. Spark batch objetivo **250k** filas (`viajes.csv`); dataset abierto = usuarios EcoBici (M1)
+4. Sqoop nativo → **Spark JDBC** (pendiente M7, ADR al implementar)
+
+## Estructura del repo
+
+Ver [TP_NexoUrbano_2026.md](TP_NexoUrbano_2026.md) §3. Carpetas de módulos creadas vacías; cada owner trabaja en su rama `feat/...`.
+
+| Owner | Módulos |
+|-------|---------|
+| Sebastian Albornoz | Lake, Databricks, Spark, contratos viajes |
+| Mauricio Jurado | Hadoop, HDFS, MR, Hive, HBase, Pig, Flume/JDBC |
+| Alvaro Costa | Mongo, Cassandra, Neo4j, agregaciones producto |
+
+## Kick-off completado
+
+- [x] M1: `01-discovery/4V.md`, `arquitectura.md`, perfilado dataset abierto
+- [x] Contratos: `contratos/bronze_viajes.yaml`, `contratos/dataset_abierto_real.yaml`
+- [x] MinIO bronze viajes particionado
+- [ ] Video demo 8 min (link aquí al cerrar)
+- [ ] Tag `entrega-final` en `main`
+
+Checklist docente: [CHECKLIST_ENTREGA.md](CHECKLIST_ENTREGA.md)
+
+## Git
+
+- `main` solo por PR; un commit ≈ un módulo.
+- Cada PR: código + `evidence/` + fila en [AI_LOG.md](AI_LOG.md).
+
+## Referencia cátedra
+
+[TP_NexoUrbano_2026.md](TP_NexoUrbano_2026.md)
