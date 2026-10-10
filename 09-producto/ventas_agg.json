@@ -1,0 +1,94 @@
+{
+  "totalVentasCargadas": 4000,
+  "ventasPorCategoria": [
+    {
+      "totalVentas": 7298560,
+      "ventas": 984,
+      "categoria": "recarga"
+    },
+    {
+      "totalVentas": 7253240,
+      "ventas": 1006,
+      "categoria": "accesorio"
+    },
+    {
+      "totalVentas": 6113370,
+      "ventas": 953,
+      "categoria": "pase"
+    },
+    {
+      "totalVentas": 6047330,
+      "ventas": 1057,
+      "categoria": "seguro"
+    }
+  ],
+  "top5Productos": [
+    {
+      "nombre": "Accesorio 1",
+      "categoria": "accesorio",
+      "totalVentas": 1344540,
+      "ventas": 106,
+      "sku": "SKU021"
+    },
+    {
+      "nombre": "Recarga 2",
+      "categoria": "recarga",
+      "totalVentas": 1300970,
+      "ventas": 123,
+      "sku": "SKU012"
+    },
+    {
+      "nombre": "Recarga 9",
+      "categoria": "recarga",
+      "totalVentas": 1285800,
+      "ventas": 100,
+      "sku": "SKU019"
+    },
+    {
+      "nombre": "Seguro 4",
+      "categoria": "seguro",
+      "totalVentas": 1225560,
+      "ventas": 124,
+      "sku": "SKU034"
+    },
+    {
+      "nombre": "Pase 4",
+      "categoria": "pase",
+      "totalVentas": 1195190,
+      "ventas": 121,
+      "sku": "SKU004"
+    }
+  ],
+  "ventasPorMes": [
+    {
+      "totalVentas": 3152260,
+      "ventas": 464,
+      "mes": "2026-01"
+    },
+    {
+      "totalVentas": 5241980,
+      "ventas": 772,
+      "mes": "2026-02"
+    },
+    {
+      "totalVentas": 5403180,
+      "ventas": 832,
+      "mes": "2026-03"
+    },
+    {
+      "totalVentas": 5083320,
+      "ventas": 768,
+      "mes": "2026-04"
+    },
+    {
+      "totalVentas": 5610570,
+      "ventas": 833,
+      "mes": "2026-05"
+    },
+    {
+      "totalVentas": 2221190,
+      "ventas": 331,
+      "mes": "2026-06"
+    }
+  ]
+}
