@@ -45,6 +45,17 @@ python tools/bronze_a_minio.py
 - **ADR:** [ADR/001-datalake.md](ADR/001-datalake.md)
 - **Evidencia:** [evidence/docker/minio_bronze_viajes.txt](evidence/docker/minio_bronze_viajes.txt)
 
+### 4. Silver (M3, viajes × clima)
+
+```bash
+python 03-databricks/01_ingesta.py
+```
+
+- **URI:** `s3a://silver/viajes_clima/fecha=yyyy-mm-dd/part-0.parquet`
+- **Contrato:** [contratos/silver_viajes.yaml](contratos/silver_viajes.yaml) (posts: [contratos/silver_social.yaml](contratos/silver_social.yaml))
+- **ADR:** [ADR/002-databricks-apis.md](ADR/002-databricks-apis.md)
+- **Evidencia:** [evidence/databricks/01_ingesta_log.txt](evidence/databricks/01_ingesta_log.txt)
+
 ## Recortes de alcance (enunciado §8)
 
 Documentados en [ADR/000-contexto.md](ADR/000-contexto.md):

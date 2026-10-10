@@ -1,0 +1,68 @@
+# Contrato Silver — viajes × clima
+# Congelado por la ingesta 03-databricks/01_ingesta.py (semilla 67001, 2026-10-09).
+# Gold (M8) debe leer esta ruta y estas columnas sin preguntar el esquema.
+
+dataset: silver_viajes_clima
+owner: sebastian_albornoz
+grano: un viaje que pasó las reglas de rechazo Bronze
+timezone: UTC
+nota_timestamps: El Parquet guarda ts_start, ts_end y hora_utc sin tz. Interpretarlos como UTC.
+formato: parquet
+particionado: fecha (yyyy-mm-dd de ts_start, estilo Hive; la columna no va dentro del archivo)
+clave_primaria: ride_id
+frescura_sla: batch diario, después del Bronze 06:00 ART
+uri: s3a://silver/viajes_clima/fecha=yyyy-mm-dd/part-0.parquet
+
+fuentes:
+  - bronze viajes (data/viajes.csv o s3a://bronze/viajes/)
+  - Open-Meteo Archive, horario, timezone=UTC, 3 estaciones de data/estaciones.csv
+
+join_clima:
+  estaciones: [ST000, ST002, ST010]
+  regla: cada viaje toma la estación meteorológica más cercana a (lat_start, lon_start), haversine
+  ventana: hora UTC de ts_start = hora del pronóstico/histórico Open-Meteo
+  nota: proxy de 3 puntos sobre CABA, no una estación meteorológica por station_id
+
+clima_adverso: precip_mm > 0 OR weather_code >= 51
+  # weather_code es el código WMO de Open-Meteo (llovizna, lluvia, nieve, tormenta desde 51)
+
+columnas:
+  - {nombre: ride_id, tipo: string, nullable: false}
+  - {nombre: ts_start, tipo: timestamp, nullable: false}
+  - {nombre: ts_end, tipo: timestamp, nullable: false}
+  - {nombre: duration_s, tipo: int, nullable: false}
+  - {nombre: rider_id, tipo: string, nullable: false}
+  - {nombre: vehicle_id, tipo: string, nullable: false}
+  - {nombre: station_start, tipo: string, nullable: false}
+  - {nombre: station_end, tipo: string, nullable: false}
+  - {nombre: barrio_start, tipo: string, nullable: false}
+  - {nombre: barrio_end, tipo: string, nullable: false}
+  - {nombre: lat_start, tipo: float, nullable: false}
+  - {nombre: lon_start, tipo: float, nullable: false}
+  - {nombre: lat_end, tipo: float, nullable: false}
+  - {nombre: lon_end, tipo: float, nullable: false}
+  - {nombre: km, tipo: float, nullable: true}
+  - {nombre: fare_ars, tipo: float, nullable: true}
+  - {nombre: clima_codigo, tipo: int, nullable: false, nota: "WMO sintético del generador; no usar como clima observado"}
+  - {nombre: station_clima, tipo: string, nullable: false}
+  - {nombre: km_a_estacion_clima, tipo: float, nullable: false}
+  - {nombre: hora_utc, tipo: timestamp, nullable: false}
+  - {nombre: temp_c, tipo: float, nullable: true}
+  - {nombre: precip_mm, tipo: float, nullable: true}
+  - {nombre: weather_code, tipo: int, nullable: true}
+  - {nombre: clima_adverso, tipo: bool, nullable: true}
+  - {nombre: fecha, tipo: date, nullable: false, nota: "solo en el path de la partición"}
+
+rechazados:
+  uri: s3a://silver/viajes_rechazados/rechazados.parquet
+  columna_extra: motivo_rechazo
+  reglas: ver contratos/bronze_viajes.yaml reglas_rechazo_silver
+
+calidad_medida_2026-10-09:
+  filas_bronze: 250000
+  filas_silver: 245019
+  filas_rechazadas: 4981
+  duplicados_ride_id: 0
+  match_clima_pct: 100
+  clima_adverso_pct: 13.02
+  nulos_km_pct: 0

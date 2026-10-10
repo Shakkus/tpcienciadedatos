@@ -22,8 +22,15 @@ columnas:
   - {nombre: vehicle_id, tipo: string, nullable: false}
   - {nombre: station_start, tipo: string, nullable: false}
   - {nombre: station_end, tipo: string, nullable: false}
+  - {nombre: barrio_start, tipo: string, nullable: false}
+  - {nombre: barrio_end, tipo: string, nullable: false}
+  - {nombre: lat_start, tipo: float, nullable: false}
+  - {nombre: lon_start, tipo: float, nullable: false}
+  - {nombre: lat_end, tipo: float, nullable: false}
+  - {nombre: lon_end, tipo: float, nullable: false}
   - {nombre: km, tipo: float, nullable: true}
   - {nombre: fare_ars, tipo: float, nullable: true}
+  - {nombre: clima_codigo, tipo: int, nullable: false, nota: "WMO sorteado por el generador; Silver no lo usa como clima"}
 
 reglas_rechazo_silver:
   - duration_s < 30
@@ -36,3 +43,16 @@ calidad:
   nulos_max_pct: 2
   duplicados_ride_id: 0
   late_data_horas: 24
+
+perfilado_semilla_67001:
+  fecha: 2026-10-09
+  script: 03-databricks/01_ingesta.py
+  filas: 250000
+  duplicados_ride_id: 0
+  nulos_km_pct: 0
+  duration_s_menor_30: 3323
+  duration_s_mayor_14400: 1658
+  ts_end_menor_ts_start: 0
+  station_nula: 0
+  fare_ars_negativa: 0
+  nota: "En esta semilla solo dispara el rechazo de duración. fare_ars, estaciones y km no vienen nulos ni negativos."
