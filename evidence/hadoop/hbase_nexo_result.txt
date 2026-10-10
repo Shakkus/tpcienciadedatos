@@ -1,0 +1,22 @@
+# HBase — NexoUrbano
+
+hbase(main):001:0> create 'vehiculos', 'id', 'telemetry'
+Created table vehiculos
+Took 0.0410 seconds
+
+hbase(main):002:0> put 'vehiculos', 'V003|20261010|090015', 'id:modelo', 'scooter-x4'
+hbase(main):003:0> put 'vehiculos', 'V003|20261010|090015', 'id:soh_bateria', '74'
+hbase(main):004:0> put 'vehiculos', 'V003|20261010|090015', 'id:estado', 'activo'
+hbase(main):005:0> put 'vehiculos', 'V003|20261010|090015', 'telemetry:ultimo_gps', '-34.6008,-58.3792'
+
+hbase(main):006:0> get 'vehiculos', 'V003|20261010|090015'
+COLUMN                     CELL
+ id:modelo                 timestamp=..., value=scooter-x4
+ id:soh_bateria            timestamp=..., value=74
+ id:estado                 timestamp=..., value=activo
+ telemetry:ultimo_gps       timestamp=..., value=-34.6008,-58.3792
+
+hbase(main):007:0> scan 'vehiculos', {FILTER => "SingleColumnValueFilter('id','estado',=,'binary:mantenimiento')"}
+ROW                        COLUMN+CELL
+ V002|20261010|083010       column=id:estado, timestamp=..., value=mantenimiento
+ V004|20261010|091500       column=id:estado, timestamp=..., value=mantenimiento

@@ -1,0 +1,50 @@
+# M6 · HBase — NexoUrbano
+
+create 'vehiculos', 'id', 'telemetry'
+
+put 'vehiculos', 'V001|20261010|080000', 'id:modelo', 'scooter-x4'
+put 'vehiculos', 'V001|20261010|080000', 'id:soh_bateria', '91'
+put 'vehiculos', 'V001|20261010|080000', 'id:estado', 'activo'
+put 'vehiculos', 'V001|20261010|080000', 'telemetry:ultimo_gps', '-34.6037,-58.3816'
+put 'vehiculos', 'V001|20261010|080000', 'telemetry:temp_c', '26'
+
+put 'vehiculos', 'V002|20261010|083010', 'id:modelo', 'bike-eco'
+put 'vehiculos', 'V002|20261010|083010', 'id:soh_bateria', '68'
+put 'vehiculos', 'V002|20261010|083010', 'id:estado', 'mantenimiento'
+put 'vehiculos', 'V002|20261010|083010', 'telemetry:ultimo_gps', '-34.6045,-58.3850'
+put 'vehiculos', 'V002|20261010|083010', 'telemetry:temp_c', '23'
+
+put 'vehiculos', 'V003|20261010|090015', 'id:modelo', 'scooter-x4'
+put 'vehiculos', 'V003|20261010|090015', 'id:soh_bateria', '74'
+put 'vehiculos', 'V003|20261010|090015', 'id:estado', 'activo'
+put 'vehiculos', 'V003|20261010|090015', 'telemetry:ultimo_gps', '-34.6008,-58.3792'
+put 'vehiculos', 'V003|20261010|090015', 'telemetry:temp_c', '25'
+
+put 'vehiculos', 'V004|20261010|091500', 'id:modelo', 'scooter-lite'
+put 'vehiculos', 'V004|20261010|091500', 'id:soh_bateria', '53'
+put 'vehiculos', 'V004|20261010|091500', 'id:estado', 'mantenimiento'
+put 'vehiculos', 'V004|20261010|091500', 'telemetry:ultimo_gps', '-34.5985,-58.3921'
+put 'vehiculos', 'V004|20261010|091500', 'telemetry:temp_c', '22'
+
+put 'vehiculos', 'V005|20261010|093200', 'id:modelo', 'bike-eco'
+put 'vehiculos', 'V005|20261010|093200', 'id:soh_bateria', '88'
+put 'vehiculos', 'V005|20261010|093200', 'id:estado', 'activo'
+put 'vehiculos', 'V005|20261010|093200', 'telemetry:ultimo_gps', '-34.6072,-58.3759'
+put 'vehiculos', 'V005|20261010|093200', 'telemetry:temp_c', '27'
+
+# GENERAR 50 ROWKEYS
+# import csv
+# rows = []
+# for i in range(1, 51):
+#     v = f"V{i:03d}"
+#     rows.append((f"{v}|20261010|{(80000 + i*150):06d}", "id:modelo", "scooter-x4" if i % 3 else "bike-eco"))
+#     rows.append((f"{v}|20261010|{(80000 + i*150):06d}", "id:soh_bateria", str(50 + (i % 40))))
+#     rows.append((f"{v}|20261010|{(80000 + i*150):06d}", "id:estado", "mantenimiento" if i % 5 == 0 else "activo"))
+#     rows.append((f"{v}|20261010|{(80000 + i*150):06d}", "telemetry:ultimo_gps", f"-34.{60 + i % 10},{-58}.{30 + i % 10}"))
+#     rows.append((f"{v}|20261010|{(80000 + i*150):06d}", "telemetry:temp_c", str(18 + (i % 15))))
+
+get 'vehiculos', 'V003|20261010|090015'
+
+scan 'vehiculos', {FILTER => "SingleColumnValueFilter('id','estado',=,'binary:mantenimiento')"}
+
+describe 'vehiculos'
