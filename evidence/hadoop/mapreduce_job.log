@@ -1,0 +1,86 @@
+# M5 WordCount - Hadoop 3.4.1
+# Entrada y salida son rutas HDFS.
+# La salida derivada anterior se reemplazo para ejecutar de nuevo el job canonico.
+$ docker compose exec -T hadoop-namenode hadoop jar /opt/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.4.1.jar wordcount /nexo/bronze/logs/texto_ops.txt /nexo/gold/wordcount
+2026-10-10 05:25:32 INFO  DefaultNoHARMFailoverProxyProvider:64 - Connecting to ResourceManager at resourcemanager/172.18.0.7:8032
+2026-10-10 05:25:33 INFO  JobResourceUploader:907 - Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/hadoop/.staging/job_1791599710961_0005
+2026-10-10 05:25:33 INFO  FileInputFormat:302 - Total input files to process : 1
+2026-10-10 05:25:34 INFO  JobSubmitter:203 - number of splits:1
+2026-10-10 05:25:34 INFO  JobSubmitter:299 - Submitting tokens for job: job_1791599710961_0005
+2026-10-10 05:25:34 INFO  JobSubmitter:300 - Executing with tokens: []
+2026-10-10 05:25:35 INFO  Configuration:2898 - resource-types.xml not found
+2026-10-10 05:25:35 INFO  ResourceUtils:476 - Unable to find 'resource-types.xml'.
+2026-10-10 05:25:35 INFO  YarnClientImpl:356 - Submitted application application_1791599710961_0005
+2026-10-10 05:25:35 INFO  Job:1681 - The url to track the job: http://resourcemanager:8088/proxy/application_1791599710961_0005/
+2026-10-10 05:25:35 INFO  Job:1726 - Running job: job_1791599710961_0005
+2026-10-10 05:25:48 INFO  Job:1747 - Job job_1791599710961_0005 running in uber mode : false
+2026-10-10 05:25:48 INFO  Job:1754 -  map 0% reduce 0%
+2026-10-10 05:25:57 INFO  Job:1754 -  map 100% reduce 0%
+2026-10-10 05:26:05 INFO  Job:1754 -  map 100% reduce 100%
+2026-10-10 05:26:06 INFO  Job:1765 - Job job_1791599710961_0005 completed successfully
+2026-10-10 05:26:06 INFO  Job:1772 - Counters: 54
+	File System Counters
+		FILE: Number of bytes read=3163
+		FILE: Number of bytes written=625219
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=101026
+		HDFS: Number of bytes written=2270
+		HDFS: Number of read operations=8
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+		HDFS: Number of bytes read erasure-coded=0
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Rack-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=11316
+		Total time spent by all reduces in occupied slots (ms)=11470
+		Total time spent by all map tasks (ms)=5658
+		Total time spent by all reduce tasks (ms)=5735
+		Total vcore-milliseconds taken by all map tasks=5658
+		Total vcore-milliseconds taken by all reduce tasks=5735
+		Total megabyte-milliseconds taken by all map tasks=2896896
+		Total megabyte-milliseconds taken by all reduce tasks=2936320
+	Map-Reduce Framework
+		Map input records=2400
+		Map output records=15975
+		Map output bytes=162410
+		Map output materialized bytes=3163
+		Input split bytes=116
+		Combine input records=15975
+		Combine output records=261
+		Reduce input groups=261
+		Reduce shuffle bytes=3163
+		Reduce input records=261
+		Reduce output records=261
+		Spilled Records=522
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=221
+		CPU time spent (ms)=3840
+		Physical memory (bytes) snapshot=526184448
+		Virtual memory (bytes) snapshot=4548947968
+		Total committed heap usage (bytes)=366477312
+		Peak Map Physical memory (bytes)=275550208
+		Peak Map Virtual memory (bytes)=2272722944
+		Peak Reduce Physical memory (bytes)=250634240
+		Peak Reduce Virtual memory (bytes)=2276225024
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=100910
+	File Output Format Counters 
+		Bytes Written=2270
+
+$ docker compose exec -T hadoop-namenode hdfs dfs -ls /nexo/gold/wordcount
+Found 2 items
+-rw-r--r--   1 hadoop supergroup          0 2026-10-10 05:26 /nexo/gold/wordcount/_SUCCESS
+-rw-r--r--   1 hadoop supergroup       2270 2026-10-10 05:26 /nexo/gold/wordcount/part-r-00000

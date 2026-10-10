@@ -1,0 +1,24 @@
+# Top 20 terminos operativos derivados del output Hadoop WordCount.
+# Normalizacion: minusculas; se quita # de hashtags y se suman variantes.
+# Se excluyen palabras funcionales, IDs ST/R/V y nombres genericos de entidad.
+termino	frecuencia
+app	632
+bateria	626
+gps	620
+estacion	610
+candado	594
+cobro	592
+freno	586
+rueda	536
+cierra	316
+iniciar	316
+viaje	316
+carga	313
+saltando	310
+pago	307
+payment_fail	307
+repetido	307
+libera	297
+doble	296
+mensual	296
+pase	296

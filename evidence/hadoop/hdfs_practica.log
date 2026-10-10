@@ -1,0 +1,56 @@
+$ docker compose exec -T hadoop-namenode hdfs dfs -mkdir -p /nexo/bronze/viajes /nexo/bronze/logs /nexo/gold
+$ docker compose exec -T hadoop-namenode hdfs dfs -put /opt/nexo/data/viajes_muestra.csv /nexo/bronze/viajes/
+$ docker compose exec -T hadoop-namenode hdfs dfs -put /opt/nexo/data/texto_ops.txt /nexo/bronze/logs/
+
+$ docker compose exec -T hadoop-namenode hdfs dfs -mkdir -p /nexo/bronze/viajes/backup_practica
+$ docker compose exec -T hadoop-namenode hdfs dfs -cp /nexo/bronze/viajes/viajes_muestra.csv /nexo/bronze/viajes/backup_practica/
+$ docker compose exec -T hadoop-namenode hdfs dfs -mv /nexo/bronze/viajes/backup_practica/viajes_muestra.csv /nexo/bronze/viajes/backup_practica/viajes_muestra_backup.csv
+
+$ docker compose exec -T hadoop-namenode hdfs dfs -ls -R /nexo
+drwxr-xr-x   - hadoop supergroup          0 2026-10-10 04:52 /nexo/bronze
+drwxr-xr-x   - hadoop supergroup          0 2026-10-10 04:53 /nexo/bronze/logs
+-rw-r--r--   1 hadoop supergroup     100910 2026-10-10 04:53 /nexo/bronze/logs/texto_ops.txt
+drwxr-xr-x   - hadoop supergroup          0 2026-10-10 05:15 /nexo/bronze/viajes
+drwxr-xr-x   - hadoop supergroup          0 2026-10-10 05:01 /nexo/bronze/viajes/backup
+-rw-r--r--   1 hadoop supergroup     336107 2026-10-10 05:01 /nexo/bronze/viajes/backup/viajes_muestra.csv
+-rw-r--r--   1 hadoop supergroup     336107 2026-10-10 04:54 /nexo/bronze/viajes/backup/viajes_muestra_backup.csv
+drwxr-xr-x   - hadoop supergroup          0 2026-10-10 05:15 /nexo/bronze/viajes/backup_practica
+-rw-r--r--   1 hadoop supergroup     336107 2026-10-10 05:15 /nexo/bronze/viajes/backup_practica/viajes_muestra_backup.csv
+-rw-r--r--   1 hadoop supergroup     336107 2026-10-10 04:52 /nexo/bronze/viajes/viajes_muestra.csv
+drwxr-xr-x   - hadoop supergroup          0 2026-10-10 04:55 /nexo/gold
+drwxr-xr-x   - hadoop supergroup          0 2026-10-10 04:56 /nexo/gold/wordcount
+-rw-r--r--   1 hadoop supergroup          0 2026-10-10 04:56 /nexo/gold/wordcount/_SUCCESS
+-rw-r--r--   1 hadoop supergroup       2270 2026-10-10 04:56 /nexo/gold/wordcount/part-r-00000
+
+$ docker compose exec -T hadoop-namenode hdfs dfs -du -h /nexo
+1.4 M  1.4 M  /nexo/bronze
+2.2 K  2.2 K  /nexo/gold
+
+$ docker compose exec -T hadoop-namenode hdfs getconf -confKey dfs.blocksize
+134217728
+$ docker compose exec -T hadoop-namenode hdfs getconf -confKey dfs.replication
+1
+
+$ docker compose exec -T hadoop-namenode hdfs fsck /nexo
+Status: HEALTHY
+Number of data-nodes: 1
+Total blocks (validated): 6
+Under-replicated blocks: 0
+Missing blocks: 0
+Corrupt blocks: 0
+Default replication factor: 1
+The filesystem under path '/nexo' is HEALTHY
+
+# Nota: el directorio backup ya contenia archivos, por lo que los primeros
+# intentos de cp/mv alli devolvieron "File exists". No se sobrescribieron;
+# se repitieron correctamente en backup_practica, como muestran los comandos.
+
+Explicacion (8 lineas):
+1. HDFS divide los archivos en bloques; el tamano configurado es 134217728 bytes (128 MiB).
+2. El factor de replicacion configurado es 1, por lo que HDFS conserva una copia de cada bloque.
+3. El reporte de fsck confirma que el cluster de practica tiene un solo DataNode.
+4. Con un solo DataNode no hay otra maquina donde guardar una replica adicional.
+5. Si el DataNode se detiene, los bloques que guarda no estaran disponibles mientras siga caido.
+6. Como la replicacion es 1, HDFS no tiene una segunda copia desde la cual leerlos.
+7. Si se pierde el volumen o disco del DataNode, tambien se pueden perder los datos de HDFS.
+8. Esta configuracion sirve para practicar, pero no ofrece tolerancia a fallas ni alta disponibilidad.
