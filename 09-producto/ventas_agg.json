@@ -1,0 +1,14 @@
+[
+  {
+    "pases_vendidos": 12,
+    "ingreso_total": 16800,
+    "tipo_pase": "Seguro",
+    "precio_promedio": 1400
+  },
+  {
+    "pases_vendidos": 4,
+    "ingreso_total": 6000,
+    "tipo_pase": "Pase",
+    "precio_promedio": 1500
+  }
+]

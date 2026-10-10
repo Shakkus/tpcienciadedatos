@@ -1,0 +1,155 @@
+Insertados 32 documentos con éxito.
+--- TEST FIND ---
+[
+  {
+    _id: ObjectId('6ac9a083f37069eee6f0227a'),
+    sku: 'SKU004',
+    nombre: 'Nexo Pase 4',
+    categoria: 'Pase',
+    ciudad: 'Buenos Aires',
+    tags: [
+      'eco',
+      'premium'
+    ],
+    detalles: {
+      precio: 1200,
+      stock_disponible: 54,
+      activo: true
+    }
+  }
+]
+--- TEST UPDATE ---
+Precio actualizado para SKU001.
+--- TEST DELETE ---
+SKU002 eliminado del catálogo.
+--- EXPLAIN ANTES DEL ÍNDICE ---
+{
+  executionSuccess: true,
+  nReturned: 0,
+  executionTimeMillis: 0,
+  totalKeysExamined: 0,
+  totalDocsExamined: 0,
+  executionStages: {
+    isCached: false,
+    stage: 'FETCH',
+    nReturned: 0,
+    executionTimeMillisEstimate: 0,
+    works: 1,
+    advanced: 0,
+    needTime: 0,
+    needYield: 0,
+    saveState: 0,
+    restoreState: 0,
+    isEOF: 1,
+    nss: 'nexourbano.productos',
+    docsExamined: 0,
+    alreadyHasObj: 0,
+    inputStage: {
+      stage: 'IXSCAN',
+      nReturned: 0,
+      executionTimeMillisEstimate: 0,
+      works: 1,
+      advanced: 0,
+      needTime: 0,
+      needYield: 0,
+      saveState: 0,
+      restoreState: 0,
+      isEOF: 1,
+      nss: 'nexourbano.productos',
+      keyPattern: {
+        ciudad: 1,
+        categoria: 1
+      },
+      indexName: 'ciudad_1_categoria_1',
+      isMultiKey: false,
+      multiKeyPaths: {
+        ciudad: [],
+        categoria: []
+      },
+      isUnique: false,
+      isSparse: false,
+      isPartial: false,
+      indexVersion: 2,
+      direction: 'forward',
+      indexBounds: {
+        ciudad: [
+          '["Mendoza", "Mendoza"]'
+        ],
+        categoria: [
+          '["Pase", "Pase"]'
+        ]
+      },
+      keysExamined: 0,
+      seeks: 1,
+      dupsTested: 0,
+      dupsDropped: 0,
+      peakTrackedMemBytes: 0
+    }
+  }
+}
+Índice compuesto {ciudad: 1, categoria: 1} creado.
+--- EXPLAIN DESPUÉS DEL ÍNDICE ---
+{
+  executionSuccess: true,
+  nReturned: 0,
+  executionTimeMillis: 0,
+  totalKeysExamined: 0,
+  totalDocsExamined: 0,
+  executionStages: {
+    isCached: false,
+    stage: 'FETCH',
+    nReturned: 0,
+    executionTimeMillisEstimate: 0,
+    works: 1,
+    advanced: 0,
+    needTime: 0,
+    needYield: 0,
+    saveState: 0,
+    restoreState: 0,
+    isEOF: 1,
+    nss: 'nexourbano.productos',
+    docsExamined: 0,
+    alreadyHasObj: 0,
+    inputStage: {
+      stage: 'IXSCAN',
+      nReturned: 0,
+      executionTimeMillisEstimate: 0,
+      works: 1,
+      advanced: 0,
+      needTime: 0,
+      needYield: 0,
+      saveState: 0,
+      restoreState: 0,
+      isEOF: 1,
+      nss: 'nexourbano.productos',
+      keyPattern: {
+        ciudad: 1,
+        categoria: 1
+      },
+      indexName: 'ciudad_1_categoria_1',
+      isMultiKey: false,
+      multiKeyPaths: {
+        ciudad: [],
+        categoria: []
+      },
+      isUnique: false,
+      isSparse: false,
+      isPartial: false,
+      indexVersion: 2,
+      direction: 'forward',
+      indexBounds: {
+        ciudad: [
+          '["Mendoza", "Mendoza"]'
+        ],
+        categoria: [
+          '["Pase", "Pase"]'
+        ]
+      },
+      keysExamined: 0,
+      seeks: 1,
+      dupsTested: 0,
+      dupsDropped: 0,
+      peakTrackedMemBytes: 0
+    }
+  }
+}
