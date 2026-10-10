@@ -1,0 +1,84 @@
+NexoUrbano — M8 Spark batch Gold
+Query: agregación gold_ops_diaria (groupBy fecha)
+
+== Parsed Logical Plan ==
+'Sort ['fecha ASC NULLS FIRST], true
++- Aggregate [fecha#24], [fecha#24, count(1) AS viajes#1096L, (cast(sum(duration_s#3L) as double) / cast(60.0 as double)) AS minutos#1098, sum(km#14) AS km#1100, (avg(cast(CASE WHEN isnull(clima_adverso#23) THEN false ELSE clima_adverso#23 END as double)) * 100.0) AS pct_clima_adverso#1102, sum(fare_ars#15) AS fare_observado_ars#1104, (cast(count(1) as double) * 320.0) AS revenue_estimado_ars#1106]
+   +- Filter ((((((duration_s#3L >= cast(30 as bigint)) AND (duration_s#3L <= cast(14400 as bigint))) AND (ts_end#2 >= ts_start#1)) AND isnotnull(station_start#6)) AND isnotnull(station_end#7)) AND (coalesce(fare_ars#15, 0.0) >= cast(0 as double)))
+      +- Project [rider_id#4, ride_id#0, ts_start#1, ts_end#2, duration_s#3L, vehicle_id#5, station_start#6, station_end#7, barrio_start#8, barrio_end#9, lat_start#10, lon_start#11, lat_end#12, lon_end#13, km#14, fare_ars#15, clima_codigo#16L, station_clima#17, km_a_estacion_clima#18, hora_utc#19, temp_c#20, precip_mm#21, weather_code#22L, clima_adverso#23, ... 4 more fields]
+         +- Join LeftOuter, (rider_id#4 = rider_id#97)
+            :- Relation [ride_id#0,ts_start#1,ts_end#2,duration_s#3L,rider_id#4,vehicle_id#5,station_start#6,station_end#7,barrio_start#8,barrio_end#9,lat_start#10,lon_start#11,lat_end#12,lon_end#13,km#14,fare_ars#15,clima_codigo#16L,station_clima#17,km_a_estacion_clima#18,hora_utc#19,temp_c#20,precip_mm#21,weather_code#22L,clima_adverso#23,fecha#24] parquet
+            +- Project [rider_id#97, nombre#98, plan#100, ciudad#102]
+               +- Relation [rider_id#97,nombre#98,email#99,plan#100,alta#101,ciudad#102,interes_1#103,interes_2#104] csv
+
+== Analyzed Logical Plan ==
+fecha: date, viajes: bigint, minutos: double, km: double, pct_clima_adverso: double, fare_observado_ars: double, revenue_estimado_ars: double
+Sort [fecha#24 ASC NULLS FIRST], true
++- Aggregate [fecha#24], [fecha#24, count(1) AS viajes#1096L, (cast(sum(duration_s#3L) as double) / cast(60.0 as double)) AS minutos#1098, sum(km#14) AS km#1100, (avg(cast(CASE WHEN isnull(clima_adverso#23) THEN false ELSE clima_adverso#23 END as double)) * 100.0) AS pct_clima_adverso#1102, sum(fare_ars#15) AS fare_observado_ars#1104, (cast(count(1) as double) * 320.0) AS revenue_estimado_ars#1106]
+   +- Filter ((((((duration_s#3L >= cast(30 as bigint)) AND (duration_s#3L <= cast(14400 as bigint))) AND (ts_end#2 >= ts_start#1)) AND isnotnull(station_start#6)) AND isnotnull(station_end#7)) AND (coalesce(fare_ars#15, 0.0) >= cast(0 as double)))
+      +- Project [rider_id#4, ride_id#0, ts_start#1, ts_end#2, duration_s#3L, vehicle_id#5, station_start#6, station_end#7, barrio_start#8, barrio_end#9, lat_start#10, lon_start#11, lat_end#12, lon_end#13, km#14, fare_ars#15, clima_codigo#16L, station_clima#17, km_a_estacion_clima#18, hora_utc#19, temp_c#20, precip_mm#21, weather_code#22L, clima_adverso#23, ... 4 more fields]
+         +- Join LeftOuter, (rider_id#4 = rider_id#97)
+            :- Relation [ride_id#0,ts_start#1,ts_end#2,duration_s#3L,rider_id#4,vehicle_id#5,station_start#6,station_end#7,barrio_start#8,barrio_end#9,lat_start#10,lon_start#11,lat_end#12,lon_end#13,km#14,fare_ars#15,clima_codigo#16L,station_clima#17,km_a_estacion_clima#18,hora_utc#19,temp_c#20,precip_mm#21,weather_code#22L,clima_adverso#23,fecha#24] parquet
+            +- Project [rider_id#97, nombre#98, plan#100, ciudad#102]
+               +- Relation [rider_id#97,nombre#98,email#99,plan#100,alta#101,ciudad#102,interes_1#103,interes_2#104] csv
+
+== Optimized Logical Plan ==
+Sort [fecha#24 ASC NULLS FIRST], true
++- Aggregate [fecha#24], [fecha#24, count(1) AS viajes#1096L, (cast(sum(duration_s#3L) as double) / 60.0) AS minutos#1098, sum(km#14) AS km#1100, (avg(CASE WHEN isnull(clima_adverso#23) THEN 0.0 ELSE cast(clima_adverso#23 as double) END) * 100.0) AS pct_clima_adverso#1102, sum(fare_ars#15) AS fare_observado_ars#1104, (cast(count(1) as double) * 320.0) AS revenue_estimado_ars#1106]
+   +- Project [duration_s#3L, km#14, fare_ars#15, clima_adverso#23, fecha#24]
+      +- InMemoryRelation [rider_id#4, ride_id#0, ts_start#1, ts_end#2, duration_s#3L, vehicle_id#5, station_start#6, station_end#7, barrio_start#8, barrio_end#9, lat_start#10, lon_start#11, lat_end#12, lon_end#13, km#14, fare_ars#15, clima_codigo#16L, station_clima#17, km_a_estacion_clima#18, hora_utc#19, temp_c#20, precip_mm#21, weather_code#22L, clima_adverso#23, ... 4 more fields], StorageLevel(disk, memory, deserialized, 1 replicas)
+            +- AdaptiveSparkPlan isFinalPlan=true
+               +- == Final Plan ==
+                  *(2) Project [rider_id#4, ride_id#0, ts_start#1, ts_end#2, duration_s#3L, vehicle_id#5, station_start#6, station_end#7, barrio_start#8, barrio_end#9, lat_start#10, lon_start#11, lat_end#12, lon_end#13, km#14, fare_ars#15, clima_codigo#16L, station_clima#17, km_a_estacion_clima#18, hora_utc#19, temp_c#20, precip_mm#21, weather_code#22L, clima_adverso#23, ... 4 more fields]
+                  +- *(2) BroadcastHashJoin [rider_id#4], [rider_id#97], LeftOuter, BuildRight, false
+                     :- *(2) Filter ((((((((isnotnull(duration_s#3L) AND isnotnull(ts_end#2)) AND isnotnull(ts_start#1)) AND (duration_s#3L >= 30)) AND (duration_s#3L <= 14400)) AND (ts_end#2 >= ts_start#1)) AND isnotnull(station_start#6)) AND isnotnull(station_end#7)) AND (coalesce(fare_ars#15, 0.0) >= 0.0))
+                     :  +- *(2) ColumnarToRow
+                     :     +- FileScan parquet [ride_id#0,ts_start#1,ts_end#2,duration_s#3L,rider_id#4,vehicle_id#5,station_start#6,station_end#7,barrio_start#8,barrio_end#9,lat_start#10,lon_start#11,lat_end#12,lon_end#13,km#14,fare_ars#15,clima_codigo#16L,station_clima#17,km_a_estacion_clima#18,hora_utc#19,temp_c#20,precip_mm#21,weather_code#22L,clima_adverso#23,fecha#24] Batched: true, DataFilters: [isnotnull(duration_s#3L), isnotnull(ts_end#2), isnotnull(ts_start#1), (duration_s#3L >= 30), (du..., Format: Parquet, Location: InMemoryFileIndex(1 paths)[file:/opt/nexo/.staging/silver/viajes_clima], PartitionFilters: [], PushedFilters: [IsNotNull(duration_s), IsNotNull(ts_end), IsNotNull(ts_start), GreaterThanOrEqual(duration_s,30)..., ReadSchema: struct<ride_id:string,ts_start:timestamp_ntz,ts_end:timestamp_ntz,duration_s:bigint,rider_id:stri...
+                     +- BroadcastQueryStage 0
+                        +- BroadcastExchange HashedRelationBroadcastMode(List(input[0, string, false]),false), [plan_id=283]
+                           +- *(1) Filter isnotnull(rider_id#97)
+                              +- FileScan csv [rider_id#97,nombre#98,plan#100,ciudad#102] Batched: false, DataFilters: [isnotnull(rider_id#97)], Format: CSV, Location: InMemoryFileIndex(1 paths)[file:/opt/nexo/data/riders.csv], PartitionFilters: [], PushedFilters: [IsNotNull(rider_id)], ReadSchema: struct<rider_id:string,nombre:string,plan:string,ciudad:string>
+               +- == Initial Plan ==
+                  Project [rider_id#4, ride_id#0, ts_start#1, ts_end#2, duration_s#3L, vehicle_id#5, station_start#6, station_end#7, barrio_start#8, barrio_end#9, lat_start#10, lon_start#11, lat_end#12, lon_end#13, km#14, fare_ars#15, clima_codigo#16L, station_clima#17, km_a_estacion_clima#18, hora_utc#19, temp_c#20, precip_mm#21, weather_code#22L, clima_adverso#23, ... 4 more fields]
+                  +- BroadcastHashJoin [rider_id#4], [rider_id#97], LeftOuter, BuildRight, false
+                     :- Filter ((((((((isnotnull(duration_s#3L) AND isnotnull(ts_end#2)) AND isnotnull(ts_start#1)) AND (duration_s#3L >= 30)) AND (duration_s#3L <= 14400)) AND (ts_end#2 >= ts_start#1)) AND isnotnull(station_start#6)) AND isnotnull(station_end#7)) AND (coalesce(fare_ars#15, 0.0) >= 0.0))
+                     :  +- FileScan parquet [ride_id#0,ts_start#1,ts_end#2,duration_s#3L,rider_id#4,vehicle_id#5,station_start#6,station_end#7,barrio_start#8,barrio_end#9,lat_start#10,lon_start#11,lat_end#12,lon_end#13,km#14,fare_ars#15,clima_codigo#16L,station_clima#17,km_a_estacion_clima#18,hora_utc#19,temp_c#20,precip_mm#21,weather_code#22L,clima_adverso#23,fecha#24] Batched: true, DataFilters: [isnotnull(duration_s#3L), isnotnull(ts_end#2), isnotnull(ts_start#1), (duration_s#3L >= 30), (du..., Format: Parquet, Location: InMemoryFileIndex(1 paths)[file:/opt/nexo/.staging/silver/viajes_clima], PartitionFilters: [], PushedFilters: [IsNotNull(duration_s), IsNotNull(ts_end), IsNotNull(ts_start), GreaterThanOrEqual(duration_s,30)..., ReadSchema: struct<ride_id:string,ts_start:timestamp_ntz,ts_end:timestamp_ntz,duration_s:bigint,rider_id:stri...
+                     +- BroadcastExchange HashedRelationBroadcastMode(List(input[0, string, false]),false), [plan_id=252]
+                        +- Filter isnotnull(rider_id#97)
+                           +- FileScan csv [rider_id#97,nombre#98,plan#100,ciudad#102] Batched: false, DataFilters: [isnotnull(rider_id#97)], Format: CSV, Location: InMemoryFileIndex(1 paths)[file:/opt/nexo/data/riders.csv], PartitionFilters: [], PushedFilters: [IsNotNull(rider_id)], ReadSchema: struct<rider_id:string,nombre:string,plan:string,ciudad:string>
+
+== Physical Plan ==
+AdaptiveSparkPlan isFinalPlan=false
++- Sort [fecha#24 ASC NULLS FIRST], true, 0
+   +- Exchange rangepartitioning(fecha#24 ASC NULLS FIRST, 200), ENSURE_REQUIREMENTS, [plan_id=541]
+      +- HashAggregate(keys=[fecha#24], functions=[count(1), sum(duration_s#3L), sum(km#14), avg(CASE WHEN isnull(clima_adverso#23) THEN 0.0 ELSE cast(clima_adverso#23 as double) END), sum(fare_ars#15)], output=[fecha#24, viajes#1096L, minutos#1098, km#1100, pct_clima_adverso#1102, fare_observado_ars#1104, revenue_estimado_ars#1106])
+         +- Exchange hashpartitioning(fecha#24, 200), ENSURE_REQUIREMENTS, [plan_id=538]
+            +- HashAggregate(keys=[fecha#24], functions=[partial_count(1), partial_sum(duration_s#3L), partial_sum(km#14), partial_avg(CASE WHEN isnull(clima_adverso#23) THEN 0.0 ELSE cast(clima_adverso#23 as double) END), partial_sum(fare_ars#15)], output=[fecha#24, count#3024L, sum#3025L, sum#3026, sum#3027, count#3028L, sum#3029])
+               +- InMemoryTableScan [duration_s#3L, km#14, fare_ars#15, clima_adverso#23, fecha#24]
+                     +- InMemoryRelation [rider_id#4, ride_id#0, ts_start#1, ts_end#2, duration_s#3L, vehicle_id#5, station_start#6, station_end#7, barrio_start#8, barrio_end#9, lat_start#10, lon_start#11, lat_end#12, lon_end#13, km#14, fare_ars#15, clima_codigo#16L, station_clima#17, km_a_estacion_clima#18, hora_utc#19, temp_c#20, precip_mm#21, weather_code#22L, clima_adverso#23, ... 4 more fields], StorageLevel(disk, memory, deserialized, 1 replicas)
+                           +- AdaptiveSparkPlan isFinalPlan=true
+                              +- == Final Plan ==
+                                 *(2) Project [rider_id#4, ride_id#0, ts_start#1, ts_end#2, duration_s#3L, vehicle_id#5, station_start#6, station_end#7, barrio_start#8, barrio_end#9, lat_start#10, lon_start#11, lat_end#12, lon_end#13, km#14, fare_ars#15, clima_codigo#16L, station_clima#17, km_a_estacion_clima#18, hora_utc#19, temp_c#20, precip_mm#21, weather_code#22L, clima_adverso#23, ... 4 more fields]
+                                 +- *(2) BroadcastHashJoin [rider_id#4], [rider_id#97], LeftOuter, BuildRight, false
+                                    :- *(2) Filter ((((((((isnotnull(duration_s#3L) AND isnotnull(ts_end#2)) AND isnotnull(ts_start#1)) AND (duration_s#3L >= 30)) AND (duration_s#3L <= 14400)) AND (ts_end#2 >= ts_start#1)) AND isnotnull(station_start#6)) AND isnotnull(station_end#7)) AND (coalesce(fare_ars#15, 0.0) >= 0.0))
+                                    :  +- *(2) ColumnarToRow
+                                    :     +- FileScan parquet [ride_id#0,ts_start#1,ts_end#2,duration_s#3L,rider_id#4,vehicle_id#5,station_start#6,station_end#7,barrio_start#8,barrio_end#9,lat_start#10,lon_start#11,lat_end#12,lon_end#13,km#14,fare_ars#15,clima_codigo#16L,station_clima#17,km_a_estacion_clima#18,hora_utc#19,temp_c#20,precip_mm#21,weather_code#22L,clima_adverso#23,fecha#24] Batched: true, DataFilters: [isnotnull(duration_s#3L), isnotnull(ts_end#2), isnotnull(ts_start#1), (duration_s#3L >= 30), (du..., Format: Parquet, Location: InMemoryFileIndex(1 paths)[file:/opt/nexo/.staging/silver/viajes_clima], PartitionFilters: [], PushedFilters: [IsNotNull(duration_s), IsNotNull(ts_end), IsNotNull(ts_start), GreaterThanOrEqual(duration_s,30)..., ReadSchema: struct<ride_id:string,ts_start:timestamp_ntz,ts_end:timestamp_ntz,duration_s:bigint,rider_id:stri...
+                                    +- BroadcastQueryStage 0
+                                       +- BroadcastExchange HashedRelationBroadcastMode(List(input[0, string, false]),false), [plan_id=283]
+                                          +- *(1) Filter isnotnull(rider_id#97)
+                                             +- FileScan csv [rider_id#97,nombre#98,plan#100,ciudad#102] Batched: false, DataFilters: [isnotnull(rider_id#97)], Format: CSV, Location: InMemoryFileIndex(1 paths)[file:/opt/nexo/data/riders.csv], PartitionFilters: [], PushedFilters: [IsNotNull(rider_id)], ReadSchema: struct<rider_id:string,nombre:string,plan:string,ciudad:string>
+                              +- == Initial Plan ==
+                                 Project [rider_id#4, ride_id#0, ts_start#1, ts_end#2, duration_s#3L, vehicle_id#5, station_start#6, station_end#7, barrio_start#8, barrio_end#9, lat_start#10, lon_start#11, lat_end#12, lon_end#13, km#14, fare_ars#15, clima_codigo#16L, station_clima#17, km_a_estacion_clima#18, hora_utc#19, temp_c#20, precip_mm#21, weather_code#22L, clima_adverso#23, ... 4 more fields]
+                                 +- BroadcastHashJoin [rider_id#4], [rider_id#97], LeftOuter, BuildRight, false
+                                    :- Filter ((((((((isnotnull(duration_s#3L) AND isnotnull(ts_end#2)) AND isnotnull(ts_start#1)) AND (duration_s#3L >= 30)) AND (duration_s#3L <= 14400)) AND (ts_end#2 >= ts_start#1)) AND isnotnull(station_start#6)) AND isnotnull(station_end#7)) AND (coalesce(fare_ars#15, 0.0) >= 0.0))
+                                    :  +- FileScan parquet [ride_id#0,ts_start#1,ts_end#2,duration_s#3L,rider_id#4,vehicle_id#5,station_start#6,station_end#7,barrio_start#8,barrio_end#9,lat_start#10,lon_start#11,lat_end#12,lon_end#13,km#14,fare_ars#15,clima_codigo#16L,station_clima#17,km_a_estacion_clima#18,hora_utc#19,temp_c#20,precip_mm#21,weather_code#22L,clima_adverso#23,fecha#24] Batched: true, DataFilters: [isnotnull(duration_s#3L), isnotnull(ts_end#2), isnotnull(ts_start#1), (duration_s#3L >= 30), (du..., Format: Parquet, Location: InMemoryFileIndex(1 paths)[file:/opt/nexo/.staging/silver/viajes_clima], PartitionFilters: [], PushedFilters: [IsNotNull(duration_s), IsNotNull(ts_end), IsNotNull(ts_start), GreaterThanOrEqual(duration_s,30)..., ReadSchema: struct<ride_id:string,ts_start:timestamp_ntz,ts_end:timestamp_ntz,duration_s:bigint,rider_id:stri...
+                                    +- BroadcastExchange HashedRelationBroadcastMode(List(input[0, string, false]),false), [plan_id=252]
+                                       +- Filter isnotnull(rider_id#97)
+                                          +- FileScan csv [rider_id#97,nombre#98,plan#100,ciudad#102] Batched: false, DataFilters: [isnotnull(rider_id#97)], Format: CSV, Location: InMemoryFileIndex(1 paths)[file:/opt/nexo/data/riders.csv], PartitionFilters: [], PushedFilters: [IsNotNull(rider_id)], ReadSchema: struct<rider_id:string,nombre:string,plan:string,ciudad:string>
+
+
+
+--- Anotación docente ---
+Tras .cache() en viajes filtrados, las agregaciones deberían leer InMemoryTableScan / InMemoryRelation. El join a riders (~120 filas) suele planificarse como BroadcastHashJoin (Catalyst empuja la tabla chica).
+
+Filas en cache (viajes calidad + join riders): 245019

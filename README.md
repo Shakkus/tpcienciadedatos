@@ -48,6 +48,22 @@ python tools/bronze_a_minio.py
 
 Con el clúster Hadoop iniciado y `texto_ops.txt` cargado en HDFS, ejecutar
 WordCount desde la raíz del repositorio:
+### 5. Spark batch Gold (M8)
+
+Requiere **JDK 17+** en `PATH` para correr local:
+
+```bash
+python 05-spark/batch/job_gold.py --source minio
+```
+
+Sin Java en el host (Windows): `bash tools/run_job_gold_docker.sh` (imagen `apache/spark:3.5.3`, MinIO en `host.docker.internal:9000`).
+
+- **Input:** `s3a://silver/viajes_clima/` (contrato [contratos/silver_viajes.yaml](contratos/silver_viajes.yaml))
+- **Output:** `s3a://gold/ops_diaria/`, `gold/top_estaciones/`, `gold/repuesto_lluvia/`
+- **Local:** `05-spark/batch/output/` · export pregunta 1: `09-producto/gold_repuesto_lluvia.csv`
+- **Evidencia:** [evidence/spark/batch_explain.txt](evidence/spark/batch_explain.txt)
+
+### 4. Silver (M3, viajes × clima)
 
 ```bash
 docker compose exec -T hadoop-namenode hadoop jar /opt/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.4.1.jar wordcount /nexo/bronze/logs/texto_ops.txt /nexo/gold/wordcount
