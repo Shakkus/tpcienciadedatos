@@ -35,7 +35,35 @@ cp .env.example .env
 pip install -r requirements.txt
 ```
 
-### 3. Bronze en el lake (MinIO)
+### 3. Hadoop local (M4/M5)
+
+Hadoop 3.4.1 se ejecuta como un clúster de un solo nodo con HDFS y YARN. Estos
+servicios se inician por separado del resto, lo que resulta útil en equipos con
+poca memoria RAM. La imagen de Apache se descarga de Docker Hub la primera vez;
+en los siguientes arranques, Docker Compose reutiliza la imagen descargada.
+
+```bash
+docker compose up -d hadoop-namenode hadoop-datanode hadoop-resourcemanager hadoop-nodemanager
+docker compose ps hadoop-namenode hadoop-datanode hadoop-resourcemanager hadoop-nodemanager
+docker compose exec hadoop-namenode hdfs dfs -ls /
+```
+
+Interfaz web del NameNode: <http://localhost:9870>. Ejecutá los comandos de
+Hadoop desde el contenedor `hadoop-namenode`. Allí, la carpeta `data/` del
+proyecto está montada en modo de solo lectura en `/opt/nexo/data`.
+
+Este clúster de desarrollo tiene un DataNode y un factor de replicación `1`;
+permite probar HDFS y MapReduce, pero no ofrece redundancia entre nodos. Los
+volúmenes persistentes de Docker conservan el estado de HDFS entre reinicios.
+Para detener el clúster sin borrar los datos, ejecutá:
+`docker compose stop hadoop-namenode hadoop-datanode hadoop-resourcemanager hadoop-nodemanager`.
+
+Para M5, usá `/opt/nexo/data/viajes_muestra.csv` y
+`/opt/nexo/data/texto_ops.txt` como archivos de entrada locales desde el
+contenedor NameNode. La configuración de Hadoop con versión fijada está en
+`04-hadoop/config/`.
+
+### 4. Bronze en el lake (MinIO)
 
 ```bash
 python tools/bronze_a_minio.py
