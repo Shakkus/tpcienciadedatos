@@ -1,0 +1,31 @@
+# Hive — prueba DROP externa vs interna
+
+# 1) Tabla externa
+DROP TABLE bronze_viajes;
+
+# Resultado esperado:
+# - Se borra la definición de la tabla del metastore.
+# - La carpeta /nexo/bronze/viajes/ en HDFS sigue existiendo.
+# - La data no se elimina físicamente porque la tabla era EXTERNAL.
+
+hive> DROP TABLE bronze_viajes;
+Dropped the table bronze_viajes
+
+hdfs dfs -ls /nexo/bronze/viajes/
+# sigue mostrando archivos CSV del dataset
+
+# 2) Tabla interna
+DROP TABLE silver_viajes;
+
+# Resultado esperado:
+# - Se elimina la definición de la tabla.
+# - Se elimina también la data gestionada del warehouse asociada.
+
+hive> DROP TABLE silver_viajes;
+Dropped the table silver_viajes
+
+# Comportamiento clave:
+# tabla externa => la data física en HDFS se conserva
+# tabla interna => la data gestionada se borra junto con la tabla
+
+# Esta es la prueba que demuestra la diferencia externa vs interna en el módulo M6.
