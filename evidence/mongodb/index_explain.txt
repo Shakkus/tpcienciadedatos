@@ -1,0 +1,40 @@
+{
+  "query": "db.productos.find({ categoria: \"pase\", tags: \"urbano\" })",
+  "beforeIndex": {
+    "executionTimeMillis": 2,
+    "totalDocsExamined": 41,
+    "totalKeysExamined": 0,
+    "nReturned": 4
+  },
+  "afterIndex": {
+    "executionTimeMillis": 4,
+    "totalDocsExamined": 4,
+    "totalKeysExamined": 4,
+    "nReturned": 4
+  },
+  "improvementMs": -2,
+  "summary": {
+    "totalDocsInserted": 41,
+    "totalDocsAfterDelete": 40,
+    "filteredCount": 5,
+    "updateMatchedCount": 1,
+    "updateModifiedCount": 1,
+    "deleteDeletedCount": 1,
+    "beforeIndex": {
+      "executionTimeMillis": 2,
+      "totalDocsExamined": 41,
+      "totalKeysExamined": 0,
+      "nReturned": 4
+    },
+    "afterIndex": {
+      "executionTimeMillis": 4,
+      "totalDocsExamined": 4,
+      "totalKeysExamined": 4,
+      "nReturned": 4
+    },
+    "indexCreated": {
+      "categoria": 1,
+      "tags": 1
+    }
+  }
+}
