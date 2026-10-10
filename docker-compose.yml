@@ -33,7 +33,7 @@ services:
     container_name: nexo-mongo
     restart: unless-stopped
     ports:
-      - "27018:27018"
+      - "27018:27017"
     volumes:
       - mongo_data:/data/db
 
