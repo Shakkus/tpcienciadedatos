@@ -35,35 +35,6 @@ cp .env.example .env
 pip install -r requirements.txt
 ```
 
-### 3. Hadoop local (M4/M5)
-
-Hadoop 3.4.1 se ejecuta como un clúster de un solo nodo con HDFS y YARN. Estos
-servicios se inician por separado del resto, lo que resulta útil en equipos con
-poca memoria RAM. La imagen de Apache se descarga de Docker Hub la primera vez;
-en los siguientes arranques, Docker Compose reutiliza la imagen descargada.
-
-```bash
-docker compose up -d hadoop-namenode hadoop-datanode hadoop-resourcemanager hadoop-nodemanager
-docker compose ps hadoop-namenode hadoop-datanode hadoop-resourcemanager hadoop-nodemanager
-docker compose exec hadoop-namenode hdfs dfs -ls /
-```
-
-Interfaz web del NameNode: <http://localhost:9870>. Ejecutá los comandos de
-Hadoop desde el contenedor `hadoop-namenode`. Allí, la carpeta `data/` del
-proyecto está montada en modo de solo lectura en `/opt/nexo/data`.
-
-Este clúster de desarrollo tiene un DataNode y un factor de replicación `1`;
-permite probar HDFS y MapReduce, pero no ofrece redundancia entre nodos. Los
-volúmenes persistentes de Docker conservan el estado de HDFS entre reinicios.
-Para detener el clúster sin borrar los datos, ejecutá:
-`docker compose stop hadoop-namenode hadoop-datanode hadoop-resourcemanager hadoop-nodemanager`.
-
-Para M5, usá `/opt/nexo/data/viajes_muestra.csv` y
-`/opt/nexo/data/texto_ops.txt` como archivos de entrada locales desde el
-contenedor NameNode. La configuración de Hadoop con versión fijada está en
-`04-hadoop/config/`.
-
-### 4. Bronze en el lake (MinIO)
 
 ```bash
 python tools/bronze_a_minio.py
@@ -73,16 +44,22 @@ python tools/bronze_a_minio.py
 - **ADR:** [ADR/001-datalake.md](ADR/001-datalake.md)
 - **Evidencia:** [evidence/docker/minio_bronze_viajes.txt](evidence/docker/minio_bronze_viajes.txt)
 
-### 4. Silver (M3, viajes × clima)
+### M5.3 WordCount en Hadoop
+
+Con el clúster Hadoop iniciado y `texto_ops.txt` cargado en HDFS, ejecutar
+WordCount desde la raíz del repositorio:
 
 ```bash
-python 03-databricks/01_ingesta.py
+docker compose exec -T hadoop-namenode hadoop jar /opt/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.4.1.jar wordcount /nexo/bronze/logs/texto_ops.txt /nexo/gold/wordcount
+powershell -ExecutionPolicy Bypass -File .\04-hadoop\mapreduce\generar_top20.ps1
 ```
 
-- **URI:** `s3a://silver/viajes_clima/fecha=yyyy-mm-dd/part-0.parquet`
-- **Contrato:** [contratos/silver_viajes.yaml](contratos/silver_viajes.yaml) (posts: [contratos/silver_social.yaml](contratos/silver_social.yaml))
-- **ADR:** [ADR/002-databricks-apis.md](ADR/002-databricks-apis.md)
-- **Evidencia:** [evidence/databricks/01_ingesta_log.txt](evidence/databricks/01_ingesta_log.txt)
+El directorio de salida HDFS debe no existir antes de lanzar el job. Antes de
+ejecutar el script, exportar `part-r-00000` desde HDFS a
+`04-hadoop/mapreduce/part-r-00000`. El script genera el top 20 a partir de ese
+resultado completo, normalizando mayúsculas y hashtags, y excluyendo palabras
+funcionales, IDs y nombres genéricos de entidad. Las salidas y el log están en
+`04-hadoop/mapreduce/` y `evidence/hadoop/`, respectivamente.
 
 ## Recortes de alcance (enunciado §8)
 
