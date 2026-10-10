@@ -4,3 +4,5 @@ pandas>=2.2
 pyarrow>=15
 requests>=2.32
 numpy>=2.0
+# M8 Spark batch (requiere JDK 17+ en PATH para spark-submit local)
+pyspark>=3.5,<4
