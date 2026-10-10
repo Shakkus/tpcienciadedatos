@@ -1,0 +1,75 @@
+NexoUrbano — M3 ingesta Silver
+ciudad: Buenos Aires
+rango: 2026-03-01 .. 2026-05-30 (UTC, extremo inclusive)
+estaciones clima: ST000, ST002, ST010
+source: local
+origen viajes: data/viajes.csv
+shape leído: 250000 filas x 17 columnas
+shape en rango: 250000 filas x 17 columnas
+duplicados ride_id: 0
+nulos por columna (solo las que tienen):
+  (ninguna columna con nulos)
+rechazo por regla (una fila puede contar en más de una):
+  duration_s < 30: 3323
+  duration_s > 14400: 1658
+  ts_end < ts_start: 0
+  station_start o station_end nulos: 0
+  fare_ars < 0: 0
+filas rechazadas: 4981
+filas aceptadas: 245019
+estaciones Open-Meteo:
+  ST000 Estacion Palermo 0 (Palermo) lat=-34.565397 lon=-58.359973
+  ST002 Estacion San Telmo 2 (San Telmo) lat=-34.640896 lon=-58.347947
+  ST010 Estacion Microcentro 10 (Microcentro) lat=-34.588746 lon=-58.383697
+filas clima horario: 6552 (3 estaciones)
+
+métricas:
+shape silver: 245019 filas x 25 columnas
+1. viajes/hora (tasa sobre el rango UTC): 113.38
+   hora ART con más viajes: 19h (10375 viajes)
+2. duración p50: 245.0 s
+3. duración p95: 771.0 s
+4. top estaciones origen:
+   ST016: 10471
+   ST004: 10362
+   ST000: 10352
+   ST010: 10318
+   ST009: 10304
+   ST019: 10294
+   ST023: 10279
+   ST013: 10243
+   ST014: 10238
+   ST005: 10228
+5. % nulos km (bronze en rango, antes del rechazo): 0.0000%
+   filas post-rechazo (silver): 245019 de 250000
+match clima (weather_code no nulo): 100.00%
+% clima adverso entre filas con clima: 13.02%
+nulos silver (solo columnas con nulos):
+  (ninguna columna con nulos)
+
+social: 11 posts vía mastodon.social tag #ecobici (fallback; Bluesky: 403 Client Error: Forbidden for url: https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts?q=ecobici+Buenos+Aires&limit=25)
+muestra social (hasta 3):
+  [mastodon] 2026-05-23T19:30:00.000Z @sociedad-noticias.com@sociedad-noticias.com: Ecobici supera 185 mil usuarios activos en Cdmx Se han detectado 71 bicicletas mal ancladas, se dio atención a 20 que estaban abandonadas, s
+  [mastodon] 2026-05-19T16:18:50.000Z @S@bonito.cafe: Volvimos a usar una # ecobici después de muchoooo tiempo (2014), están mucho mejores la vdd que en sus inicios Buen viajecito en zona gentri
+  [mastodon] 2026-01-24T21:30:00.000Z @sociedad-noticias.com@sociedad-noticias.com: Ecobici consolida a la Cdmx como líder en movilidad sustentable en América Latina Ecobici: liderazgo latinoamericano con estándares globales
+
+parquet staging: 93 archivos, 18117276 bytes (no se versiona)
+limpieza previa s3a://silver/viajes_clima/: 91 objetos
+limpieza previa s3a://silver/viajes_rechazados/: 1 objeto
+limpieza previa s3a://silver/social_posts/: 1 objeto
+objetos subidos a silver: 93
+URI base: s3a://silver/viajes_clima/fecha=yyyy-mm-dd/
+URI social: s3a://silver/social_posts/posts.parquet
+URI rechazados: s3a://silver/viajes_rechazados/rechazados.parquet
+muestra de URIs:
+  s3a://silver/viajes_clima/fecha=2026-03-01/part-0.parquet
+  s3a://silver/viajes_clima/fecha=2026-03-02/part-0.parquet
+  s3a://silver/viajes_clima/fecha=2026-03-03/part-0.parquet
+  s3a://silver/viajes_clima/fecha=2026-03-04/part-0.parquet
+  s3a://silver/viajes_clima/fecha=2026-03-05/part-0.parquet
+  s3a://silver/viajes_clima/fecha=2026-03-06/part-0.parquet
+  s3a://silver/viajes_clima/fecha=2026-03-07/part-0.parquet
+  s3a://silver/viajes_clima/fecha=2026-03-08/part-0.parquet
+  ... y 85 objetos más
+lectura MinIO (GET 64 bytes) de s3a://silver/viajes_clima/fecha=2026-03-01/part-0.parquet: 2.1 ms
+endpoint: http://localhost:9000

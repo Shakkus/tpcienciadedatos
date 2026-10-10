@@ -1,0 +1,19 @@
+# Contrato Silver — posts sociales (no se joinea con viajes)
+
+dataset: silver_social_posts
+owner: sebastian_albornoz
+grano: un post público
+timezone: UTC (la que devuelva la API)
+formato: parquet
+uri: s3a://silver/social_posts/posts.parquet
+frescura_sla: al momento de correr 03-databricks/01_ingesta.py
+
+fuentes:
+  - Bluesky app.bsky.feed.searchPosts (intento; el 2026-10-09 respondió 403)
+  - Mastodon mastodon.social hashtag ecobici (fallback que persistió)
+
+columnas:
+  - {nombre: fecha, tipo: string, nullable: false}
+  - {nombre: texto, tipo: string, nullable: false}
+  - {nombre: autor, tipo: string, nullable: false}
+  - {nombre: fuente, tipo: string, nullable: false}
