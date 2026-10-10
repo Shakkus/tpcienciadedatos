@@ -1,0 +1,2 @@
+ride_id,ts_start,ts_end,duration_s,rider_id,vehicle_id,station_start,station_end,barrio_start,barrio_end,lat_start,lon_start,lat_end,lon_end,km,fare_ars,clima_codigo
+T_NULL_KM,2026-05-15T11:38:00+00:00,2026-05-15T11:59:39+00:00,1299,R0001,V0001,ST001,ST002,Centro,Palermo,-34.6037,-58.3816,-34.5895,-58.3974,,320.0,0

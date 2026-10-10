@@ -8,6 +8,6 @@ docker run --rm --user root \
   -w /opt/nexo \
   -e MINIO_ENDPOINT=host.docker.internal:9000 \
   -e MYSQL_HOST=host.docker.internal \
-  -e MYSQL_PORT=3306 \
+  -e MYSQL_PORT=3307 \
   apache/spark:3.5.3 \
   bash -c "pip3 install -q minio && /opt/spark/bin/spark-submit --driver-memory 2g --packages com.mysql:mysql-connector-j:8.4.0 /opt/nexo/05-spark/batch/job_gold.py --source minio"
