@@ -13,6 +13,7 @@ __pycache__/
 .vscode/
 .staging/
 05-spark/batch/output/
+05-spark/streaming/output/
 09-producto/_tmp_repuesto_lluvia/
 
 my_featured.txt

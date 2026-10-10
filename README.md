@@ -63,6 +63,21 @@ Sin Java en el host (Windows): `bash tools/run_job_gold_docker.sh` (imagen `apac
 - **Local:** `05-spark/batch/output/` · export pregunta 1: `09-producto/gold_repuesto_lluvia.csv`
 - **Evidencia:** [evidence/spark/batch_explain.txt](evidence/spark/batch_explain.txt)
 
+### 6. Spark Streaming (M9)
+
+No depende de Silver, Hadoop ni de los NoSQL. Lee `data/stream/*.json` (file source).
+
+```bash
+bash tools/run_stream_alerts_docker.sh
+```
+
+Con JDK 17+ en el host: `python 05-spark/streaming/stream_alerts.py`.
+
+- Ventana **2 min**, slide **30 s**, watermark **1 min**. Cuenta `payment_fail` y `battery_low`.
+- El demo copia los 40 JSON por tandas. Después manda `event_clock.json` (`ride_start` a las 12:06:00Z) para cerrar las ventanas y, recién ahí, `event_late.json` (`payment_fail` a las 12:00:10Z, `vehicle_id` VLATE). Ese pago no mueve los conteos.
+- **Consola:** [evidence/spark/streaming_console.txt](evidence/spark/streaming_console.txt)
+- **Tabla:** [evidence/spark/gold_alerts.csv](evidence/spark/gold_alerts.csv) y Parquet en `05-spark/streaming/output/gold_alerts/`
+
 ### 4. Silver (M3, viajes × clima)
 
 ```bash
