@@ -5,15 +5,15 @@ fuente canónica: /opt/nexo/data/stream
 staging: /opt/nexo/.staging/streaming/input
 Caso de uso: payment_fail y battery_low en ventana de 2 min; un evento con reloj atrasado no reabre la alerta.
 tanda: 8/40 archivos en input
-epoch=0 wall=08:06:13Z
+epoch=0 wall=18:18:05Z
   ventana_inicio        ventana_fin           event         conteo
   2026-05-20T11:58:30Z  2026-05-20T12:00:30Z  payment_fail  2
   2026-05-20T11:59:00Z  2026-05-20T12:01:00Z  payment_fail  2
   2026-05-20T11:59:30Z  2026-05-20T12:01:30Z  payment_fail  2
   2026-05-20T12:00:00Z  2026-05-20T12:02:00Z  payment_fail  2
-epoch=1 wall=08:06:15Z sin cambio en alertas
 tanda: 16/40 archivos en input
-epoch=2 wall=08:06:21Z
+epoch=1 wall=18:18:06Z sin cambio en alertas
+epoch=2 wall=18:18:11Z
   ventana_inicio        ventana_fin           event         conteo
   2026-05-20T11:58:30Z  2026-05-20T12:00:30Z  payment_fail  2
   2026-05-20T11:59:00Z  2026-05-20T12:01:00Z  battery_low   1
@@ -25,13 +25,13 @@ epoch=2 wall=08:06:21Z
   2026-05-20T12:00:30Z  2026-05-20T12:02:30Z  battery_low   1
   2026-05-20T12:00:30Z  2026-05-20T12:02:30Z  payment_fail  1
 tanda: 24/40 archivos en input
-epoch=3 wall=08:06:26Z sin cambio en alertas
-epoch=4 wall=08:06:30Z sin cambio en alertas
+epoch=3 wall=18:18:16Z sin cambio en alertas
+epoch=4 wall=18:18:20Z sin cambio en alertas
 tanda: 32/40 archivos en input
-epoch=5 wall=08:06:35Z sin cambio en alertas
-epoch=6 wall=08:06:40Z sin cambio en alertas
+epoch=5 wall=18:18:26Z sin cambio en alertas
+epoch=6 wall=18:18:30Z sin cambio en alertas
 tanda: 40/40 archivos en input
-epoch=7 wall=08:06:45Z
+epoch=7 wall=18:18:35Z
   ventana_inicio        ventana_fin           event         conteo
   2026-05-20T11:58:30Z  2026-05-20T12:00:30Z  payment_fail  2
   2026-05-20T11:59:00Z  2026-05-20T12:01:00Z  battery_low   1
@@ -47,15 +47,15 @@ epoch=7 wall=08:06:45Z
   2026-05-20T12:01:30Z  2026-05-20T12:03:30Z  battery_low   1
   2026-05-20T12:01:30Z  2026-05-20T12:03:30Z  payment_fail  2
 archivos del generador copiados: 40
-epoch=8 wall=08:06:50Z sin cambio en alertas
+epoch=8 wall=18:18:40Z sin cambio en alertas
 watermark tras las tandas: 2026-05-20T12:00:57+00:00
 inyectado event_clock.json: ride_start ts=2026-05-20T12:06:00+00:00 (no es alerta; solo cierra ventanas)
-epoch=9 wall=08:06:55Z sin cambio en alertas
-epoch=10 wall=08:07:00Z sin cambio en alertas
+epoch=9 wall=18:18:45Z sin cambio en alertas
+epoch=10 wall=18:18:50Z sin cambio en alertas
 watermark tras el reloj: 2026-05-20T12:05:00+00:00
 estado estable antes del tardío: 13 ventanas, offset={'logOffset': 5}
 inyectado event_late.json: payment_fail ts=2026-05-20T12:00:10+00:00 vehicle_id=VLATE
-epoch=11 wall=08:07:05Z sin cambio en alertas
+epoch=11 wall=18:18:55Z sin cambio en alertas
 evento tardío descartado: event_late.json payment_fail 2026-05-20T12:00:10+00:00 vehicle_id=VLATE. Llegó con watermark en 2026-05-20T12:05:00+00:00 (las ventanas de 2 min que lo contenían ya tenían fin <= watermark). Los conteos no se movieron.
 offset alerts después del tardío: {'logOffset': 6}
 verificación batch OK: mismas ventanas que los 40 JSON, sin VLATE. suma de conteos (un evento cae en varias ventanas) payment_fail=20 battery_low=8
