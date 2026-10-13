@@ -1,0 +1,206 @@
+0 rows
+ready to start consuming query after 7 ms, results consumed after another 0 ms
+0 rows
+ready to start consuming query after 18 ms, results consumed after another 0 ms
+0 rows
+ready to start consuming query after 11 ms, results consumed after another 0 ms
+0 rows
+ready to start consuming query after 97 ms, results consumed after another 0 ms
+Set 840 properties
+0 rows
+ready to start consuming query after 23 ms, results consumed after another 0 ms
+Set 120 properties
+0 rows
+ready to start consuming query after 100 ms, results consumed after another 0 ms
+0 rows
+ready to start consuming query after 169 ms, results consumed after another 0 ms
+Set 227 properties
+0 rows
+ready to start consuming query after 209 ms, results consumed after another 0 ms
+Set 320 properties
++--------------+
+| riders_total |
++--------------+
+| 120          |
++--------------+
+
+1 row
+ready to start consuming query after 5 ms, results consumed after another 1 ms
++------------------+
+| estaciones_total |
++------------------+
+| 24               |
++------------------+
+
+1 row
+ready to start consuming query after 22 ms, results consumed after another 1 ms
++-----------------+
+| intereses_total |
++-----------------+
+| 10              |
++-----------------+
+
+1 row
+ready to start consuming query after 21 ms, results consumed after another 1 ms
++-----------------+
+| amistades_total |
++-----------------+
+| 220             |
++-----------------+
+
+1 row
+ready to start consuming query after 6 ms, results consumed after another 2 ms
++--------------------------+
+| viajes_compartidos_total |
++--------------------------+
+| 160                      |
++--------------------------+
+
+1 row
+ready to start consuming query after 9 ms, results consumed after another 0 ms
++---------------+
+| salidas_total |
++---------------+
+| 301           |
++---------------+
+
+1 row
+ready to start consuming query after 10 ms, results consumed after another 1 ms
++-------------------+
+| riders_sin_salida |
++-------------------+
+| 9                 |
++-------------------+
+
+1 row
+ready to start consuming query after 6 ms, results consumed after another 16 ms
++-------------------------------------------------------------+
+| station_id | nombre                   | riders_que_salieron |
++-------------------------------------------------------------+
+| "ST021"    | "Estacion Retiro 21"     | 20                  |
+| "ST005"    | "Estacion Almagro 5"     | 18                  |
+| "ST012"    | "Estacion Palermo 12"    | 18                  |
+| "ST000"    | "Estacion Palermo 0"     | 18                  |
+| "ST015"    | "Estacion Belgrano 15"   | 17                  |
+| "ST009"    | "Estacion Retiro 9"      | 16                  |
+| "ST014"    | "Estacion San Telmo 14"  | 16                  |
+| "ST020"    | "Estacion Colegiales 20" | 16                  |
+| "ST023"    | "Estacion Chacarita 23"  | 15                  |
+| "ST013"    | "Estacion Recoleta 13"   | 14                  |
++-------------------------------------------------------------+
+
+10 rows
+ready to start consuming query after 3 ms, results consumed after another 4 ms
++-------------------+
+| rider_a | rider_b |
++-------------------+
+| "R0000" | "R0033" |
+| "R0001" | "R0083" |
+| "R0001" | "R0028" |
+| "R0001" | "R0015" |
+| "R0002" | "R0046" |
+| "R0002" | "R0030" |
+| "R0002" | "R0008" |
+| "R0003" | "R0076" |
+| "R0004" | "R0115" |
+| "R0004" | "R0113" |
++-------------------+
+
+10 rows
+ready to start consuming query after 8 ms, results consumed after another 4 ms
++------------------------------------+
+| rider_a | rider_b | station_id | n |
++------------------------------------+
+| "R0000" | "R0074" | "ST007"    | 4 |
+| "R0000" | "R0034" | "ST002"    | 3 |
+| "R0001" | "R0019" | "ST002"    | 5 |
+| "R0002" | "R0035" | "ST001"    | 2 |
+| "R0002" | "R0085" | "ST017"    | 4 |
+| "R0003" | "R0091" | "ST000"    | 5 |
+| "R0003" | "R0000" | "ST015"    | 3 |
+| "R0004" | "R0042" | "ST013"    | 7 |
+| "R0006" | "R0059" | "ST001"    | 3 |
+| "R0007" | "R0033" | "ST021"    | 1 |
++------------------------------------+
+
+10 rows
+ready to start consuming query after 4 ms, results consumed after another 5 ms
++----------------------------------------------------------------------------+
+| rider_a | rider_b | cantidad_amigos_en_comun | amigos_en_comun_ids         |
++----------------------------------------------------------------------------+
+| "R0013" | "R0060" | 3                        | ["R0024", "R0085", "R0101"] |
+| "R0025" | "R0053" | 3                        | ["R0047", "R0060", "R0110"] |
+| "R0047" | "R0060" | 3                        | ["R0025", "R0053", "R0076"] |
+| "R0002" | "R0100" | 2                        | ["R0008", "R0030"]          |
+| "R0007" | "R0024" | 2                        | ["R0014", "R0033"]          |
+| "R0008" | "R0030" | 2                        | ["R0002", "R0100"]          |
+| "R0008" | "R0052" | 2                        | ["R0070", "R0102"]          |
+| "R0008" | "R0092" | 2                        | ["R0059", "R0102"]          |
+| "R0013" | "R0044" | 2                        | ["R0024", "R0034"]          |
+| "R0013" | "R0102" | 2                        | ["R0088", "R0101"]          |
++----------------------------------------------------------------------------+
+
+10 rows
+ready to start consuming query after 4 ms, results consumed after another 72 ms
++---------------------------------------------------------------------------------------+
+| rider_origen | rider_destino | saltos | camino_riders                                 |
++---------------------------------------------------------------------------------------+
+| "R0000"      | "R0108"       | 4      | ["R0000", "R0033", "R0007", "R0006", "R0108"] |
++---------------------------------------------------------------------------------------+
+
+1 row
+ready to start consuming query after 6 ms, results consumed after another 4 ms
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| rider_base | plan_base | rider_recomendado | plan_recomendado | estaciones_compartidas | estaciones_compartidas_ids | intereses_recomendado       | intereses_base      |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| "R0000"    | "plus"    | "R0019"           | "plus"           | 2                      | ["ST015", "ST002"]         | ["ciclovia", "clima"]       | ["musica", "clima"] |
+| "R0000"    | "plus"    | "R0031"           | "pro"            | 2                      | ["ST015", "ST002"]         | ["diseno", "ciclovia"]      | ["musica", "clima"] |
+| "R0000"    | "plus"    | "R0034"           | "free"           | 2                      | ["ST002", "ST007"]         | ["cafe", "gastronomia"]     | ["musica", "clima"] |
+| "R0000"    | "plus"    | "R0076"           | "free"           | 2                      | ["ST002", "ST007"]         | ["fotografia", "running"]   | ["musica", "clima"] |
+| "R0000"    | "plus"    | "R0001"           | "pro"            | 1                      | ["ST002"]                  | ["musica", "gastronomia"]   | ["musica", "clima"] |
+| "R0000"    | "plus"    | "R0003"           | "plus"           | 1                      | ["ST015"]                  | ["gastronomia", "clima"]    | ["musica", "clima"] |
+| "R0000"    | "plus"    | "R0007"           | "free"           | 1                      | ["ST002"]                  | ["futbol", "running"]       | ["musica", "clima"] |
+| "R0000"    | "plus"    | "R0008"           | "plus"           | 1                      | ["ST015"]                  | ["ciclovia", "cafe"]        | ["musica", "clima"] |
+| "R0000"    | "plus"    | "R0020"           | "plus"           | 1                      | ["ST007"]                  | ["running", "futbol"]       | ["musica", "clima"] |
+| "R0000"    | "plus"    | "R0021"           | "plus"           | 1                      | ["ST002"]                  | ["clima", "ciclovia"]       | ["musica", "clima"] |
+| "R0000"    | "plus"    | "R0026"           | "free"           | 1                      | ["ST015"]                  | ["ciclovia"]                | ["musica", "clima"] |
+| "R0000"    | "plus"    | "R0035"           | "pro"            | 1                      | ["ST015"]                  | ["gastronomia", "ciclovia"] | ["musica", "clima"] |
+| "R0000"    | "plus"    | "R0036"           | "plus"           | 1                      | ["ST015"]                  | ["gastronomia", "clima"]    | ["musica", "clima"] |
+| "R0000"    | "plus"    | "R0037"           | "free"           | 1                      | ["ST002"]                  | ["clima", "fotografia"]     | ["musica", "clima"] |
+| "R0000"    | "plus"    | "R0040"           | "pro"            | 1                      | ["ST002"]                  | ["diseno", "tecnologia"]    | ["musica", "clima"] |
+| "R0000"    | "plus"    | "R0047"           | "plus"           | 1                      | ["ST015"]                  | ["running", "gastronomia"]  | ["musica", "clima"] |
+| "R0000"    | "plus"    | "R0055"           | "free"           | 1                      | ["ST002"]                  | ["musica", "futbol"]        | ["musica", "clima"] |
+| "R0000"    | "plus"    | "R0059"           | "pro"            | 1                      | ["ST015"]                  | ["running", "clima"]        | ["musica", "clima"] |
+| "R0000"    | "plus"    | "R0060"           | "plus"           | 1                      | ["ST002"]                  | ["cafe", "musica"]          | ["musica", "clima"] |
+| "R0000"    | "plus"    | "R0061"           | "pro"            | 1                      | ["ST015"]                  | ["running", "gastronomia"]  | ["musica", "clima"] |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+20 rows
+ready to start consuming query after 5 ms, results consumed after another 29 ms
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| estacion | nombre_estacion      | riders_en_trio              | ventanas_repetidas | ejemplos_rides                         | primer_registro             | ultimo_registro             | tiene_relacion_social |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| "ST000"  | "Estacion Palermo 0" | ["R0055", "R0093", "R0108"] | 1                  | [["T0025924", "T0036728", "T0133318"]] | "2026-03-18T10:33:00+00:00" | "2026-03-18T10:33:00+00:00" | TRUE                  |
+| "ST000"  | "Estacion Palermo 0" | ["R0036", "R0080", "R0106"] | 1                  | [["T0030328", "T0046251", "T0078773"]] | "2026-03-14T04:42:00+00:00" | "2026-03-14T04:43:00+00:00" | FALSE                 |
+| "ST000"  | "Estacion Palermo 0" | ["R0058", "R0065", "R0116"] | 1                  | [["T0020685", "T0116614", "T0207898"]] | "2026-05-19T08:20:00+00:00" | "2026-05-19T08:21:00+00:00" | FALSE                 |
+| "ST000"  | "Estacion Palermo 0" | ["R0005", "R0023", "R0040"] | 1                  | [["T0022837", "T0220466", "T0239226"]] | "2026-03-09T09:46:00+00:00" | "2026-03-09T09:47:00+00:00" | FALSE                 |
+| "ST000"  | "Estacion Palermo 0" | ["R0081", "R0089", "R0115"] | 1                  | [["T0014942", "T0098825", "T0176229"]] | "2026-04-09T02:16:00+00:00" | "2026-04-09T02:17:00+00:00" | FALSE                 |
+| "ST000"  | "Estacion Palermo 0" | ["R0006", "R0069", "R0111"] | 1                  | [["T0029482", "T0077939", "T0176487"]] | "2026-05-19T16:24:00+00:00" | "2026-05-19T16:25:00+00:00" | FALSE                 |
+| "ST000"  | "Estacion Palermo 0" | ["R0028", "R0060", "R0101"] | 1                  | [["T0016971", "T0062374", "T0198233"]] | "2026-05-13T02:50:00+00:00" | "2026-05-13T02:51:00+00:00" | TRUE                  |
+| "ST000"  | "Estacion Palermo 0" | ["R0049", "R0079", "R0089"] | 1                  | [["T0020463", "T0030783", "T0056035"]] | "2026-05-25T18:46:00+00:00" | "2026-05-25T18:47:00+00:00" | FALSE                 |
+| "ST000"  | "Estacion Palermo 0" | ["R0003", "R0005", "R0089"] | 1                  | [["T0021508", "T0113643", "T0155524"]] | "2026-04-19T14:36:00+00:00" | "2026-04-19T14:37:00+00:00" | FALSE                 |
+| "ST000"  | "Estacion Palermo 0" | ["R0076", "R0112", "R0116"] | 1                  | [["T0022595", "T0143560", "T0228779"]] | "2026-03-08T10:58:00+00:00" | "2026-03-08T10:58:00+00:00" | FALSE                 |
+| "ST000"  | "Estacion Palermo 0" | ["R0004", "R0089", "R0119"] | 1                  | [["T0002311", "T0124093", "T0226189"]] | "2026-03-10T17:17:00+00:00" | "2026-03-10T17:17:00+00:00" | FALSE                 |
+| "ST000"  | "Estacion Palermo 0" | ["R0025", "R0059", "R0114"] | 1                  | [["T0000386", "T0078778", "T0197341"]] | "2026-05-13T19:26:00+00:00" | "2026-05-13T19:27:00+00:00" | FALSE                 |
+| "ST000"  | "Estacion Palermo 0" | ["R0081", "R0111", "R0114"] | 1                  | [["T0009821", "T0083483", "T0204886"]] | "2026-03-29T22:56:00+00:00" | "2026-03-29T22:57:00+00:00" | FALSE                 |
+| "ST000"  | "Estacion Palermo 0" | ["R0068", "R0099", "R0114"] | 1                  | [["T0015994", "T0134757", "T0248949"]] | "2026-03-09T01:28:00+00:00" | "2026-03-09T01:29:00+00:00" | FALSE                 |
+| "ST000"  | "Estacion Palermo 0" | ["R0011", "R0102", "R0106"] | 1                  | [["T0008630", "T0145962", "T0216227"]] | "2026-04-17T14:49:00+00:00" | "2026-04-17T14:49:00+00:00" | FALSE                 |
+| "ST000"  | "Estacion Palermo 0" | ["R0073", "R0103", "R0118"] | 1                  | [["T0002519", "T0016333", "T0105896"]] | "2026-04-21T09:55:00+00:00" | "2026-04-21T09:55:00+00:00" | FALSE                 |
+| "ST000"  | "Estacion Palermo 0" | ["R0003", "R0020", "R0064"] | 1                  | [["T0017719", "T0039718", "T0102953"]] | "2026-03-05T21:00:00+00:00" | "2026-03-05T21:01:00+00:00" | FALSE                 |
+| "ST000"  | "Estacion Palermo 0" | ["R0015", "R0026", "R0098"] | 1                  | [["T0010774", "T0026114", "T0107961"]] | "2026-04-29T00:52:00+00:00" | "2026-04-29T00:53:00+00:00" | FALSE                 |
+| "ST000"  | "Estacion Palermo 0" | ["R0022", "R0058", "R0106"] | 1                  | [["T0013407", "T0125805", "T0196763"]] | "2026-03-05T22:16:00+00:00" | "2026-03-05T22:17:00+00:00" | FALSE                 |
+| "ST000"  | "Estacion Palermo 0" | ["R0009", "R0036", "R0080"] | 1                  | [["T0030328", "T0046251", "T0078773"]] | "2026-03-14T04:42:00+00:00" | "2026-03-14T04:43:00+00:00" | TRUE                  |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+20 rows
+ready to start consuming query after 4 ms, results consumed after another 12762 ms

@@ -53,14 +53,17 @@ services:
     image: public.ecr.aws/docker/library/neo4j:5-community
     container_name: nexo-neo4j
     restart: unless-stopped
+    user: "1000:1000"
     ports:
       - "7474:7474"
       - "7687:7687"
     environment:
       NEO4J_AUTH: neo4j/nexo-urban-2026
       NEO4J_PLUGINS: '["apoc"]'
+      NEO4J_apoc_import_file_enabled: "true"
     volumes:
       - neo4j_data:/data
+      - ./data:/var/lib/neo4j/import:ro
 
   minio:
     # minio/minio salió de Docker Hub (sep 2026) y quay.io ya no permite pull anónimo.
