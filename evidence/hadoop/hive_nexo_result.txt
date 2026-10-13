@@ -1,20 +1,101 @@
 # Hive — NexoUrbano
 
-+----------------+---------+
-| station_end    | viajes  |
-+----------------+---------+
-| ST003          | 1812    |
-| ST019          | 1755    |
-| ST010          | 1689    |
-| ST008          | 1560    |
-| ST022          | 1454    |
-| ST014          | 1398    |
-+----------------+---------+
+## Carga y validacion
 
-+----------------+---------------------+-----------+
-| vehicle_id     | duracion_promedio_seg | viajes_largos |
-+----------------+---------------------+-----------+
-| V042           | 3575.2               | 18        |
-| V118           | 3412.1               | 16        |
-| V056           | 3288.7               | 15        |
-+----------------+---------------------+-----------+
+`SHOW TABLES;`
+
+```text
++----------------+
+|    tab_name    |
++----------------+
+| bronze_viajes  |
+| silver_viajes  |
++----------------+
+```
+
+`SELECT COUNT(*) AS total FROM silver_viajes;`
+
+```text
++---------+
+|  total  |
++---------+
+| 245019  |
++---------+
+```
+
+## Consulta 1: estaciones con mas destinos
+
+`SELECT station_start AS estacion, COUNT(*) AS destinos_distintos FROM (SELECT DISTINCT station_start, station_end FROM silver_viajes) destinos GROUP BY station_start ORDER BY destinos_distintos DESC, estacion LIMIT 10;`
+
+```text
++-----------+---------------------+
+| estacion  | destinos_distintos  |
++-----------+---------------------+
+| ST000     | 24                  |
+| ST001     | 24                  |
+| ST002     | 24                  |
+| ST003     | 24                  |
+| ST004     | 24                  |
+| ST005     | 24                  |
+| ST006     | 24                  |
+| ST007     | 24                  |
+| ST008     | 24                  |
+| ST009     | 24                  |
++-----------+---------------------+
+```
+
+## Consulta 2: viajes largos
+
+`SELECT vehicle_id, AVG(duration_s) AS duracion_promedio_seg, COUNT(*) AS viajes_largos FROM silver_viajes WHERE duration_s > 2700 GROUP BY vehicle_id ORDER BY viajes_largos DESC, duracion_promedio_seg DESC LIMIT 10;`
+
+```text
++-------------+------------------------+----------------+
+| vehicle_id  | duracion_promedio_seg  | viajes_largos  |
++-------------+------------------------+----------------+
+| V0034       | 3532.75                | 4              |
+| V0051       | 3184.5                 | 4              |
+| V0059       | 2977.25                | 4              |
+| V0036       | 3907.6666666666665     | 3              |
+| V0015       | 3270.3333333333335     | 3              |
+| V0020       | 3085.0                 | 3              |
+| V0055       | 3074.0                 | 3              |
+| V0060       | 2826.6666666666665     | 3              |
+| V0048       | 3663.0                 | 2              |
+| V0007       | 3510.5                 | 2              |
++-------------+------------------------+----------------+
+```
+
+## Consulta 3: hora x barrio
+
+`SELECT substr(ts_start, 12, 2) AS hora_utc, barrio_start, COUNT(*) AS viajes, ROUND(AVG(duration_s)/60.0, 2) AS minutos_promedio FROM silver_viajes GROUP BY substr(ts_start, 12, 2), barrio_start ORDER BY viajes DESC, hora_utc, barrio_start LIMIT 20;`
+
+```text
++-----------+---------------+---------+-------------------+
+| hora_utc  | barrio_start  | viajes  | minutos_promedio  |
++-----------+---------------+---------+-------------------+
+| 17        | Microcentro   | 921     | 4.92              |
+| 07        | Microcentro   | 917     | 5.26              |
+| 02        | Caballito     | 910     | 5.04              |
+| 14        | Nunez         | 910     | 5.0               |
+| 17        | Palermo       | 909     | 5.22              |
+| 07        | Caballito     | 908     | 4.93              |
+| 00        | San Telmo     | 907     | 5.1               |
+| 08        | Caballito     | 905     | 5.18              |
+| 13        | Villa Crespo  | 904     | 5.21              |
+| 19        | Nunez         | 904     | 5.37              |
+| 18        | Villa Crespo  | 903     | 5.38              |
+| 22        | Almagro       | 899     | 5.04              |
+| 17        | San Telmo     | 898     | 5.08              |
+| 21        | Recoleta      | 898     | 5.17              |
+| 22        | Chacarita     | 898     | 5.15              |
+| 20        | Colegiales    | 896     | 5.18              |
+| 23        | San Telmo     | 895     | 5.09              |
+| 12        | Colegiales    | 893     | 5.52              |
+| 15        | Microcentro   | 893     | 5.27              |
+| 23        | Caballito     | 893     | 5.58              |
++-----------+---------------+---------+-------------------+
+```
+
+## Nota
+
+`DESCRIBE FORMATTED silver_viajes` se validó en la sesión de Hive; la salida completa se omitió aquí para mantener la evidencia legible.
