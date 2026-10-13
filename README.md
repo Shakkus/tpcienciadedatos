@@ -48,6 +48,29 @@ python tools/bronze_a_minio.py
 
 Con el clúster Hadoop iniciado y `texto_ops.txt` cargado en HDFS, ejecutar
 WordCount desde la raíz del repositorio:
+
+### M6. Hive sobre HDFS
+
+Levantar Hadoop y Hive con perfiles opcionales, cargar el CSV completo en una
+ruta aislada de M6 y ejecutar HiveQL (PowerShell desde la raíz):
+
+```powershell
+docker compose --profile hadoop --profile hive up -d hadoop-namenode hadoop-datanode hadoop-resourcemanager hadoop-nodemanager hive
+docker cp .\data\viajes.csv nexo-hadoop-namenode:/tmp/m6_viajes.csv
+docker compose exec -T hadoop-namenode hdfs dfs -mkdir -p /nexo/bronze/m6_viajes
+docker compose exec -T hadoop-namenode hdfs dfs -put -f /tmp/m6_viajes.csv /nexo/bronze/m6_viajes/viajes.csv
+docker cp .\04-hadoop\hive\hive_nexo.sql nexo-hive:/tmp/hive_nexo.sql
+docker compose exec -T hive beeline -u jdbc:hive2://localhost:10000/default -f /tmp/hive_nexo.sql
+```
+
+El HiveServer2 queda en `localhost:10000`. Para probar `DROP`, ejecutar primero
+`DROP TABLE bronze_viajes;` y comprobar que `/nexo/bronze/m6_viajes/viajes.csv`
+sigue en HDFS; luego ejecutar `DROP TABLE silver_viajes;` y comprobar que
+`/nexo/warehouse/silver_viajes/` ya no existe. El SQL de la demostración está en
+[`04-hadoop/hive/hive_drop_demo.sql`](04-hadoop/hive/hive_drop_demo.sql);
+scripts y resultados están en [`04-hadoop/hive/`](04-hadoop/hive) y
+[`evidence/hadoop/`](evidence/hadoop).
+
 ### 5. Spark batch Gold (M8)
 
 Requiere **JDK 17+** en `PATH` para correr local:

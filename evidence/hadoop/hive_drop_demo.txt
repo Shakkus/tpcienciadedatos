@@ -1,31 +1,40 @@
-# Hive — prueba DROP externa vs interna
+# Hive — prueba DROP externa vs. interna
 
-# 1) Tabla externa
-DROP TABLE bronze_viajes;
+## 1) Tabla externa
 
-# Resultado esperado:
-# - Se borra la definición de la tabla del metastore.
-# - La carpeta /nexo/bronze/viajes/ en HDFS sigue existiendo.
-# - La data no se elimina físicamente porque la tabla era EXTERNAL.
+`DROP TABLE bronze_viajes;`
 
-hive> DROP TABLE bronze_viajes;
-Dropped the table bronze_viajes
+Resultado:
 
-hdfs dfs -ls /nexo/bronze/viajes/
-# sigue mostrando archivos CSV del dataset
+```text
+No rows affected
+```
 
-# 2) Tabla interna
-DROP TABLE silver_viajes;
+Verificacion en HDFS:
 
-# Resultado esperado:
-# - Se elimina la definición de la tabla.
-# - Se elimina también la data gestionada del warehouse asociada.
+```text
+$ docker compose exec -T hadoop-namenode hdfs dfs -ls /nexo/bronze/m6_viajes
+-rw-r--r--   1 hadoop supergroup   41967019 2026-10-13 23:07 /nexo/bronze/m6_viajes/viajes.csv
+```
 
-hive> DROP TABLE silver_viajes;
-Dropped the table silver_viajes
+## 2) Tabla interna
 
-# Comportamiento clave:
-# tabla externa => la data física en HDFS se conserva
-# tabla interna => la data gestionada se borra junto con la tabla
+`DROP TABLE silver_viajes;`
 
-# Esta es la prueba que demuestra la diferencia externa vs interna en el módulo M6.
+Resultado:
+
+```text
+No rows affected
+```
+
+Verificacion en HDFS:
+
+```text
+$ docker compose exec -T hadoop-namenode hdfs dfs -test -e /nexo/warehouse/silver_viajes
+warehouse silver path missing
+```
+
+Conclusión:
+
+- `bronze_viajes` es EXTERNAL, por eso sus datos siguen en HDFS.
+- `silver_viajes` es interna, por eso su ubicacion administrada desaparece al hacer DROP.

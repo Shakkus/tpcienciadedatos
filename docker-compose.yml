@@ -156,6 +156,28 @@ services:
       - ./04-hadoop/config/mapred-site.xml:/opt/hadoop/etc/hadoop/mapred-site.xml:ro
       - ./04-hadoop/config/yarn-site.xml:/opt/hadoop/etc/hadoop/yarn-site.xml:ro
 
+  hive:
+    image: apache/hive:4.0.1
+    container_name: nexo-hive
+    hostname: hive
+    profiles: ["hive"]
+    environment:
+      SERVICE_NAME: hiveserver2
+    depends_on:
+      hadoop-namenode:
+        condition: service_healthy
+      hadoop-datanode:
+        condition: service_started
+    ports:
+      - "10000:10000"
+      - "10002:10002"
+    volumes:
+      - ./04-hadoop/config/core-site.xml:/opt/hive/conf/core-site.xml:ro
+      - ./04-hadoop/config/hdfs-site.xml:/opt/hive/conf/hdfs-site.xml:ro
+      - ./04-hadoop/config/mapred-site.xml:/opt/hive/conf/mapred-site.xml:ro
+      - ./04-hadoop/config/yarn-site.xml:/opt/hive/conf/yarn-site.xml:ro
+      - ./04-hadoop/hive/hive-site.xml:/opt/hive/conf/hive-site.xml:ro
+
 volumes:
   mysql_data:
   mongo_data:
