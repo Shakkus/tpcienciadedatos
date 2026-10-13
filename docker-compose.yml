@@ -18,7 +18,7 @@ services:
       MYSQL_ROOT_PASSWORD: nexo
       MYSQL_DATABASE: crm
     ports:
-      - "3306:3307"
+      - "3307:3306"
     volumes:
       - ./data/mysql/crm_riders.sql:/docker-entrypoint-initdb.d/01_crm.sql:ro
       - mysql_data:/var/lib/mysql
@@ -104,6 +104,18 @@ services:
       interval: 10s
       timeout: 5s
       retries: 12
+
+  pig:
+    image: nexo/pig:0.18.0-hadoop3.4.1
+    build:
+      context: ./04-hadoop/pig
+      dockerfile: Dockerfile
+    profiles: ["pig"]
+    volumes:
+      - ./data:/opt/nexo/data:ro
+      - ./04-hadoop/pig:/opt/nexo/04-hadoop/pig:ro
+      - ./.staging/pig:/output
+    working_dir: /opt/nexo
 
   hadoop-datanode:
     image: apache/hadoop:3.4.1

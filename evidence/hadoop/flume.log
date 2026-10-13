@@ -1,0 +1,12 @@
+M7 Flume equivalent simulation - HDFS verification
+source=data/app.log
+mode=deterministic JSONL replay to HDFS via Docker CLI; agent Flume not started
+events_total=200
+event_ride_start=67
+event_ride_end=67
+event_payment_fail=66
+hdfs_file=/nexo/bronze/logs/simulation/20261010T104237699300Z/app_events.jsonl
+hdfs_lines_verified=200
+hdfs_content_matches_source=true
+validation=all 200 persisted JSON events matched the selected source events in order
+-rw-r--r--   1 hadoop supergroup      23004 2026-10-10 10:42 /nexo/bronze/logs/simulation/20261010T104237699300Z/app_events.jsonl

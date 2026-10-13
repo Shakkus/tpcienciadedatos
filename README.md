@@ -27,7 +27,7 @@ docker compose ps
 |----------|-------------|--------|
 | MinIO API | 9000 | S3 |
 | MinIO consola | 9001 | usuario/clave en `docker-compose.yml` |
-| MySQL | 3306 | DB `crm`, root password `nexo` |
+| MySQL | 3307 | DB `crm`, root password `nexo` |
 | Mongo | 27018 | Un NoSQL a la vez si tenés 8 GB RAM |
 
 ```bash
@@ -63,6 +63,21 @@ Sin Java en el host (Windows): `bash tools/run_job_gold_docker.sh` (imagen `apac
 - **Local:** `05-spark/batch/output/` · export pregunta 1: `09-producto/gold_repuesto_lluvia.csv`
 - **Evidencia:** [evidence/spark/batch_explain.txt](evidence/spark/batch_explain.txt)
 
+### 6. Spark Streaming (M9)
+
+No depende de Silver, Hadoop ni de los NoSQL. Lee `data/stream/*.json` (file source).
+
+```bash
+bash tools/run_stream_alerts_docker.sh
+```
+
+Con JDK 17+ en el host: `python 05-spark/streaming/stream_alerts.py`.
+
+- Ventana **2 min**, slide **30 s**, watermark **1 min**. Cuenta `payment_fail` y `battery_low`.
+- El demo copia los 40 JSON por tandas. Después manda `event_clock.json` (`ride_start` a las 12:06:00Z) para cerrar las ventanas y, recién ahí, `event_late.json` (`payment_fail` a las 12:00:10Z, `vehicle_id` VLATE). Ese pago no mueve los conteos.
+- **Consola:** [evidence/spark/streaming_console.txt](evidence/spark/streaming_console.txt)
+- **Tabla:** [evidence/spark/gold_alerts.csv](evidence/spark/gold_alerts.csv) y Parquet en `05-spark/streaming/output/gold_alerts/`
+
 ### 4. Silver (M3, viajes × clima)
 
 ```bash
@@ -84,7 +99,7 @@ Documentados en [ADR/000-contexto.md](ADR/000-contexto.md):
 1. **Azure ADLS → MinIO** (Chainguard) + [ADR/001-datalake.md](ADR/001-datalake.md)
 2. Imágenes Docker desde **public.ecr.aws** (Docker Hub inestable)
 3. Spark batch objetivo **250k** filas (`viajes.csv`); dataset abierto = usuarios EcoBici (M1)
-4. Sqoop nativo → **Spark JDBC** (pendiente M7, ADR al implementar)
+4. Sqoop nativo → **Spark JDBC** (plan B M7 implementado y verificado en HDFS; ver ADR)
 
 ## Estructura del repo
 
@@ -95,6 +110,34 @@ Ver [TP_NexoUrbano_2026.md](TP_NexoUrbano_2026.md) §3. Carpetas de módulos cre
 | Sebastian Albornoz | Lake, Databricks, Spark, contratos viajes |
 | Mauricio Jurado | Hadoop, HDFS, MR, Hive, HBase, Pig, Flume/JDBC |
 | Alvaro Costa | Mongo, Cassandra, Neo4j, agregaciones producto |
+
+### M7 — ejecutar Pig en Docker
+
+No hace falta instalar Pig localmente; desde la raíz del repositorio:
+
+```bash
+bash tools/run_pig_m7.sh
+```
+
+El comando crea la imagen `nexo/pig:0.18.0-hadoop3.4.1`, ejecuta
+`clean_viajes.pig` en modo local y valida el conteo de filas. Salida:
+`.staging/pig/`; también prueba el cálculo de `km` nulo con un fixture.
+Log y conteos: `evidence/hadoop/pig.log`.
+
+### M7 — Flume y simulación reproducible
+
+Con Hadoop iniciado, ejecutar desde la raíz:
+
+```bash
+python tools/simulate_flume_200.py
+```
+
+La simulación publica 200 eventos JSON (`ride_start`, `ride_end`,
+`payment_fail`) en HDFS y compara el archivo persistido con lo enviado. La
+configuración del agente real está en `04-hadoop/flume/flume.conf`; el script
+simula el envío al sink HDFS y no requiere instalar Flume en la máquina.
+Resultado: `evidence/hadoop/flume.log`. El contraste de ocho líneas entre
+Flume, Structured Streaming y Kafka está en [ADR/002-hadoop-hoy.md](ADR/002-hadoop-hoy.md).
 
 ## Kick-off completado
 
