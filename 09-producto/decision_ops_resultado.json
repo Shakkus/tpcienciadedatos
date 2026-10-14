@@ -1,0 +1,63 @@
+{
+  "1_reponer_si_llueve": {
+    "estacion": "ST003",
+    "pct_clima_adverso": 14.12,
+    "viajes_estacion": 10012,
+    "viajes_historicos": 245019,
+    "limite": "Historico de Gold, no pronostico de 3 horas."
+  },
+  "2_retirar_vehiculo": {
+    "umbral_battery_pct": 20.0,
+    "bajo_umbral": 0,
+    "mas_bajas": [
+      {
+        "vehicle_id": "V0040",
+        "battery_pct": 34.1
+      },
+      {
+        "vehicle_id": "V0008",
+        "battery_pct": 35.4
+      },
+      {
+        "vehicle_id": "V0075",
+        "battery_pct": 39.7
+      }
+    ]
+  },
+  "3_pase_a_vender": {
+    "rider": "R0000",
+    "sku": "SKU004",
+    "nombre": "Pase 4",
+    "total_ventas_ars": 1195190,
+    "upsell_free": [
+      "R0034",
+      "R0076"
+    ]
+  },
+  "4_collusion": {
+    "trios_con_vinculo": 3,
+    "max_ventanas_repetidas": 1,
+    "trios": [
+      {
+        "estacion": "ST000",
+        "riders": "[\"R0055\", \"R0093\", \"R0108\"]"
+      },
+      {
+        "estacion": "ST000",
+        "riders": "[\"R0028\", \"R0060\", \"R0101\"]"
+      },
+      {
+        "estacion": "ST000",
+        "riders": "[\"R0009\", \"R0036\", \"R0080\"]"
+      }
+    ]
+  },
+  "5_facturacion_vs_cobro": {
+    "menciones_cobro": 592,
+    "menciones_cobro_top20": 592,
+    "viajes": 245019,
+    "tarifa_plana_ars": 320.0,
+    "revenue_estimado_ars": 78406080.0,
+    "cruce_por_dia": false
+  }
+}

@@ -220,17 +220,23 @@ docker exec -i nexo-neo4j cypher-shell -u neo4j -p nexo-urban-2026 --format verb
 
 `grafo.cypher` lee los 250 000 viajes para la collusion. En la máquina del squad tardó unos 13 s. Browser: `http://localhost:7474` (`neo4j` / `nexo-urban-2026`). Resultados: [evidence/neo4j/queries_result.txt](evidence/neo4j/queries_result.txt). Captura: [evidence/neo4j/browser.png](evidence/neo4j/browser.png). Detalle: [08-neo4j/README.md](08-neo4j/README.md).
 
-## 11. Producto (M14) — falta `decision_ops.py`
+## 11. Producto (M14)
 
-Los módulos ya dejaron estos insumos. El script que cruza las cinco preguntas todavía no está. Sin ese archivo, y sin el link del video, el bloque de producto de la rúbrica no está cerrado.
+No hace falta levantar motores. Desde la raíz:
 
-| Pregunta | Insumo que ya existe | Qué falta decir en el script |
-|----------|----------------------|------------------------------|
-| 1. ¿Dónde reponer si llueve? | `09-producto/gold_repuesto_lluvia.csv` | Ordenar por `pct_clima_adverso`. El archivo es histórico, no un pronóstico de 3 h. |
-| 2. ¿Qué vehículo retirar? | `09-producto/cassandra_ultima_lectura.json` | Aplicar un umbral de `battery_pct` y decir que es la última lectura, no dos lecturas seguidas. |
-| 3. ¿Qué pase vender? | `ventas_agg.json` + recomendación de `R0000` en `evidence/neo4j/queries_result.txt` | `R0000` es plan `plus`. Los candidatos `free` (`R0034`, `R0076`) son el upsell. El top de pases es `SKU004`. |
-| 4. ¿Hay collusion? | Misma evidencia Neo4j, query A22 | Hay 3 tríos con vínculo social y `ventanas_repetidas = 1`. Es alerta, no fraude recurrente. |
-| 5. ¿Facturación vs “cobro”? | `evidence/hadoop/top20.txt` (`cobro` = 592) y revenue a 320 ARS en el log de Gold | No existe `09-producto/hive_facturacion_cobro.json`. No inventar el cruce por día. |
+```bash
+python 09-producto/decision_ops.py
+```
+
+Lee los exports y escribe `09-producto/decision_ops_resultado.json`. El link del video sigue pendiente.
+
+| Pregunta | Qué responde |
+|----------|----------------|
+| 1. ¿Dónde reponer si llueve? | **ST003**, 14,12 % de clima adverso, 10 012 viajes. Es histórico. No hay pronóstico de 3 h. |
+| 2. ¿Qué vehículo retirar? | Nadie bajo 20 % de `battery_pct`. Las más bajas: **V0040** (34,1), **V0008** (35,4), **V0075** (39,7). La foto es del 2026-05-01, no es SOH. |
+| 3. ¿Qué pase vender? | **SKU004** (Pase 4). Upsell free de `R0000`: **R0034** y **R0076**. No hay propensión por rider. |
+| 4. ¿Hay collusion? | 3 tríos en ST000 con vínculo y una sola ventana. Alerta, no fraude recurrente. |
+| 5. ¿Facturación vs “cobro”? | **592** ocurrencias (`cobro` + `#cobro`). **78 406 080 ARS** (245 019 viajes × 320). No hay cruce por día. |
 
 ## Recortes (§8)
 
@@ -243,15 +249,7 @@ Documentados en [ADR/000-contexto.md](ADR/000-contexto.md):
 5. Sin Kafka, sin Bloom y sin geo de Mongo
 6. HBase no corre en el Compose
 
-## Demo de 8 minutos
 
-1. **45 s.** NexoUrbano opera e-scooters en Buenos Aires y necesita decidir reposición, retiro, pases y fraude.
-2. **60 s.** 4 V en [01-discovery/4V.md](01-discovery/4V.md) y medallion en [01-discovery/arquitectura.md](01-discovery/arquitectura.md).
-3. **90 s.** MinIO bronze/silver y `03-databricks/01_ingesta.py` (Open-Meteo + Mastodon).
-4. **90 s.** HDFS, WordCount de `texto_ops.txt` y una query Hive.
-5. **90 s.** `gold_ops_diaria` y la consola de streaming con el evento tardío descartado.
-6. **90 s.** Un documento de Mongo, una lectura Cassandra y el camino `R0000 → R0108` en Neo4j.
-7. **45 s.** Las cinco respuestas de `decision_ops.py`, cuando exista.
 
 ## Owners
 
