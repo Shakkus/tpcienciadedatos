@@ -1,94 +1,80 @@
 {
-  "totalVentasCargadas": 4000,
+  "periodo": "2026-Q2",
+  "totalVentasCargadas": 1932,
   "ventasPorCategoria": [
     {
-      "totalVentas": 7298560,
-      "ventas": 984,
-      "categoria": "recarga"
+      "categoria": "accesorio",
+      "totalVentas": 3612570,
+      "ventas": 493
     },
     {
-      "totalVentas": 7253240,
-      "ventas": 1006,
-      "categoria": "accesorio"
+      "categoria": "recarga",
+      "totalVentas": 3575500,
+      "ventas": 490
     },
     {
-      "totalVentas": 6113370,
-      "ventas": 953,
-      "categoria": "pase"
+      "categoria": "seguro",
+      "totalVentas": 2873260,
+      "ventas": 504
     },
     {
-      "totalVentas": 6047330,
-      "ventas": 1057,
-      "categoria": "seguro"
+      "categoria": "pase",
+      "totalVentas": 2853750,
+      "ventas": 445
     }
   ],
   "top5Productos": [
     {
+      "sku": "SKU021",
       "nombre": "Accesorio 1",
       "categoria": "accesorio",
-      "totalVentas": 1344540,
-      "ventas": 106,
-      "sku": "SKU021"
+      "totalVentas": 674870,
+      "ventas": 53
     },
     {
+      "sku": "SKU012",
       "nombre": "Recarga 2",
       "categoria": "recarga",
-      "totalVentas": 1300970,
-      "ventas": 123,
-      "sku": "SKU012"
+      "totalVentas": 606030,
+      "ventas": 57
     },
     {
-      "nombre": "Recarga 9",
-      "categoria": "recarga",
-      "totalVentas": 1285800,
-      "ventas": 100,
-      "sku": "SKU019"
-    },
-    {
+      "sku": "SKU034",
       "nombre": "Seguro 4",
       "categoria": "seguro",
-      "totalVentas": 1225560,
-      "ventas": 124,
-      "sku": "SKU034"
+      "totalVentas": 602590,
+      "ventas": 61
     },
     {
+      "sku": "SKU019",
+      "nombre": "Recarga 9",
+      "categoria": "recarga",
+      "totalVentas": 549750,
+      "ventas": 45
+    },
+    {
+      "sku": "SKU004",
       "nombre": "Pase 4",
       "categoria": "pase",
-      "totalVentas": 1195190,
-      "ventas": 121,
-      "sku": "SKU004"
+      "totalVentas": 533060,
+      "ventas": 54
     }
   ],
   "ventasPorMes": [
     {
-      "totalVentas": 3152260,
-      "ventas": 464,
-      "mes": "2026-01"
-    },
-    {
-      "totalVentas": 5241980,
-      "ventas": 772,
-      "mes": "2026-02"
-    },
-    {
-      "totalVentas": 5403180,
-      "ventas": 832,
-      "mes": "2026-03"
-    },
-    {
+      "mes": "2026-04",
       "totalVentas": 5083320,
-      "ventas": 768,
-      "mes": "2026-04"
+      "ventas": 768
     },
     {
+      "mes": "2026-05",
       "totalVentas": 5610570,
-      "ventas": 833,
-      "mes": "2026-05"
+      "ventas": 833
     },
     {
+      "mes": "2026-06",
       "totalVentas": 2221190,
-      "ventas": 331,
-      "mes": "2026-06"
+      "ventas": 331
     }
   ]
 }

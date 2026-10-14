@@ -6,6 +6,13 @@ const uri = "mongodb://127.0.0.1:27018";
 const dbName = "nexo";
 const csvPath = path.join(__dirname, "..", "data", "ventas.csv");
 const outputPath = path.join(__dirname, "..", "09-producto", "ventas_agg.json");
+const periodo = "2026-Q2";
+const filtroPeriodo = {
+  ts: {
+    $gte: new Date("2026-04-01T00:00:00.000Z"),
+    $lt: new Date("2026-07-01T00:00:00.000Z")
+  }
+};
 
 function parseCsvLine(line) {
   const result = [];
@@ -78,7 +85,10 @@ async function main() {
   await ventas.deleteMany({});
   await ventas.insertMany(docs);
 
+  const totalVentasCargadas = await ventas.countDocuments(filtroPeriodo);
+
   const ventasPorCategoria = await ventas.aggregate([
+    { $match: filtroPeriodo },
     {
       $lookup: {
         from: "productos",
@@ -113,6 +123,7 @@ async function main() {
   ]).toArray();
 
   const top5Productos = await ventas.aggregate([
+    { $match: filtroPeriodo },
     {
       $lookup: {
         from: "productos",
@@ -154,6 +165,7 @@ async function main() {
   ]).toArray();
 
   const ventasPorMes = await ventas.aggregate([
+    { $match: filtroPeriodo },
     {
       $group: {
         _id: {
@@ -178,7 +190,8 @@ async function main() {
   ]).toArray();
 
   const resultado = {
-    totalVentasCargadas: docs.length,
+    periodo,
+    totalVentasCargadas,
     ventasPorCategoria,
     top5Productos,
     ventasPorMes
