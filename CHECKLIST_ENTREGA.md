@@ -15,8 +15,8 @@ Marcar en el README del repo del squad. El docente usa esta lista en el triage d
 - [ ] Scripts HBase + Hive (DROP externa vs interna demostrado)
 - [ ] Pig + (Sqoop o Spark JDBC) + Flume/equivalente
 - [ ] `05-spark/batch/job_gold.py` + `explain`
-- [ ] Streaming con ventana 2 min y watermark
+- [x] Streaming con ventana 2 min y watermark
 - [ ] Mongo CRUD + pipeline + JSON export + índice medido
 - [ ] Cassandra PK correcta + query que falla
-- [ ] Cypher: común, camino, recomendación
+- [x] Cypher: común, camino, recomendación
 - [ ] `09-producto` responde las 5 preguntas de negocio

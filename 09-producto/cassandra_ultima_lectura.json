@@ -1,0 +1,482 @@
+[
+    {
+        "vehicle_id": "V0078",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 64.1,
+        "status": "idle"
+    },
+    {
+        "vehicle_id": "V0006",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 91.1,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0022",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 58.3,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0049",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 94.1,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0009",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 83.4,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0018",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 95.3,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0005",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 76.5,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0031",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 95,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0008",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 35.4,
+        "status": "idle"
+    },
+    {
+        "vehicle_id": "V0028",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 66.4,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0063",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 69.7,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0001",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 84.1,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0032",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 56.1,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0020",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 68.4,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0041",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 100,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0021",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 59.3,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0069",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 66.3,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0040",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 34.1,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0068",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 85.7,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0058",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 57.5,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0024",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 100,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0072",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 58.5,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0012",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 81.5,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0037",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 95.7,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0047",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 72.6,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0015",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 74.1,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0051",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 71.2,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0056",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 67.8,
+        "status": "idle"
+    },
+    {
+        "vehicle_id": "V0034",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 70.7,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0074",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 58.4,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0079",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 73.8,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0064",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 44.2,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0075",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 39.7,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0042",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 93.2,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0033",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 57.4,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0014",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 77.5,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0050",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 90.7,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0010",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 95.2,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0076",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 84.6,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0039",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 79.3,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0038",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 60.8,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0036",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 94.2,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0045",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 80.2,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0025",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 77,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0043",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 70.7,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0029",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 97.4,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0055",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 86.2,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0013",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 85.4,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0052",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 100,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0003",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 64.6,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0002",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 42.9,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0067",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 74.1,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0061",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 83.3,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0016",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 90,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0044",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 72.9,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0023",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 54.3,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0070",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 76.8,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0066",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 73,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0004",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 92.6,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0026",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 71.8,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0007",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 44.7,
+        "status": "idle"
+    },
+    {
+        "vehicle_id": "V0057",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 41.3,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0060",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 63.4,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0048",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 95.8,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0030",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 96.5,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0035",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 84.8,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0065",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 68.3,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0071",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 84.8,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0059",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 91.5,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0019",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 54.6,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0054",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 69,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0062",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 89.1,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0011",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 71.4,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0073",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 71.1,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0053",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 72,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0000",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 84.1,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0027",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 77.4,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0046",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 100,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0077",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 58.6,
+        "status": "ok"
+    },
+    {
+        "vehicle_id": "V0017",
+        "ts": "2026-05-01T00:00:00.000Z",
+        "battery_pct": 76.3,
+        "status": "ok"
+    }
+]

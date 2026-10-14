@@ -125,7 +125,7 @@ def build_spark(use_jdbc: bool) -> SparkSession:
 def read_riders(spark: SparkSession, source: str) -> tuple[DataFrame, str]:
     if source == "jdbc":
         host = os.environ.get("MYSQL_HOST", "127.0.0.1")
-        port = os.environ.get("MYSQL_PORT", "3306")
+        port = os.environ.get("MYSQL_PORT", "3307")
         db = os.environ.get("MYSQL_DATABASE", "crm")
         user = os.environ.get("MYSQL_USER", "root")
         password = os.environ.get("MYSQL_PASSWORD", "nexo")
