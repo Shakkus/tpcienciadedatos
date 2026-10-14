@@ -32,17 +32,278 @@ put 'vehiculos', 'V005|20261010|093200', 'id:estado', 'activo'
 put 'vehiculos', 'V005|20261010|093200', 'telemetry:ultimo_gps', '-34.6072,-58.3759'
 put 'vehiculos', 'V005|20261010|093200', 'telemetry:temp_c', '27'
 
-# GENERAR 50 ROWKEYS
-# import csv
-# rows = []
-# for i in range(1, 51):
-#     v = f"V{i:03d}"
-#     rows.append((f"{v}|20261010|{(80000 + i*150):06d}", "id:modelo", "scooter-x4" if i % 3 else "bike-eco"))
-#     rows.append((f"{v}|20261010|{(80000 + i*150):06d}", "id:soh_bateria", str(50 + (i % 40))))
-#     rows.append((f"{v}|20261010|{(80000 + i*150):06d}", "id:estado", "mantenimiento" if i % 5 == 0 else "activo"))
-#     rows.append((f"{v}|20261010|{(80000 + i*150):06d}", "telemetry:ultimo_gps", f"-34.{60 + i % 10},{-58}.{30 + i % 10}"))
-#     rows.append((f"{v}|20261010|{(80000 + i*150):06d}", "telemetry:temp_c", str(18 + (i % 15))))
+# Carga completa de 50 vehiculos requerida por M6.
+put 'vehiculos', 'V006|20261010|094500', 'id:modelo', 'scooter-x4'
+put 'vehiculos', 'V006|20261010|094500', 'id:soh_bateria', '56'
+put 'vehiculos', 'V006|20261010|094500', 'id:estado', 'activo'
+put 'vehiculos', 'V006|20261010|094500', 'telemetry:ultimo_gps', '-34.6060,-58.3760'
+put 'vehiculos', 'V006|20261010|094500', 'telemetry:temp_c', '24'
 
+put 'vehiculos', 'V007|20261010|100000', 'id:modelo', 'scooter-lite'
+put 'vehiculos', 'V007|20261010|100000', 'id:soh_bateria', '57'
+put 'vehiculos', 'V007|20261010|100000', 'id:estado', 'activo'
+put 'vehiculos', 'V007|20261010|100000', 'telemetry:ultimo_gps', '-34.6070,-58.3770'
+put 'vehiculos', 'V007|20261010|100000', 'telemetry:temp_c', '25'
+
+put 'vehiculos', 'V008|20261010|101500', 'id:modelo', 'bike-eco'
+put 'vehiculos', 'V008|20261010|101500', 'id:soh_bateria', '58'
+put 'vehiculos', 'V008|20261010|101500', 'id:estado', 'activo'
+put 'vehiculos', 'V008|20261010|101500', 'telemetry:ultimo_gps', '-34.6080,-58.3780'
+put 'vehiculos', 'V008|20261010|101500', 'telemetry:temp_c', '26'
+
+put 'vehiculos', 'V009|20261010|103000', 'id:modelo', 'scooter-x4'
+put 'vehiculos', 'V009|20261010|103000', 'id:soh_bateria', '59'
+put 'vehiculos', 'V009|20261010|103000', 'id:estado', 'activo'
+put 'vehiculos', 'V009|20261010|103000', 'telemetry:ultimo_gps', '-34.6090,-58.3790'
+put 'vehiculos', 'V009|20261010|103000', 'telemetry:temp_c', '27'
+
+put 'vehiculos', 'V010|20261010|104500', 'id:modelo', 'scooter-lite'
+put 'vehiculos', 'V010|20261010|104500', 'id:soh_bateria', '60'
+put 'vehiculos', 'V010|20261010|104500', 'id:estado', 'mantenimiento'
+put 'vehiculos', 'V010|20261010|104500', 'telemetry:ultimo_gps', '-34.6000,-58.3800'
+put 'vehiculos', 'V010|20261010|104500', 'telemetry:temp_c', '28'
+
+put 'vehiculos', 'V011|20261010|110000', 'id:modelo', 'bike-eco'
+put 'vehiculos', 'V011|20261010|110000', 'id:soh_bateria', '61'
+put 'vehiculos', 'V011|20261010|110000', 'id:estado', 'activo'
+put 'vehiculos', 'V011|20261010|110000', 'telemetry:ultimo_gps', '-34.6010,-58.3810'
+put 'vehiculos', 'V011|20261010|110000', 'telemetry:temp_c', '29'
+
+put 'vehiculos', 'V012|20261010|111500', 'id:modelo', 'scooter-x4'
+put 'vehiculos', 'V012|20261010|111500', 'id:soh_bateria', '62'
+put 'vehiculos', 'V012|20261010|111500', 'id:estado', 'activo'
+put 'vehiculos', 'V012|20261010|111500', 'telemetry:ultimo_gps', '-34.6020,-58.3820'
+put 'vehiculos', 'V012|20261010|111500', 'telemetry:temp_c', '18'
+
+put 'vehiculos', 'V013|20261010|113000', 'id:modelo', 'scooter-lite'
+put 'vehiculos', 'V013|20261010|113000', 'id:soh_bateria', '63'
+put 'vehiculos', 'V013|20261010|113000', 'id:estado', 'activo'
+put 'vehiculos', 'V013|20261010|113000', 'telemetry:ultimo_gps', '-34.6030,-58.3830'
+put 'vehiculos', 'V013|20261010|113000', 'telemetry:temp_c', '19'
+
+put 'vehiculos', 'V014|20261010|114500', 'id:modelo', 'bike-eco'
+put 'vehiculos', 'V014|20261010|114500', 'id:soh_bateria', '64'
+put 'vehiculos', 'V014|20261010|114500', 'id:estado', 'activo'
+put 'vehiculos', 'V014|20261010|114500', 'telemetry:ultimo_gps', '-34.6040,-58.3840'
+put 'vehiculos', 'V014|20261010|114500', 'telemetry:temp_c', '20'
+
+put 'vehiculos', 'V015|20261010|120000', 'id:modelo', 'scooter-x4'
+put 'vehiculos', 'V015|20261010|120000', 'id:soh_bateria', '65'
+put 'vehiculos', 'V015|20261010|120000', 'id:estado', 'mantenimiento'
+put 'vehiculos', 'V015|20261010|120000', 'telemetry:ultimo_gps', '-34.6050,-58.3850'
+put 'vehiculos', 'V015|20261010|120000', 'telemetry:temp_c', '21'
+
+put 'vehiculos', 'V016|20261010|121500', 'id:modelo', 'scooter-lite'
+put 'vehiculos', 'V016|20261010|121500', 'id:soh_bateria', '66'
+put 'vehiculos', 'V016|20261010|121500', 'id:estado', 'activo'
+put 'vehiculos', 'V016|20261010|121500', 'telemetry:ultimo_gps', '-34.6060,-58.3860'
+put 'vehiculos', 'V016|20261010|121500', 'telemetry:temp_c', '22'
+
+put 'vehiculos', 'V017|20261010|123000', 'id:modelo', 'bike-eco'
+put 'vehiculos', 'V017|20261010|123000', 'id:soh_bateria', '67'
+put 'vehiculos', 'V017|20261010|123000', 'id:estado', 'activo'
+put 'vehiculos', 'V017|20261010|123000', 'telemetry:ultimo_gps', '-34.6070,-58.3870'
+put 'vehiculos', 'V017|20261010|123000', 'telemetry:temp_c', '23'
+
+put 'vehiculos', 'V018|20261010|124500', 'id:modelo', 'scooter-x4'
+put 'vehiculos', 'V018|20261010|124500', 'id:soh_bateria', '68'
+put 'vehiculos', 'V018|20261010|124500', 'id:estado', 'activo'
+put 'vehiculos', 'V018|20261010|124500', 'telemetry:ultimo_gps', '-34.6080,-58.3880'
+put 'vehiculos', 'V018|20261010|124500', 'telemetry:temp_c', '24'
+
+put 'vehiculos', 'V019|20261010|130000', 'id:modelo', 'scooter-lite'
+put 'vehiculos', 'V019|20261010|130000', 'id:soh_bateria', '69'
+put 'vehiculos', 'V019|20261010|130000', 'id:estado', 'activo'
+put 'vehiculos', 'V019|20261010|130000', 'telemetry:ultimo_gps', '-34.6090,-58.3890'
+put 'vehiculos', 'V019|20261010|130000', 'telemetry:temp_c', '25'
+
+put 'vehiculos', 'V020|20261010|131500', 'id:modelo', 'bike-eco'
+put 'vehiculos', 'V020|20261010|131500', 'id:soh_bateria', '70'
+put 'vehiculos', 'V020|20261010|131500', 'id:estado', 'mantenimiento'
+put 'vehiculos', 'V020|20261010|131500', 'telemetry:ultimo_gps', '-34.6000,-58.3900'
+put 'vehiculos', 'V020|20261010|131500', 'telemetry:temp_c', '26'
+
+put 'vehiculos', 'V021|20261010|133000', 'id:modelo', 'scooter-x4'
+put 'vehiculos', 'V021|20261010|133000', 'id:soh_bateria', '71'
+put 'vehiculos', 'V021|20261010|133000', 'id:estado', 'activo'
+put 'vehiculos', 'V021|20261010|133000', 'telemetry:ultimo_gps', '-34.6010,-58.3910'
+put 'vehiculos', 'V021|20261010|133000', 'telemetry:temp_c', '27'
+
+put 'vehiculos', 'V022|20261010|134500', 'id:modelo', 'scooter-lite'
+put 'vehiculos', 'V022|20261010|134500', 'id:soh_bateria', '72'
+put 'vehiculos', 'V022|20261010|134500', 'id:estado', 'activo'
+put 'vehiculos', 'V022|20261010|134500', 'telemetry:ultimo_gps', '-34.6020,-58.3920'
+put 'vehiculos', 'V022|20261010|134500', 'telemetry:temp_c', '28'
+
+put 'vehiculos', 'V023|20261010|140000', 'id:modelo', 'bike-eco'
+put 'vehiculos', 'V023|20261010|140000', 'id:soh_bateria', '73'
+put 'vehiculos', 'V023|20261010|140000', 'id:estado', 'activo'
+put 'vehiculos', 'V023|20261010|140000', 'telemetry:ultimo_gps', '-34.6030,-58.3930'
+put 'vehiculos', 'V023|20261010|140000', 'telemetry:temp_c', '29'
+
+put 'vehiculos', 'V024|20261010|141500', 'id:modelo', 'scooter-x4'
+put 'vehiculos', 'V024|20261010|141500', 'id:soh_bateria', '74'
+put 'vehiculos', 'V024|20261010|141500', 'id:estado', 'activo'
+put 'vehiculos', 'V024|20261010|141500', 'telemetry:ultimo_gps', '-34.6040,-58.3940'
+put 'vehiculos', 'V024|20261010|141500', 'telemetry:temp_c', '18'
+
+put 'vehiculos', 'V025|20261010|143000', 'id:modelo', 'scooter-lite'
+put 'vehiculos', 'V025|20261010|143000', 'id:soh_bateria', '75'
+put 'vehiculos', 'V025|20261010|143000', 'id:estado', 'mantenimiento'
+put 'vehiculos', 'V025|20261010|143000', 'telemetry:ultimo_gps', '-34.6050,-58.3950'
+put 'vehiculos', 'V025|20261010|143000', 'telemetry:temp_c', '19'
+
+put 'vehiculos', 'V026|20261010|144500', 'id:modelo', 'bike-eco'
+put 'vehiculos', 'V026|20261010|144500', 'id:soh_bateria', '76'
+put 'vehiculos', 'V026|20261010|144500', 'id:estado', 'activo'
+put 'vehiculos', 'V026|20261010|144500', 'telemetry:ultimo_gps', '-34.6060,-58.3960'
+put 'vehiculos', 'V026|20261010|144500', 'telemetry:temp_c', '20'
+
+put 'vehiculos', 'V027|20261010|150000', 'id:modelo', 'scooter-x4'
+put 'vehiculos', 'V027|20261010|150000', 'id:soh_bateria', '77'
+put 'vehiculos', 'V027|20261010|150000', 'id:estado', 'activo'
+put 'vehiculos', 'V027|20261010|150000', 'telemetry:ultimo_gps', '-34.6070,-58.3970'
+put 'vehiculos', 'V027|20261010|150000', 'telemetry:temp_c', '21'
+
+put 'vehiculos', 'V028|20261010|151500', 'id:modelo', 'scooter-lite'
+put 'vehiculos', 'V028|20261010|151500', 'id:soh_bateria', '78'
+put 'vehiculos', 'V028|20261010|151500', 'id:estado', 'activo'
+put 'vehiculos', 'V028|20261010|151500', 'telemetry:ultimo_gps', '-34.6080,-58.3980'
+put 'vehiculos', 'V028|20261010|151500', 'telemetry:temp_c', '22'
+
+put 'vehiculos', 'V029|20261010|153000', 'id:modelo', 'bike-eco'
+put 'vehiculos', 'V029|20261010|153000', 'id:soh_bateria', '79'
+put 'vehiculos', 'V029|20261010|153000', 'id:estado', 'activo'
+put 'vehiculos', 'V029|20261010|153000', 'telemetry:ultimo_gps', '-34.6090,-58.3990'
+put 'vehiculos', 'V029|20261010|153000', 'telemetry:temp_c', '23'
+
+put 'vehiculos', 'V030|20261010|154500', 'id:modelo', 'scooter-x4'
+put 'vehiculos', 'V030|20261010|154500', 'id:soh_bateria', '80'
+put 'vehiculos', 'V030|20261010|154500', 'id:estado', 'mantenimiento'
+put 'vehiculos', 'V030|20261010|154500', 'telemetry:ultimo_gps', '-34.6000,-58.3800'
+put 'vehiculos', 'V030|20261010|154500', 'telemetry:temp_c', '24'
+
+put 'vehiculos', 'V031|20261010|160000', 'id:modelo', 'scooter-lite'
+put 'vehiculos', 'V031|20261010|160000', 'id:soh_bateria', '81'
+put 'vehiculos', 'V031|20261010|160000', 'id:estado', 'activo'
+put 'vehiculos', 'V031|20261010|160000', 'telemetry:ultimo_gps', '-34.6010,-58.3810'
+put 'vehiculos', 'V031|20261010|160000', 'telemetry:temp_c', '25'
+
+put 'vehiculos', 'V032|20261010|161500', 'id:modelo', 'bike-eco'
+put 'vehiculos', 'V032|20261010|161500', 'id:soh_bateria', '82'
+put 'vehiculos', 'V032|20261010|161500', 'id:estado', 'activo'
+put 'vehiculos', 'V032|20261010|161500', 'telemetry:ultimo_gps', '-34.6020,-58.3820'
+put 'vehiculos', 'V032|20261010|161500', 'telemetry:temp_c', '26'
+
+put 'vehiculos', 'V033|20261010|163000', 'id:modelo', 'scooter-x4'
+put 'vehiculos', 'V033|20261010|163000', 'id:soh_bateria', '83'
+put 'vehiculos', 'V033|20261010|163000', 'id:estado', 'activo'
+put 'vehiculos', 'V033|20261010|163000', 'telemetry:ultimo_gps', '-34.6030,-58.3830'
+put 'vehiculos', 'V033|20261010|163000', 'telemetry:temp_c', '27'
+
+put 'vehiculos', 'V034|20261010|164500', 'id:modelo', 'scooter-lite'
+put 'vehiculos', 'V034|20261010|164500', 'id:soh_bateria', '84'
+put 'vehiculos', 'V034|20261010|164500', 'id:estado', 'activo'
+put 'vehiculos', 'V034|20261010|164500', 'telemetry:ultimo_gps', '-34.6040,-58.3840'
+put 'vehiculos', 'V034|20261010|164500', 'telemetry:temp_c', '28'
+
+put 'vehiculos', 'V035|20261010|170000', 'id:modelo', 'bike-eco'
+put 'vehiculos', 'V035|20261010|170000', 'id:soh_bateria', '85'
+put 'vehiculos', 'V035|20261010|170000', 'id:estado', 'mantenimiento'
+put 'vehiculos', 'V035|20261010|170000', 'telemetry:ultimo_gps', '-34.6050,-58.3850'
+put 'vehiculos', 'V035|20261010|170000', 'telemetry:temp_c', '29'
+
+put 'vehiculos', 'V036|20261010|171500', 'id:modelo', 'scooter-x4'
+put 'vehiculos', 'V036|20261010|171500', 'id:soh_bateria', '86'
+put 'vehiculos', 'V036|20261010|171500', 'id:estado', 'activo'
+put 'vehiculos', 'V036|20261010|171500', 'telemetry:ultimo_gps', '-34.6060,-58.3860'
+put 'vehiculos', 'V036|20261010|171500', 'telemetry:temp_c', '18'
+
+put 'vehiculos', 'V037|20261010|173000', 'id:modelo', 'scooter-lite'
+put 'vehiculos', 'V037|20261010|173000', 'id:soh_bateria', '87'
+put 'vehiculos', 'V037|20261010|173000', 'id:estado', 'activo'
+put 'vehiculos', 'V037|20261010|173000', 'telemetry:ultimo_gps', '-34.6070,-58.3870'
+put 'vehiculos', 'V037|20261010|173000', 'telemetry:temp_c', '19'
+
+put 'vehiculos', 'V038|20261010|174500', 'id:modelo', 'bike-eco'
+put 'vehiculos', 'V038|20261010|174500', 'id:soh_bateria', '88'
+put 'vehiculos', 'V038|20261010|174500', 'id:estado', 'activo'
+put 'vehiculos', 'V038|20261010|174500', 'telemetry:ultimo_gps', '-34.6080,-58.3880'
+put 'vehiculos', 'V038|20261010|174500', 'telemetry:temp_c', '20'
+
+put 'vehiculos', 'V039|20261010|180000', 'id:modelo', 'scooter-x4'
+put 'vehiculos', 'V039|20261010|180000', 'id:soh_bateria', '89'
+put 'vehiculos', 'V039|20261010|180000', 'id:estado', 'activo'
+put 'vehiculos', 'V039|20261010|180000', 'telemetry:ultimo_gps', '-34.6090,-58.3890'
+put 'vehiculos', 'V039|20261010|180000', 'telemetry:temp_c', '21'
+
+put 'vehiculos', 'V040|20261010|181500', 'id:modelo', 'scooter-lite'
+put 'vehiculos', 'V040|20261010|181500', 'id:soh_bateria', '50'
+put 'vehiculos', 'V040|20261010|181500', 'id:estado', 'mantenimiento'
+put 'vehiculos', 'V040|20261010|181500', 'telemetry:ultimo_gps', '-34.6000,-58.3900'
+put 'vehiculos', 'V040|20261010|181500', 'telemetry:temp_c', '22'
+
+put 'vehiculos', 'V041|20261010|183000', 'id:modelo', 'bike-eco'
+put 'vehiculos', 'V041|20261010|183000', 'id:soh_bateria', '51'
+put 'vehiculos', 'V041|20261010|183000', 'id:estado', 'activo'
+put 'vehiculos', 'V041|20261010|183000', 'telemetry:ultimo_gps', '-34.6010,-58.3910'
+put 'vehiculos', 'V041|20261010|183000', 'telemetry:temp_c', '23'
+
+put 'vehiculos', 'V042|20261010|184500', 'id:modelo', 'scooter-x4'
+put 'vehiculos', 'V042|20261010|184500', 'id:soh_bateria', '52'
+put 'vehiculos', 'V042|20261010|184500', 'id:estado', 'activo'
+put 'vehiculos', 'V042|20261010|184500', 'telemetry:ultimo_gps', '-34.6020,-58.3920'
+put 'vehiculos', 'V042|20261010|184500', 'telemetry:temp_c', '24'
+
+put 'vehiculos', 'V043|20261010|190000', 'id:modelo', 'scooter-lite'
+put 'vehiculos', 'V043|20261010|190000', 'id:soh_bateria', '53'
+put 'vehiculos', 'V043|20261010|190000', 'id:estado', 'activo'
+put 'vehiculos', 'V043|20261010|190000', 'telemetry:ultimo_gps', '-34.6030,-58.3930'
+put 'vehiculos', 'V043|20261010|190000', 'telemetry:temp_c', '25'
+
+put 'vehiculos', 'V044|20261010|191500', 'id:modelo', 'bike-eco'
+put 'vehiculos', 'V044|20261010|191500', 'id:soh_bateria', '54'
+put 'vehiculos', 'V044|20261010|191500', 'id:estado', 'activo'
+put 'vehiculos', 'V044|20261010|191500', 'telemetry:ultimo_gps', '-34.6040,-58.3940'
+put 'vehiculos', 'V044|20261010|191500', 'telemetry:temp_c', '26'
+
+put 'vehiculos', 'V045|20261010|193000', 'id:modelo', 'scooter-x4'
+put 'vehiculos', 'V045|20261010|193000', 'id:soh_bateria', '55'
+put 'vehiculos', 'V045|20261010|193000', 'id:estado', 'mantenimiento'
+put 'vehiculos', 'V045|20261010|193000', 'telemetry:ultimo_gps', '-34.6050,-58.3950'
+put 'vehiculos', 'V045|20261010|193000', 'telemetry:temp_c', '27'
+
+put 'vehiculos', 'V046|20261010|194500', 'id:modelo', 'scooter-lite'
+put 'vehiculos', 'V046|20261010|194500', 'id:soh_bateria', '56'
+put 'vehiculos', 'V046|20261010|194500', 'id:estado', 'activo'
+put 'vehiculos', 'V046|20261010|194500', 'telemetry:ultimo_gps', '-34.6060,-58.3960'
+put 'vehiculos', 'V046|20261010|194500', 'telemetry:temp_c', '28'
+
+put 'vehiculos', 'V047|20261010|200000', 'id:modelo', 'bike-eco'
+put 'vehiculos', 'V047|20261010|200000', 'id:soh_bateria', '57'
+put 'vehiculos', 'V047|20261010|200000', 'id:estado', 'activo'
+put 'vehiculos', 'V047|20261010|200000', 'telemetry:ultimo_gps', '-34.6070,-58.3970'
+put 'vehiculos', 'V047|20261010|200000', 'telemetry:temp_c', '29'
+
+put 'vehiculos', 'V048|20261010|201500', 'id:modelo', 'scooter-x4'
+put 'vehiculos', 'V048|20261010|201500', 'id:soh_bateria', '58'
+put 'vehiculos', 'V048|20261010|201500', 'id:estado', 'activo'
+put 'vehiculos', 'V048|20261010|201500', 'telemetry:ultimo_gps', '-34.6080,-58.3980'
+put 'vehiculos', 'V048|20261010|201500', 'telemetry:temp_c', '18'
+
+put 'vehiculos', 'V049|20261010|203000', 'id:modelo', 'scooter-lite'
+put 'vehiculos', 'V049|20261010|203000', 'id:soh_bateria', '59'
+put 'vehiculos', 'V049|20261010|203000', 'id:estado', 'activo'
+put 'vehiculos', 'V049|20261010|203000', 'telemetry:ultimo_gps', '-34.6090,-58.3990'
+put 'vehiculos', 'V049|20261010|203000', 'telemetry:temp_c', '19'
+
+put 'vehiculos', 'V050|20261010|204500', 'id:modelo', 'bike-eco'
+put 'vehiculos', 'V050|20261010|204500', 'id:soh_bateria', '60'
+put 'vehiculos', 'V050|20261010|204500', 'id:estado', 'mantenimiento'
+put 'vehiculos', 'V050|20261010|204500', 'telemetry:ultimo_gps', '-34.6000,-58.3800'
+put 'vehiculos', 'V050|20261010|204500', 'telemetry:temp_c', '20'
+
+count 'vehiculos'
 get 'vehiculos', 'V003|20261010|090015'
 
 scan 'vehiculos', {FILTER => "SingleColumnValueFilter('id','estado',=,'binary:mantenimiento')"}
