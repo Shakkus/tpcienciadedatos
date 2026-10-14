@@ -4,7 +4,7 @@ set -euo pipefail
 
 export MSYS_NO_PATHCONV=1
 REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-DOCKER_REPO_ROOT="$(cygpath -m "$REPO_ROOT")"
+DOCKER_REPO_ROOT="$(cygpath -m "$REPO_ROOT" 2>/dev/null || printf '%s' "$REPO_ROOT")"
 OUTPUT_PATH="${1:-hdfs://namenode:9000/nexo/bronze/riders_sqoop}"
 NAMENODE_ID="$(docker compose -f "$DOCKER_REPO_ROOT/docker-compose.yml" ps -q hadoop-namenode)"
 MYSQL_ID="$(docker compose -f "$DOCKER_REPO_ROOT/docker-compose.yml" ps -q mysql)"
