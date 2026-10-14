@@ -19,4 +19,4 @@ Marcar en el README del repo del squad. El docente usa esta lista en el triage d
 - [x] Mongo CRUD + pipeline + JSON export + índice medido
 - [x] Cassandra PK correcta + query que falla
 - [x] Cypher: común, camino, recomendación
-- [ ] `09-producto` responde las 5 preguntas de negocio
+- [x] `09-producto` responde las 5 preguntas de negocio
