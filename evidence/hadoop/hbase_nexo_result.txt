@@ -1,22 +1,581 @@
-# HBase — NexoUrbano
+﻿Created table vehiculos
+Took 1.7979 seconds
+Hbase::Table - vehiculos
+Took 0.4040 seconds
 
-hbase(main):001:0> create 'vehiculos', 'id', 'telemetry'
-Created table vehiculos
-Took 0.0410 seconds
+Took 0.0076 seconds
 
-hbase(main):002:0> put 'vehiculos', 'V003|20261010|090015', 'id:modelo', 'scooter-x4'
-hbase(main):003:0> put 'vehiculos', 'V003|20261010|090015', 'id:soh_bateria', '74'
-hbase(main):004:0> put 'vehiculos', 'V003|20261010|090015', 'id:estado', 'activo'
-hbase(main):005:0> put 'vehiculos', 'V003|20261010|090015', 'telemetry:ultimo_gps', '-34.6008,-58.3792'
+Took 0.0066 seconds
 
-hbase(main):006:0> get 'vehiculos', 'V003|20261010|090015'
-COLUMN                     CELL
- id:modelo                 timestamp=..., value=scooter-x4
- id:soh_bateria            timestamp=..., value=74
- id:estado                 timestamp=..., value=activo
- telemetry:ultimo_gps       timestamp=..., value=-34.6008,-58.3792
+Took 0.0105 seconds
 
-hbase(main):007:0> scan 'vehiculos', {FILTER => "SingleColumnValueFilter('id','estado',=,'binary:mantenimiento')"}
-ROW                        COLUMN+CELL
- V002|20261010|083010       column=id:estado, timestamp=..., value=mantenimiento
- V004|20261010|091500       column=id:estado, timestamp=..., value=mantenimiento
+Took 0.0056 seconds
+
+Took 0.0062 seconds
+
+Took 0.0063 seconds
+
+Took 0.0061 seconds
+
+Took 0.0077 seconds
+
+Took 0.0067 seconds
+
+Took 0.0072 seconds
+
+Took 0.0081 seconds
+
+Took 0.0067 seconds
+
+Took 0.0056 seconds
+
+Took 0.0057 seconds
+
+Took 0.0077 seconds
+
+Took 0.0057 seconds
+
+Took 0.0068 seconds
+
+Took 0.0069 seconds
+
+Took 0.0066 seconds
+
+Took 0.0068 seconds
+
+Took 0.0083 seconds
+
+Took 0.0063 seconds
+
+Took 0.0064 seconds
+
+Took 0.0074 seconds
+
+Took 0.0069 seconds
+
+Took 0.0061 seconds
+
+Took 0.0058 seconds
+
+Took 0.0068 seconds
+
+Took 0.0054 seconds
+
+Took 0.0058 seconds
+
+Took 0.0053 seconds
+
+Took 0.0057 seconds
+
+Took 0.0056 seconds
+
+Took 0.0057 seconds
+
+Took 0.0070 seconds
+
+Took 0.0058 seconds
+
+Took 0.0052 seconds
+
+Took 0.0053 seconds
+
+Took 0.0055 seconds
+
+Took 0.0051 seconds
+
+Took 0.0056 seconds
+
+Took 0.0049 seconds
+
+Took 0.0050 seconds
+
+Took 0.0060 seconds
+
+Took 0.0065 seconds
+
+Took 0.0052 seconds
+
+Took 0.0064 seconds
+
+Took 0.0052 seconds
+
+Took 0.0056 seconds
+
+Took 0.0059 seconds
+
+Took 0.0063 seconds
+
+Took 0.0078 seconds
+
+Took 0.0064 seconds
+
+Took 0.0055 seconds
+
+Took 0.0061 seconds
+
+Took 0.0053 seconds
+
+Took 0.0054 seconds
+
+Took 0.0050 seconds
+
+Took 0.0086 seconds
+
+Took 0.0061 seconds
+
+Took 0.0081 seconds
+
+Took 0.0112 seconds
+
+Took 0.0059 seconds
+
+Took 0.0060 seconds
+
+Took 0.0050 seconds
+
+Took 0.0050 seconds
+
+Took 0.0051 seconds
+
+Took 0.0053 seconds
+
+Took 0.0056 seconds
+
+Took 0.0069 seconds
+
+Took 0.0056 seconds
+
+Took 0.0065 seconds
+
+Took 0.0055 seconds
+
+Took 0.0056 seconds
+
+Took 0.0050 seconds
+
+Took 0.0052 seconds
+
+Took 0.0050 seconds
+
+Took 0.0049 seconds
+
+Took 0.0059 seconds
+
+Took 0.0052 seconds
+
+Took 0.0050 seconds
+
+Took 0.0049 seconds
+
+Took 0.0048 seconds
+
+Took 0.0065 seconds
+
+Took 0.0052 seconds
+
+Took 0.0059 seconds
+
+Took 0.0080 seconds
+
+Took 0.0056 seconds
+
+Took 0.0056 seconds
+
+Took 0.0050 seconds
+
+Took 0.0048 seconds
+
+Took 0.0045 seconds
+
+Took 0.0048 seconds
+
+Took 0.0049 seconds
+
+Took 0.0063 seconds
+
+Took 0.0056 seconds
+
+Took 0.0049 seconds
+
+Took 0.0051 seconds
+
+Took 0.0046 seconds
+
+Took 0.0053 seconds
+
+Took 0.0062 seconds
+
+Took 0.0058 seconds
+
+Took 0.0056 seconds
+
+Took 0.0049 seconds
+
+Took 0.0051 seconds
+
+Took 0.0046 seconds
+
+Took 0.0052 seconds
+
+Took 0.0054 seconds
+
+Took 0.0062 seconds
+
+Took 0.0051 seconds
+
+Took 0.0046 seconds
+
+Took 0.0333 seconds
+
+Took 0.0050 seconds
+
+Took 0.0076 seconds
+
+Took 0.0065 seconds
+
+Took 0.0089 seconds
+
+Took 0.0050 seconds
+
+Took 0.0054 seconds
+
+Took 0.0048 seconds
+
+Took 0.0048 seconds
+
+Took 0.0048 seconds
+
+Took 0.0057 seconds
+
+Took 0.0055 seconds
+
+Took 0.0086 seconds
+
+Took 0.0046 seconds
+
+Took 0.0057 seconds
+
+Took 0.0064 seconds
+
+Took 0.0055 seconds
+
+Took 0.0047 seconds
+
+Took 0.0048 seconds
+
+Took 0.0041 seconds
+
+Took 0.0045 seconds
+
+Took 0.0042 seconds
+
+Took 0.0048 seconds
+
+Took 0.0058 seconds
+
+Took 0.0044 seconds
+
+Took 0.0045 seconds
+
+Took 0.0043 seconds
+
+Took 0.0041 seconds
+
+Took 0.0047 seconds
+
+Took 0.0043 seconds
+
+Took 0.0043 seconds
+
+Took 0.0045 seconds
+
+Took 0.0049 seconds
+
+Took 0.0042 seconds
+
+Took 0.0047 seconds
+
+Took 0.0043 seconds
+
+Took 0.0045 seconds
+
+Took 0.0043 seconds
+
+Took 0.0043 seconds
+
+Took 0.0046 seconds
+
+Took 0.0047 seconds
+
+Took 0.0043 seconds
+
+Took 0.0047 seconds
+
+Took 0.0048 seconds
+
+Took 0.0048 seconds
+
+Took 0.0043 seconds
+
+Took 0.0044 seconds
+
+Took 0.0043 seconds
+
+Took 0.0044 seconds
+
+Took 0.0048 seconds
+
+Took 0.0047 seconds
+
+Took 0.0045 seconds
+
+Took 0.0040 seconds
+
+Took 0.0054 seconds
+
+Took 0.0043 seconds
+
+Took 0.0042 seconds
+
+Took 0.0045 seconds
+
+Took 0.0048 seconds
+
+Took 0.0043 seconds
+
+Took 0.0046 seconds
+
+Took 0.0046 seconds
+
+Took 0.0045 seconds
+
+Took 0.0049 seconds
+
+Took 0.0045 seconds
+
+Took 0.0043 seconds
+
+Took 0.0042 seconds
+
+Took 0.0043 seconds
+
+Took 0.0044 seconds
+
+Took 0.0043 seconds
+
+Took 0.0051 seconds
+
+Took 0.0041 seconds
+
+Took 0.0045 seconds
+
+Took 0.0041 seconds
+
+Took 0.0043 seconds
+
+Took 0.0040 seconds
+
+Took 0.0045 seconds
+
+Took 0.0057 seconds
+
+Took 0.0050 seconds
+
+Took 0.0068 seconds
+
+Took 0.0110 seconds
+
+Took 0.0049 seconds
+
+Took 0.0047 seconds
+
+Took 0.0044 seconds
+
+Took 0.0047 seconds
+
+Took 0.0048 seconds
+
+Took 0.0043 seconds
+
+Took 0.0046 seconds
+
+Took 0.0044 seconds
+
+Took 0.0045 seconds
+
+Took 0.0045 seconds
+
+Took 0.0043 seconds
+
+Took 0.0043 seconds
+
+Took 0.0044 seconds
+
+Took 0.0042 seconds
+
+Took 0.0043 seconds
+
+Took 0.0041 seconds
+
+Took 0.0047 seconds
+
+Took 0.0040 seconds
+
+Took 0.0041 seconds
+
+Took 0.0046 seconds
+
+Took 0.0044 seconds
+
+Took 0.0049 seconds
+
+Took 0.0044 seconds
+
+Took 0.0044 seconds
+
+Took 0.0044 seconds
+
+Took 0.0045 seconds
+
+Took 0.0043 seconds
+
+Took 0.0044 seconds
+
+Took 0.0042 seconds
+
+Took 0.0048 seconds
+
+Took 0.0041 seconds
+
+Took 0.0044 seconds
+
+Took 0.0043 seconds
+
+Took 0.0043 seconds
+
+Took 0.0040 seconds
+
+Took 0.0038 seconds
+
+Took 0.0038 seconds
+
+Took 0.0051 seconds
+
+Took 0.0043 seconds
+
+Took 0.0043 seconds
+
+Took 0.0044 seconds
+
+Took 0.0041 seconds
+
+Took 0.0046 seconds
+
+Took 0.0042 seconds
+
+Took 0.0046 seconds
+
+Took 0.0085 seconds
+
+Took 0.0060 seconds
+
+Took 0.0040 seconds
+
+Took 0.0053 seconds
+
+Took 0.0058 seconds
+
+Took 0.0051 seconds
+
+Took 0.0041 seconds
+
+Took 0.0081 seconds
+
+Took 0.0045 seconds
+
+Took 0.0052 seconds
+
+Took 0.0041 seconds
+
+Took 0.0041 seconds
+
+Took 0.0038 seconds
+
+50 row(s)
+Took 0.0782 seconds
+50
+COLUMN  CELL
+ id:estado timestamp=1791936142290, value=activo
+ id:modelo timestamp=1791936142241, value=scooter-x4
+ id:soh_bateria timestamp=1791936142265, value=74
+ telemetry:temp_c timestamp=1791936142326, value=25
+ telemetry:ultimo_gps timestamp=1791936142308, value=-34.6008,-58.3792
+1 row(s)
+Took 0.0827 seconds
+
+ROW  COLUMN+CELL
+ V002|20261010|083010 column=id:estado, timestamp=1791936142185, value=mantenimiento
+ V002|20261010|083010 column=id:modelo, timestamp=1791936142151, value=bike-eco
+ V002|20261010|083010 column=id:soh_bateria, timestamp=1791936142167, value=68
+ V002|20261010|083010 column=telemetry:temp_c, timestamp=1791936142222, value=23
+ V002|20261010|083010 column=telemetry:ultimo_gps, timestamp=1791936142203, value=-34.6045,-58.3850
+ V004|20261010|091500 column=id:estado, timestamp=1791936142413, value=mantenimiento
+ V004|20261010|091500 column=id:modelo, timestamp=1791936142379, value=scooter-lite
+ V004|20261010|091500 column=id:soh_bateria, timestamp=1791936142400, value=53
+ V004|20261010|091500 column=telemetry:temp_c, timestamp=1791936142442, value=22
+ V004|20261010|091500 column=telemetry:ultimo_gps, timestamp=1791936142428, value=-34.5985,-58.3921
+ V010|20261010|104500 column=id:estado, timestamp=1791936142795, value=mantenimiento
+ V010|20261010|104500 column=id:modelo, timestamp=1791936142773, value=scooter-lite
+ V010|20261010|104500 column=id:soh_bateria, timestamp=1791936142783, value=60
+ V010|20261010|104500 column=telemetry:temp_c, timestamp=1791936142817, value=28
+ V010|20261010|104500 column=telemetry:ultimo_gps, timestamp=1791936142806, value=-34.6000,-58.3800
+ V015|20261010|120000 column=id:estado, timestamp=1791936143148, value=mantenimiento
+ V015|20261010|120000 column=id:modelo, timestamp=1791936143127, value=scooter-x4
+ V015|20261010|120000 column=id:soh_bateria, timestamp=1791936143137, value=65
+ V015|20261010|120000 column=telemetry:temp_c, timestamp=1791936143170, value=21
+ V015|20261010|120000 column=telemetry:ultimo_gps, timestamp=1791936143160, value=-34.6050,-58.3850
+ V020|20261010|131500 column=id:estado, timestamp=1791936143399, value=mantenimiento
+ V020|20261010|131500 column=id:modelo, timestamp=1791936143380, value=bike-eco
+ V020|20261010|131500 column=id:soh_bateria, timestamp=1791936143390, value=70
+ V020|20261010|131500 column=telemetry:temp_c, timestamp=1791936143419, value=26
+ V020|20261010|131500 column=telemetry:ultimo_gps, timestamp=1791936143410, value=-34.6000,-58.3900
+ V025|20261010|143000 column=id:estado, timestamp=1791936143676, value=mantenimiento
+ V025|20261010|143000 column=id:modelo, timestamp=1791936143657, value=scooter-lite
+ V025|20261010|143000 column=id:soh_bateria, timestamp=1791936143666, value=75
+ V025|20261010|143000 column=telemetry:temp_c, timestamp=1791936143701, value=19
+ V025|20261010|143000 column=telemetry:ultimo_gps, timestamp=1791936143686, value=-34.6050,-58.3950
+ V030|20261010|154500 column=id:estado, timestamp=1791936143900, value=mantenimiento
+ V030|20261010|154500 column=id:modelo, timestamp=1791936143885, value=scooter-x4
+ V030|20261010|154500 column=id:soh_bateria, timestamp=1791936143893, value=80
+ V030|20261010|154500 column=telemetry:temp_c, timestamp=1791936143916, value=24
+ V030|20261010|154500 column=telemetry:ultimo_gps, timestamp=1791936143908, value=-34.6000,-58.3800
+ V035|20261010|170000 column=id:estado, timestamp=1791936144101, value=mantenimiento
+ V035|20261010|170000 column=id:modelo, timestamp=1791936144085, value=bike-eco
+ V035|20261010|170000 column=id:soh_bateria, timestamp=1791936144093, value=85
+ V035|20261010|170000 column=telemetry:temp_c, timestamp=1791936144117, value=29
+ V035|20261010|170000 column=telemetry:ultimo_gps, timestamp=1791936144109, value=-34.6050,-58.3850
+ V040|20261010|181500 column=id:estado, timestamp=1791936144319, value=mantenimiento
+ V040|20261010|181500 column=id:modelo, timestamp=1791936144304, value=scooter-lite
+ V040|20261010|181500 column=id:soh_bateria, timestamp=1791936144312, value=50
+ V040|20261010|181500 column=telemetry:temp_c, timestamp=1791936144335, value=22
+ V040|20261010|181500 column=telemetry:ultimo_gps, timestamp=1791936144327, value=-34.6000,-58.3900
+ V045|20261010|193000 column=id:estado, timestamp=1791936144519, value=mantenimiento
+ V045|20261010|193000 column=id:modelo, timestamp=1791936144503, value=scooter-x4
+ V045|20261010|193000 column=id:soh_bateria, timestamp=1791936144511, value=55
+ V045|20261010|193000 column=telemetry:temp_c, timestamp=1791936144536, value=27
+ V045|20261010|193000 column=telemetry:ultimo_gps, timestamp=1791936144528, value=-34.6050,-58.3950
+ V050|20261010|204500 column=id:estado, timestamp=1791936144747, value=mantenimiento
+ V050|20261010|204500 column=id:modelo, timestamp=1791936144727, value=bike-eco
+ V050|20261010|204500 column=id:soh_bateria, timestamp=1791936144737, value=60
+ V050|20261010|204500 column=telemetry:temp_c, timestamp=1791936144763, value=20
+ V050|20261010|204500 column=telemetry:ultimo_gps, timestamp=1791936144754, value=-34.6000,-58.3800
+11 row(s)
+Took 0.1485 seconds
+
+Table vehiculos is ENABLED
+vehiculos
+COLUMN FAMILIES DESCRIPTION
+{NAME => 'id', VERSIONS => '1', EVICT_BLOCKS_ON_CLOSE => 'false', NEW_VERSION_BEHAVIOR => 'false', KEEP_DELETED_CELLS => 'FALSE', CACHE_DATA_ON_WRITE => 'false', DATA_BLOCK_ENCODING => 'NONE', TTL => 'FOREVER', MIN_VERSIONS => '0', REPLICATION_SCOPE => '0', BLOOMFILTER => 'ROW', CACHE_INDEX_ON_WRITE => 'false', IN_MEMORY => 'false', CACHE_BLOOMS_ON_WRITE => 'false', PREFETCH_BLOCKS_ON_OPEN => 'false', COMPRESSION => 'NONE', BLOCKCACHE => 'true', BLOCKSIZE => '65536'}
+{NAME => 'telemetry', VERSIONS => '1', EVICT_BLOCKS_ON_CLOSE => 'false', NEW_VERSION_BEHAVIOR => 'false', KEEP_DELETED_CELLS => 'FALSE', CACHE_DATA_ON_WRITE => 'false', DATA_BLOCK_ENCODING => 'NONE', TTL => 'FOREVER', MIN_VERSIONS => '0', REPLICATION_SCOPE => '0', BLOOMFILTER => 'ROW', CACHE_INDEX_ON_WRITE => 'false', IN_MEMORY => 'false', CACHE_BLOOMS_ON_WRITE => 'false', PREFETCH_BLOCKS_ON_OPEN => 'false', COMPRESSION => 'NONE', BLOCKCACHE => 'true', BLOCKSIZE => '65536'}
+2 row(s)
+Took 0.1196 seconds
